@@ -119,7 +119,7 @@ v) In the Environment file set the ``webhookSecret`` value to the key starting w
 
 **Summary**
 
-The envrionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
+The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
 In summary, you should have edited the following variables: 
 
