@@ -13,10 +13,10 @@ The integration supports:
 ** Workaround manual process of refunding in Braintree based on failed transactions in OPF, then manual update of stuck OPF transaction.
 
 ## Planned Backlog Items
-* Only supports a Single deferred Capture request per order
+* Store the card brand/ expiry with the auth.
 * Reversal support
 * Paypal support
-
+* Support reauthorisation on split settlment cades currently only support Single deferred Capture request per order
 
 ## Setup Instructions
 
