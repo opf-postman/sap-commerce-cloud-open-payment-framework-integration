@@ -11,9 +11,11 @@ The integration supports:
 ## Known Issues
 * Refunds currently fail if initiated before they are sent to Settlement
 ** Workaround manual process of refunding in Braintree based on failed transactions in OPF, then manual update of stuck OPF transaction.
+
+## Planned Backlog Items
 * Only supports a Single deferred Capture request per order
-* Reversal not supported
-* Paypal not tested
+* Reversal support
+* Paypal support
 
 
 ## Setup Instructions
