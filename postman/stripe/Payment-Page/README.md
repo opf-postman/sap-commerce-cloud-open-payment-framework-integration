@@ -3,7 +3,7 @@ The Postman Collection enables a [Stripe Hosted Checkout](https://docs.stripe.co
 
 The integration supports:
 
-* Authorization of Card Payments using PCI SAQ-A Stripe Card Element using the OPF "Payment Page" UX Pattern
+* Authorization of Card Payments using PCI SAQ-A Stripe Checkout using the OPF "Payment Page" UX Pattern
 * Deferred Capture support
 * Refunds
 * Reversals
