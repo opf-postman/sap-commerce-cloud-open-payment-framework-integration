@@ -80,11 +80,16 @@ The Public and Private key can be obtained in the Settings -> API -> Keys sectio
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
 In summary, you should have edited the following variables: 
-- **token**
-- **rootUrl**
-- **accountGroupId**
-- **accountId**
-- **authentication_outbound_basic_auth_username_export_51**
-- **authentication_outbound_basic_auth_password_export_51**
+
+#### Common
+- ``token``
+- ``rootUrl``
+- ``accountGroupId``
+- ``accountId``
+
+#### Braintree Specific
+API Key Configuration
+- ``authentication_outbound_basic_auth_username_export_51``
+- ``authentication_outbound_basic_auth_password_export_51``
 
 For sandbox testing, all other values can be left as defaults.
