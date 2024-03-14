@@ -19,8 +19,8 @@ c) Set up Your Stripe Test Account to work with OPF.
 
 d) Prepare the Postman Environment file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
 
-## Create a Stripe Account ##
-You can sign up for a free Cybersource Test Account at [https://dashboard.stripe.com/register](https://ebctest.cybersource.com/ebc2/Information published on non-SAP site).
+## Create a Cybersource Account ##
+You can sign up for a free Cybersource Test Account at https://ebctest.cybersource.com/ebc2.
 
 
 ## Creating the Merchant Account Group 
@@ -36,7 +36,7 @@ iii) Click **configure** on Test column of newly created Account.
 ![](images/opf-account-group-id.png)
 
 **You must set a merchant ID first.**
-You can obtain from your account ID found at the following location in the Stripe dashboard <https://dashboard.stripe.com/settings/account>.
+You can obtain from your account ID found at the following location in the Cybersource dashboard <https://>.
 
 ![](images/stripe-elements-get-account.png)
 
