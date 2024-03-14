@@ -86,6 +86,7 @@ The secretKey can be obtained here in the Cybersource dashboard. In Test it star
 
 **6. accessKey**
 
+
 **7.profileId**
 
 **8.apiKeyId**
@@ -94,29 +95,6 @@ The secretKey can be obtained here in the Cybersource dashboard. In Test it star
 **9.apiKeyValue**
 
 
-IN OPF Workbench: For your new Cybersource merchant account, navigate to **Notification General** and copy the Notification URL.
-
-![](images/opf-get-notification-url.png)
-
-In Cybersource Dashboard: Navigate to <https://dashboard.stripe.com/test/webhooks> and click **Add an Endpoint**.
-
-i) Paste in your endpoint URL copied from OPF.
-
-![](images/stripe-elements-paste-webook.png)
-
-ii) For simplicity, select “All events”.
-
-![](images/stripe-elements-select-events.png)
-
-iii) Click **Add Endpoint**.
-
-![](images/stripe-elements-add-endpoint.png)
-
-iv) Click **Reveal** the get the webhook secret, it starts with **whsec**.
-
-![](images/stripe-elements-reveal-whsecret.png)
-
-v) In the Environment file set the ``webhookSecret`` value to the key starting with **whsec_**.
 
 **Summary**
 
