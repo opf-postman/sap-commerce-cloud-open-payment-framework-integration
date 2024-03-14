@@ -10,7 +10,7 @@ The integration supports:
 * Reauthorization of saved payment
 
 In summary: to import the [Stripe Elements Postman Collection](Stripe-elements-HOSTED_FIELDS_mapping_configuration.json
-) this page will guide you through the following steps: 
+) [Cybersource iFrame Postman Collection](iFrame-CAPTURE_PER_SHIPMENT-OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Stripe Test Account.
 
