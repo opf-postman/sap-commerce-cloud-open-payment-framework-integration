@@ -9,7 +9,7 @@ The integration supports:
 * Reversals
 * Reauthorization of saved payment
 
-In summary: to import the [Cybersource iFrame Postman Collection](iFrame-CAPTURE_PER_SHIPMENT-OPF_Environment_Configuration.json) this page will guide you through the following steps: 
+In summary: to import the [Cybersource iFrame Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Cybersource Test Account.
 
