@@ -1,9 +1,9 @@
 ## Introduction ##
-The Postman Collection enables a [Stripe Card Element](https://docs.stripe.com/js/element/other_element?type=card) to be used to Take Card Payments through OPF. 
+The Postman Collection enables Cybersource to be used to Take Payments through OPF. 
 
 The integration supports:
 
-* Authorization of Card Payments using PCI SAQ-A Stripe Card Element using the OPF "Hosted Fields" UX Pattern
+* Authorization of Cybersource Payments using the OPF "iFrame" UX Pattern
 * Deferred Capture support
 * Refunds
 * Reversals
