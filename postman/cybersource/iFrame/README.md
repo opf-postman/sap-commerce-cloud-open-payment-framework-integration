@@ -68,29 +68,31 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 
 ![](images/opf-account-group-id.png)
 
-**4. Private Key**
-The Secret (or Private) Key can be obtained here in the Cybersource dashboard. In test it starts with **sk_test**.
+**4. merchantId** 
 
 <https://dashboard.stripe.com/test/apikeys>
 
 ![](images/stripe-elements-get-secret-key.png)
 
-* Set private key as **value** for environment variable keys starting with ``authentication_outbound_basic_auth_username``.
-* Set password as **empty string** ``""`` for environment keys starting with : ``authentication_outbound_basic_auth_password``.
 
-There are 2 occurrences of both in the environment file.
+**5. secretKey**
 
-**5. Public Key**
-
-The public (or Publishable) key can be obtained here in the Cybersource dashboard. In Test it starts with **pk_test**
+The secretKey can be obtained here in the Cybersource dashboard. In Test it starts with **pk_test**
 
 <https://dashboard.stripe.com/test/apikeys>
 
 ![](images/stripe-elements-get-public-key.png)
 
-Replace the ``publickey`` variable value in the environment file with this value starting with **pk_test**.
 
-**6. Webhook Secret**
+**6. accessKey**
+
+**7.profileId**
+
+**8.apiKeyId**
+
+
+**9.apiKeyValue**
+
 
 IN OPF Workbench: For your new Cybersource merchant account, navigate to **Notification General** and copy the Notification URL.
 
