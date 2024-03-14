@@ -9,15 +9,15 @@ The integration supports:
 * Reversals
 * Reauthorization of saved payment
 
-In summary: to import the[Cybersource iFrame Postman Collection](iFrame-CAPTURE_PER_SHIPMENT-OPF_Environment_Configuration.json) this page will guide you through the following steps: 
+In summary: to import the [Cybersource iFrame Postman Collection](iFrame-CAPTURE_PER_SHIPMENT-OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
-a) Create Your Stripe Test Account.
+a) Create Your Cybersource Test Account.
 
 b) Create a Merchant Account Group in OPF Workbench.
 
-c) Set up Your Stripe Test Account to work with OPF.
+c) Set up Your Cybersource Test Account to work with OPF.
 
-d) Prepare the Postman Environment file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
+d) Prepare the Postman Environment file so the collection can be imported with all your OPF Tenant and Cybersource Test Account unique values. 
 
 ## Create a Cybersource Account ##
 You can sign up for a free Cybersource Test Account at https://ebctest.cybersource.com/ebc2.
@@ -29,7 +29,7 @@ Ceate a new Account Group in the OPF Workbench.
 i) In payment integrations.. click **Create**.
 ![](images/opf-payment-integrations.png)
 
-ii) Add account name (can be anything) and set payment gateway to Stripe.
+ii) Add account name (can be anything) and set payment gateway to Cybersource.
 ![](images/stripe-elements-set-gateway.png)
 
 iii) Click **configure** on Test column of newly created Account.
@@ -69,7 +69,7 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 ![](images/opf-account-group-id.png)
 
 **4. Private Key**
-The Secret (or Private) Key can be obtained here in the Stripe dashboard. In test it starts with **sk_test**.
+The Secret (or Private) Key can be obtained here in the Cybersource dashboard. In test it starts with **sk_test**.
 
 <https://dashboard.stripe.com/test/apikeys>
 
@@ -82,7 +82,7 @@ There are 2 occurrences of both in the environment file.
 
 **5. Public Key**
 
-The public (or Publishable) key can be obtained here in the Stripe dashboard. In Test it starts with **pk_test**
+The public (or Publishable) key can be obtained here in the Cybersource dashboard. In Test it starts with **pk_test**
 
 <https://dashboard.stripe.com/test/apikeys>
 
@@ -92,11 +92,11 @@ Replace the ``publickey`` variable value in the environment file with this value
 
 **6. Webhook Secret**
 
-IN OPF Workbench: For your new Stripe merchant account, navigate to **Notification General** and copy the Notification URL.
+IN OPF Workbench: For your new Cybersource merchant account, navigate to **Notification General** and copy the Notification URL.
 
 ![](images/opf-get-notification-url.png)
 
-In Stripe Dashboard: Navigate to <https://dashboard.stripe.com/test/webhooks> and click **Add an Endpoint**.
+In Cybersource Dashboard: Navigate to <https://dashboard.stripe.com/test/webhooks> and click **Add an Endpoint**.
 
 i) Paste in your endpoint URL copied from OPF.
 
