@@ -9,7 +9,7 @@ The integration supports:
 * Reversals
 * Reauthorization of saved payment
 
-In summary: to import the [Cybersource iFrame Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
+In summary: to import the [Cybersource iFrame Postman Collection]() this page will guide you through the following steps: 
 
 a) Create Your Cybersource Test Account.
 
@@ -17,7 +17,7 @@ b) Create a Merchant Account Group in OPF Workbench.
 
 c) Set up Your Cybersource Test Account to work with OPF.
 
-d) Prepare the Postman Environment file so the collection can be imported with all your OPF Tenant and Cybersource Test Account unique values. 
+d) Prepare the [Postman Environment] (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Cybersource Test Account unique values. 
 
 ## Create a Cybersource Account ##
 You can sign up for a free Cybersource Test Account at https://ebctest.cybersource.com/ebc2.
