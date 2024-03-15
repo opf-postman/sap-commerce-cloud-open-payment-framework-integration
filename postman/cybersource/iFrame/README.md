@@ -76,15 +76,17 @@ You can obtain your merchant ID in the OPF Workbench.
 
 **5. secretKey**
 
-The secretKey can be obtained here in the Cybersource dashboard. In Test it starts with **pk_test**
-
-<https://dashboard.stripe.com/test/apikeys>
+The secretKey can be obtained here in the Cybersource dashboard. 
+For detailed instructions, see [Secure Acceptance Hosted Checkout
+Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0). 
 
 ![](images/stripe-elements-get-public-key.png)
 
 
 **6. accessKey**
-
+The accessKey can be obtained here in the Cybersource dashboard. 
+For detailed instructions, see [Secure Acceptance Hosted Checkout
+Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0). 
 
 **7.profileId**
 In the left navigation panel of Cybersource dashboard, choose **Payment Configuration**-> **Secure Acceptance Settings** to create a Hosted Checkout Profile.
@@ -92,6 +94,11 @@ Click the created profile name to view the profile details.
 
 
 **8.apiKeyId**
+In the left navigation panel, choose Payment Configuration  Key Management.
+-Click Generate Key.
+-Select REST Shared Secret.
+-Copy the generated key to your clipboard by clicking the clipboard icon, or click Download key to download the shared secret.
+-Under the Key Management page, select REST Shared Secret from the filter to locate the newly created API Key and copy the Key ID.
 
 
 **9.apiKeyValue**
