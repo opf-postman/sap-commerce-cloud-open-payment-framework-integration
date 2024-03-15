@@ -87,6 +87,9 @@ The secretKey can be obtained here in the Cybersource dashboard. In Test it star
 
 
 **7.profileId**
+In the left navigation panel of Cybersource dashboard, choose **Payment Configuration**-> **Secure Acceptance Settings** to create a Hosted Checkout Profile.
+Click the created profile name to view the profile details.
+
 
 **8.apiKeyId**
 
