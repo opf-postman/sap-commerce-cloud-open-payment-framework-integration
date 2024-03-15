@@ -30,7 +30,7 @@ i) In payment integrations.. click **Create**.
 ![](images/cybersource-create-button.png)
 
 ii) Add account name (can be anything) and set payment gateway to Cybersource.
-![](images/stripe-elements-set-gateway.png)
+![](images/cybersource-create-account.png)
 
 iii) Click **configure** on Test column of newly created Account.
 ![](images/opf-account-group-id.png)
