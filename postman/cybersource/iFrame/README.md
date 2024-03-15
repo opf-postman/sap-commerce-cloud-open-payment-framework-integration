@@ -36,7 +36,7 @@ iii) Click **configure** on Test column of newly created Account.
 ![](images/opf-account-group-id.png)
 
 **You must set a merchant ID first.**
-You can obtain from your account ID found in the Cybersource dashboard.
+You can obtain from your merchant ID in the OPF Workbench.
 
 
 ## Preparing the Postman environment_configuration file
@@ -69,7 +69,7 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 
 **4. merchantId** 
 
-<https://dashboard.stripe.com/test/apikeys>
+You can obtain your merchant ID in the OPF Workbench.
 
 ![](images/stripe-elements-get-secret-key.png)
 
