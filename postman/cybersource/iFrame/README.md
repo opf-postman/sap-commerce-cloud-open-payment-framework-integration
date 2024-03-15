@@ -27,7 +27,7 @@ You can sign up for a free Cybersource Test Account at https://ebctest.cybersour
 Ceate a new Account Group in the OPF Workbench.
 
 i) In payment integrations.. click **Create**.
-![](images/opf-payment-integrations.png)
+![](images/cybersource-create-button.png)
 
 ii) Add account name (can be anything) and set payment gateway to Cybersource.
 ![](images/stripe-elements-set-gateway.png)
