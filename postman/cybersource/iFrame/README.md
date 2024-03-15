@@ -36,8 +36,8 @@ iii) Click **configure** on Test column of newly created Account.
 ![](images/opf-account-group-id.png)
 
 **You must set a merchant ID first.**
-You can obtain from your merchant ID in the OPF Workbench.
-
+You can obtain from your merchant ID in the Cybersource Dashboard.
+![](images/get-merchant-id.png)
 
 ## Preparing the Postman environment_configuration file
 
@@ -65,40 +65,37 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
-![](images/opf-account-group-id.png)
+![](images/cybersource-get-group-id.png)
 
 **4. merchantId** 
 
-You can obtain your merchant ID in the OPF Workbench.
+You can obtain your merchant ID in the Cybersource Dashboard.
 
-![](images/stripe-elements-get-secret-key.png)
+![](images/get-merchant-id.png)
 
-**5. secretKey**
+**5. secretKey** and **accessKey**
 
 The secretKey can be obtained here in the Cybersource dashboard. 
 For detailed instructions, see [Secure Acceptance Hosted Checkout
 Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0). 
 
-![](images/stripe-elements-get-public-key.png)
+![](images/cybersource-get-access-key.png)
 
-**6. accessKey**
 
-The accessKey can be obtained here in the Cybersource dashboard. 
-For detailed instructions, see [Secure Acceptance Hosted Checkout
-Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0). 
-
-**7.profileId**
+**6.profileId**
 
 In the left navigation panel of Cybersource dashboard, choose **Payment Configuration**-> **Secure Acceptance Settings** to create a Hosted Checkout Profile.
 Click the created profile name to view the profile details.
+![](images/cybersource-get-profile-id.png)
 
-**8.apiKeyId** and **apiKeyValue**
+**7.apiKeyId** and **apiKeyValue**
 
 In the left navigation panel, choose Payment Configuration  Key Management.
 a) Click Generate Key.
 b) Select REST Shared Secret.
 c) Copy the generated key to your clipboard by clicking the clipboard icon, or click Download key to download the shared secret.
 d) Under the Key Management page, select REST Shared Secret from the filter to locate the newly created API Key and copy the Key ID and value.
+![](images/cybersource-get-apikeyid.png)
 
 **Summary**
 
@@ -110,7 +107,5 @@ In summary, you should have edited the following variables:
 - **rootUrl** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L11)
 - **accountGroupId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L16)
 - **accountId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L21)
-- **2 x authentication_outbound_basic_auth_username_export\*** (e.g https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L26 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L38)
-- **2 x authentication_outbound_basic_auth_password_export\*** (e.g. https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L32 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L44)
 - **publickey** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L86)
 - **webhookSecret** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L98)
