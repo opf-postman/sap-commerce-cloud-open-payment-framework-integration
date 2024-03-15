@@ -36,9 +36,8 @@ iii) Click **configure** on Test column of newly created Account.
 ![](images/opf-account-group-id.png)
 
 **You must set a merchant ID first.**
-You can obtain from your account ID found at the following location in the Cybersource dashboard <https://>.
+You can obtain from your account ID found in the Cybersource dashboard.
 
-![](images/stripe-elements-get-account.png)
 
 ## Preparing the Postman environment_configuration file
 
