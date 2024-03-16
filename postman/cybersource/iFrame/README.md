@@ -43,6 +43,9 @@ You can obtain from your merchant ID in the Cybersource Dashboard.
 This includes configuring payment method, configuring checkout, configuring Merchant Notifications, configuring a Cybersource Hosted Response Page, and activating a Profile. For detailed instructions, see [Secure Acceptance Hosted Checkout
 Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0).
 
+**TIP** The Notification URL to be used for Merchant Notifcation can be obtained in OPF Workbench at the following location:  
+![](images/cybersource-get-merchant-id.png)
+
 **1. Token**
 
 Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit.
