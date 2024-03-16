@@ -46,6 +46,8 @@ Integration](https://developer.cybersource.com/library/documentation/dev_guides/
 **TIP** The Notification URL to be used for Merchant Notifcation can be obtained in OPF Workbench at the following location:  
 ![](images/cybersource-get-merchant-id.png)
 
+## Preparing the Postman environment_configuration file
+
 **1. Token**
 
 Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit.
