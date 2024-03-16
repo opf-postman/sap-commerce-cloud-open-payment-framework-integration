@@ -39,7 +39,9 @@ iii) Click **configure** on Test column of newly created Account.
 You can obtain from your merchant ID in the Cybersource Dashboard.
 ![](images/get-merchant-id.png)
 
-## Preparing the Postman environment_configuration file
+## Set up Your Cybersource Test Account to work with OPF
+This includes configuring payment method, configuring checkout, configuring Merchant Notifications, Configuring a Cybersource Hosted Response Page, and activating a Profile. For detailed instructions, see see [Secure Acceptance Hosted Checkout
+Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0).
 
 **1. Token**
 
