@@ -37,7 +37,7 @@ iii) Click **configure** on Test column of newly created Account.
 
 **You must set a merchant ID first.**
 You can obtain from your merchant ID in the Cybersource Dashboard.
-![](images/get-merchant-id.png)
+![](images/cybersource-get-merchant-id.png)
 
 ## Set up Your Cybersource Test Account to work with OPF
 This includes configuring payment method, configuring checkout, configuring Merchant Notifications, configuring a Cybersource Hosted Response Page, and activating a Profile. For detailed instructions, see [Secure Acceptance Hosted Checkout
