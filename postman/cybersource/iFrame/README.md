@@ -44,7 +44,7 @@ This includes configuring payment method, configuring checkout, configuring Merc
 Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0).
 
 **TIP** The Notification URL to be used for Merchant Notifcation can be obtained in OPF Workbench at the following location:  
-
+![](images/cybersource-notification-url.png)
 
 ## Preparing the Postman environment_configuration file
 
