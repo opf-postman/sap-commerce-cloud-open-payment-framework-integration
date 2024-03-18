@@ -6,7 +6,6 @@ The integration supports:
 * Authorization of Cybersource Payments using the OPF "iFrame" UX Pattern
 * Deferred Capture support
 * Refunds
-* Reversals
 * Reauthorization of saved payment
 
 In summary: to import the [Cybersource iFrame Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
@@ -98,9 +97,13 @@ Click the created profile name to view the profile details.
 **7.apiKeyId** and **apiKeyValue**
 
 In the left navigation panel, choose Payment Configuration  Key Management.
+
 a) Click Generate Key.
+
 b) Select REST Shared Secret.
+
 c) Copy the generated key to your clipboard by clicking the clipboard icon, or click Download key to download the shared secret.
+
 d) Under the Key Management page, select REST Shared Secret from the filter to locate the newly created API Key and copy the Key ID and value.
 ![](images/cybersource-get-apikey.png)
 
