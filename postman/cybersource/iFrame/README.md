@@ -102,7 +102,7 @@ a) Click Generate Key.
 b) Select REST Shared Secret.
 c) Copy the generated key to your clipboard by clicking the clipboard icon, or click Download key to download the shared secret.
 d) Under the Key Management page, select REST Shared Secret from the filter to locate the newly created API Key and copy the Key ID and value.
-![](images/cybersource-get-apikeyid.png)
+![](images/cybersource-get-apikey.png)
 
 **Summary**
 
