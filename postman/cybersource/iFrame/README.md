@@ -40,7 +40,7 @@ You can obtain from your merchant ID in the Cybersource Dashboard.
 ![](images/cybersource-get-merchant-id.png)
 
 ## Set up Your Cybersource Test Account to work with OPF
-This includes configuring payment method, configuring checkout, configuring Merchant Notifications, configuring a Cybersource Hosted Response Page, and activating a Profile. For detailed instructions, see [Secure Acceptance Hosted Checkout
+This includes **Configuring Payment Method**, **Configuring Checkout**, **Configuring Merchant Notifications**, **Configuring a Cybersource Hosted Response Page**, and **Activating a Profile**. For detailed instructions, see [Secure Acceptance Hosted Checkout
 Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0).
 
 **TIP** The Notification URL to be used for Merchant Notifcation can be obtained in OPF Workbench at the following location:  
@@ -54,7 +54,7 @@ Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/to
 
 Copy the value of the access_token field (it’s a JWT) and set as the ``token`` value in the environment file.
 
-IMPORTANT: Ensure the value is prefixed with **Bearer**. e.g. ``Bearer {{token}}``.
+**IMPORTANT**: Ensure the value is prefixed with **Bearer**. e.g. ``Bearer {{token}}``.
 
 **2. Root url**
 
