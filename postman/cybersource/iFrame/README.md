@@ -96,15 +96,16 @@ Click the created profile name to view the profile details.
 
 **7.apiKeyId** and **apiKeyValue**
 
-In the left navigation panel, choose Payment Configuration  Key Management.
+In the left navigation panel, choose **Payment Configuration** -> **Key Management**.
 
-a) Click Generate Key.
+a) Click **Generate Key**.
 
-b) Select REST Shared Secret.
+b) Select **REST Shared Secret**.
 
-c) Copy the generated key to your clipboard by clicking the clipboard icon, or click Download key to download the shared secret.
+c) Copy the generated key to your clipboard by clicking the **clipboard** icon, or click **Download key** to download the shared secret.
 
-d) Under the Key Management page, select REST Shared Secret from the filter to locate the newly created API Key and copy the Key ID and value.
+d) Under the **Key Management** page, select **REST Shared Secret** from the filter to locate the newly created API Key and copy the Key ID and value.
+
 ![](images/cybersource-get-apikey.png)
 
 **Summary**
