@@ -35,7 +35,7 @@ iii) Click **configure** on Test column of newly created Account.
 ![](images/opf-account-group-id.png)
 
 **You must set a merchant ID first.**
-You can obtain from your merchant ID in the Cybersource Dashboard.
+You can obtain your merchant ID in the Cybersource Dashboard.
 ![](images/cybersource-get-merchant-id.png)
 
 ## Set up Your Cybersource Test Account to work with OPF
