@@ -1,5 +1,5 @@
 {
-  "id": "6f3ccdd3-83f3-4eae-947e-8669254c3372",
+  "id": "2f2267b0-bc73-47ba-8d3d-decd0ca112db",
   "name": "Braintree",
   "values": [
     {
@@ -67,6 +67,12 @@
     {
       "key": "braintreeVersion",
       "value": "2019-01-01",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "payButtonLabel",
+      "value": "Submit Order",
       "enabled": true
     }
     
