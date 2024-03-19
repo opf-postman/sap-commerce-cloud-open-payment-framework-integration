@@ -8,6 +8,7 @@ The integration supports:
 * Deferred Capture (Single Capture per Order)
 * Refunds
 * Reversal
+* Recurrent Authorization
 
 ## Known Issues
 * Refunds currently fail if initiated before they are sent to Settlement
@@ -15,7 +16,6 @@ The integration supports:
 
 ## Planned Backlog Items
 * Paypal support
-* Support reauthorisation on split settlment cades currently only support Single deferred Capture request per order
 
 ## Setup Instructions
 
