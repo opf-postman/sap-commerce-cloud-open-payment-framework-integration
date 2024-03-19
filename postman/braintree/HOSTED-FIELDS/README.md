@@ -7,13 +7,13 @@ The integration supports:
 * Authorization of Card Payments using PCI SAQ-A Braintree Hosted Fields using the OPF "Hosted Fields" UX Pattern
 * Deferred Capture (Single Capture per Order)
 * Refunds
+* Reversal
 
 ## Known Issues
 * Refunds currently fail if initiated before they are sent to Settlement
 ** Workaround manual process of refunding in Braintree based on failed transactions in OPF, then manual update of stuck OPF transaction.
 
 ## Planned Backlog Items
-* Reversal support
 * Paypal support
 * Support reauthorisation on split settlment cades currently only support Single deferred Capture request per order
 
