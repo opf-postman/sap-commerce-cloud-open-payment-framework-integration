@@ -1,6 +1,6 @@
 ## Introduction
 
-The Postman Collection enables a [Braintree Hosted Fields](https://developer.paypal.com/braintree/docs/start/hosted-fields)) Payment Form to be used to Take Payments through OPF. 
+The Postman Collection enables a [Braintree Hosted Fields](https://developer.paypal.com/braintree/docs/start/hosted-fields) Payment Form to be used to Take Payments through OPF. 
 
 The integration supports:
 
