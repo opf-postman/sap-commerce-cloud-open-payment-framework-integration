@@ -1,5 +1,5 @@
 {
-  "id": "2f2267b0-bc73-47ba-8d3d-decd0ca112db",
+  "id": "15c1b5bb-daec-4767-be07-46ffe3ba5640",
   "name": "Braintree",
   "values": [
     {
@@ -73,6 +73,12 @@
     {
       "key": "payButtonLabel",
       "value": "Submit Order",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "merchantAccountIdPrefix",
+      "value": "sap-",
       "enabled": true
     }
     
