@@ -43,7 +43,7 @@ The Merchant ID can be found in the Settings -> Business Area of the Braintree A
 ### Setting up Sub-Merchants for each Currency
 Braintree requires a separate merchant account to be created for each Currency.
 
-This configuration is setup out of the box to accept multiple currencies if sub-merchant accounts are created with a the name convention on ``sap-<currency-iso3-lowercase>`` e.g. ``sap-usd``. If desired you can use a different prefix to ``sap-`` by changing the value of the OPF variable ``merchantAccountIdPrefix``. If you do this, remember to change the default value in the environment file later.
+This configuration is setup out of the box to accept multiple currencies if sub-merchant accounts are created with a the name convention on ``sap-<currency-iso3-lowercase>`` e.g. ``sap-gbp``. If desired you can use a different prefix to ``sap-`` by changing the value of the OPF variable ``merchantAccountIdPrefix``. If you do this, remember to change the default value in the environment file later.
 
 The merchant configuration is found under Settings->Business Area of the Braintree Admin UI.
 
