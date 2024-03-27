@@ -25,7 +25,7 @@ Create a merchant account in the OPF payment mock provider. The merchant acccoun
   }
 ``
   	
-   d.) Note down the merchantId and apiKey. They cannot be retrieved again.
+    d.) Note down the merchantId and apiKey. They cannot be retrieved again.
 
 4. Create a Merchant Account Group in the open payment framework workbench. Refer to Create Merchant Account for detailed instructions.
 5. Click **Configure** of the Test Payment account in the Merchant Account Group created in step 3.
