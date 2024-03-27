@@ -12,12 +12,12 @@ Create a merchant account in the OPF payment mock provider. The merchant acccoun
    b.) Configure the request body.
    c.) Execute the API call.
   	The following is the response example retrieved:
-  	{
+  	'{
   "merchantId": "2a263ef2-13f2-4561-b05c-ebde41f08d13",
   "apiKey": "uBucbJJSyRhQ93hTdaSkm6M/cfSIWSbI1MD69fFkSWQ=",
   "enableOverCapture": false,
   "overCapturePercentage": 10
-   }
+   }'
   d.) Note down the merchantId and apiKey. They cannot be retrieved again.
 
 3. Create a Merchant Account Group in the open payment framework workbench. Refer to Create Merchant Account for detailed instructions.
