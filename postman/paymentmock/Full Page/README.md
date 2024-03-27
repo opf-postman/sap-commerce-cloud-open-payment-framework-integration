@@ -13,12 +13,13 @@ Create a merchant account in the OPF payment mock provider. The merchant acccoun
    c.) Execute the API call.
   	The following is the response example retrieved:
   	
-  	``{
-  "merchantId": "2a263ef2-13f2-4561-b05c-ebde41f08d13",
+  	``{"merchantId": "2a263ef2-13f2-4561-b05c-ebde41f08d13",
+
   "apiKey": "uBucbJJSyRhQ93hTdaSkm6M/cfSIWSbI1MD69fFkSWQ=",
+  
   "enableOverCapture": false,
-  "overCapturePercentage": 10
-   }``
+  
+  "overCapturePercentage": 10}``
   	
   d.) Note down the merchantId and apiKey. They cannot be retrieved again.
 
