@@ -9,13 +9,13 @@ Create a merchant account in the OPF payment mock provider. The merchant acccoun
    
 2.	Create a Payment Mock merchant account in OPF Payment Mock swagger UI, do the following to create a new merchant account.
    
-   a.) Locate the Create Merchant account API.
+    a.) Locate the Create Merchant account API.
    
-   b.) Configure the request body.
+    b.) Configure the request body.
    
-   c.) Execute the API call.
+    c.) Execute the API call.
   	
-  	The following is the response example retrieved:
+   	The following is the response example retrieved:
   	
   	``{
   "merchantId": "2a263ef2-13f2-4561-b05c-ebde41f08d13",
@@ -25,7 +25,7 @@ Create a merchant account in the OPF payment mock provider. The merchant acccoun
   }
 ``
   	
-  d.) Note down the merchantId and apiKey. They cannot be retrieved again.
+   d.) Note down the merchantId and apiKey. They cannot be retrieved again.
 
 4. Create a Merchant Account Group in the open payment framework workbench. Refer to Create Merchant Account for detailed instructions.
 5. Click **Configure** of the Test Payment account in the Merchant Account Group created in step 3.
