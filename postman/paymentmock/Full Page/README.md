@@ -11,6 +11,7 @@ Create a merchant account in the OPF payment mock provider. The merchant acccoun
    a.) Locate the Create Merchant account API.
    b.) Configure the request body.
    c.) Execute the API call.
+  	
   	The following is the response example retrieved:
   	
   	``{
