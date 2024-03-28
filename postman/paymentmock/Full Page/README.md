@@ -47,7 +47,7 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 | rootURL                                                                              | The rootUrl is the BASE URL of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
 | accountGroupId                                                                       | The accountId and accountGroupId values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The accountId and accountGroupId values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                                                     
-| authentication_inbound_basic_auth_usernames                                          | <username>|                  
+| authentication_inbound_basic_auth_username                                           | <username>|                  
 | authentication_inbound_basic_auth_password                                           | <password>|                  
 | capturePattern                                                                       | <CAPTURE_PER_SHIPMENT>|                  
 | supportOverCapture                                                                   | <True>|                  
