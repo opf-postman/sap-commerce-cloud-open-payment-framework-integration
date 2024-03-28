@@ -24,7 +24,7 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
   	
     d.) Note down the merchantId and apiKey. They cannot be retrieved again.
 
-4. Create a Merchant Account Group in the open payment framework workbench. Refer to Create Merchant Account for detailed instructions.
+4. Create a Merchant Account Group in the open payment framework workbench. Refer to [Create Merchant Account](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html)  for detailed instructions.
 5. Click **Configure** of the Test Payment account in the Merchant Account Group created in step 3.
 6. Edit the Postman Collection.
 7. Save and run the Postman Collection.
