@@ -155,3 +155,10 @@ We have found the default Application doesnt appear to work, so create a new Res
 - Enter the email you registered your paypal developer account and the the Paypal Rest Application client and secret
 ![](images/Braintree-paypal-setup.png)
 
+A PayPal payment option should be visible now in the Checkout Form.
+![](images/Braintree-paypal-payment-option.png)
+
+You can use [Sandbox Accounts](https://developer.paypal.com/dashboard/accounts) for testing
+
+
+
