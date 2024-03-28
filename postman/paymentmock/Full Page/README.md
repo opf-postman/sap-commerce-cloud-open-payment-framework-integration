@@ -1,8 +1,5 @@
-# SAP Commerce Cloud, open payment framework, opf payment mock provider
+# Introduction
 Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collection.
-
-## Before Importing
-Create a merchant account in the OPF payment mock provider. The merchant acccount ID should used in the account ID created in OPF workbench.
 
 ## Procedure
 1.	Download the postman collection of mock provider from [Open Payment Framework GitHub Repo](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/paymentmock/Full%20Page).
