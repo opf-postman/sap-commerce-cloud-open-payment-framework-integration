@@ -41,15 +41,17 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 
    c.) Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Mock Gateway Test Account unique values.
    
+
 | Name                                                                                 | Description                                                  
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit.
-                                                                                       | Copy the value of the access_token field (it’s a JWT) and set as the token value in the environment file.
-                                                                                       | IMPORTANT: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.                                                                  |                  
+| token                                                                                | Get your access token using the auth 
+                                                                                         endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit.
+                                                                                         Copy the value of the access_token field (it’s a JWT) and set as the token value in the environment file.
+                                                                                         IMPORTANT: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.                                                            |                  
 | rootURL                                                                              | The rootUrl is the BASE URL of your OPF tenant.
-                                                                                       | E.g. if your workbench/OPF cockpit url was this …
-                                                                                       | https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench.
-                                                                                       | The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.                       |                  
+                                                                                         E.g. if your workbench/OPF cockpit url was this …
+                                                                                         https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench.
+                                                                                         The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.                                                         |                  
 | accountGroupId                                                                       | The accountId and accountGroupId values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The accountId and accountGroupId values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                                                     
 | authentication_inbound_basic_auth_usernames                                          | <username>|                  
@@ -60,6 +62,9 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 | authorizationTimeoutDays                                                             | <7>                    |                  
 | apiKey                                                                               | The apiKey noted down in step 2.              |                  
 | host                                                                                 | The base URL of your tenant account in OPF payment mock service.            |                  
+
+                                                                                         |                  
+                       
 
 
 
