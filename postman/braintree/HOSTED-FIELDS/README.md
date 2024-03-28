@@ -106,6 +106,31 @@ In summary, you should have edited the following variables:
 API Key Configuration
 - ``authentication_outbound_basic_auth_username_export_51``
 - ``authentication_outbound_basic_auth_password_export_51``
+
 - ``merchantAccountIdPrefix`` (optional)
 
-For sandbox testing, all other values can be left as defaults.
+For sandbox testing, all other values can be left as defaults.  
+
+## Setup PayPal
+The integration supports adding PayPal as an additional payment method to cards.
+
+### OPF Setup
+To enable PayPal OPF side, you will add a APM and describe to OPF how PayPal payments should be handled.
+
+Create a New APM for PayPal in the Alternative Payment Method Tab in OPF Workbench
+![](images/add-apm.png)
+
+On the APM Creation Screen:
+- Set the name as ``PayPal``
+- Set the code as ``paypal``
+- Set the APM Type to ``Direct``
+- Paypal allows multiple captures, so set the settlement pattern to ``Partial Capture per Shipment``
+- Toggle on ``Refund`` and ``Reauthorization`` are supported
+
+![](images/paypal-settings.png)
+
+Assign PayPal to your previously setup Braintree Merchant Account Configuration.
+
+Optionally Add Consumer facing names and a link to a Sqaure shaped PayPal logo.
+![](images/paypal-apm-additional-settings.png) 
+
