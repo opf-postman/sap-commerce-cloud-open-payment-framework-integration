@@ -134,3 +134,14 @@ Assign PayPal to your previously setup Braintree Merchant Account Configuration.
 Optionally Add Consumer facing names and a link to a Sqaure shaped PayPal logo.
 ![](images/paypal-apm-additional-settings.png) 
 
+### Braintree Setup
+
+#### PayPay Developer Account
+The Braintree documentation refers to setting up a PayPal Business account, but to test you can actually just signup for a PayPal Developer account [here](https://www.paypal.com/signin/client?flow=provisionUser&country.x=US&locale.x=en_US)
+
+You will gain access to the [dashboard](https://developer.paypal.com/dashboard)
+
+The Braintree setup will need the Default Application client and secret found [here](https://developer.paypal.com/dashboard/applications/sandbox)
+
+#### Braintree Instructions
+You will need add PayPal to you Braintree Sandbox as per [this guide](https://developer.paypal.com/braintree/articles/guides/payment-methods/paypal/setup-guide)
