@@ -7,7 +7,7 @@ Create a merchant account in the OPF payment mock provider. The merchant acccoun
 ## Procedure
 1.	Download the postman collection of mock provider from [Open Payment Framework GitHub Repo](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/paymentmock/Full%20Page).
    
-2.	Create a Payment Mock merchant account group in OPF Payment Mock swagger UI, do the following to create a new merchant account.
+2.	Create a Payment Mock merchant account group in OPF Payment Mock swagger UI, do the following to create a new merchant account group.
    
     a.) Locate the Create Merchant Account Group API.
    
