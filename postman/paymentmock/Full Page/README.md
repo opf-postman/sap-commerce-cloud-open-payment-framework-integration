@@ -43,16 +43,16 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
    
 | Name                                                                                 | Description                                                  
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. IMPORTANT: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
-| rootURL                                                                              | The rootUrl is the BASE URL of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
-| accountGroupId                                                                       | The accountId and accountGroupId values identify the merchant account group can be found in the top left of your merchant configuration.|                  
-| accountId                                                                            | The accountId and accountGroupId values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
-| authentication_inbound_basic_auth_username                                           | <username>|                  
-| authentication_inbound_basic_auth_password                                           | <password>|                  
-| capturePattern                                                                       | <CAPTURE_PER_SHIPMENT>|                  
-| supportOverCapture                                                                   | true|                  
-| enableOverCapture                                                                    | <True> |                  
-| authorizationTimeoutDays                                                             | <7>   |                  
+| token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
+| rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
+| accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
+| accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
+| authentication_inbound_basic_auth_username                                           | ``username``|                  
+| authentication_inbound_basic_auth_password                                           | ``password``|                  
+| capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
+| supportOverCapture                                                                   | ``true``|                  
+| enableOverCapture                                                                    | ``true``|                  
+| authorizationTimeoutDays                                                             | 7   |                  
 | apiKey                                                                               | The apiKey noted down in step 2.|                  
 | host                                                                                 | The base URL of your tenant account in OPF payment mock service.|                  
               
