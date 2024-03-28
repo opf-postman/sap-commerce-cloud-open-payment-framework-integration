@@ -12,11 +12,10 @@ The integration supports:
 * Paypal support
 
 ## Known Issues
-* Refunds currently fail if initiated before they are sent to Settlement
+* Card Refunds currently fail if initiated before they are sent to Settlement
 ** Workaround manual process of refunding in Braintree based on failed transactions in OPF, then manual update of stuck OPF transaction.
 
 ## Planned Backlog Items
-* Document PayPal Setup
 * Applepay / Googlepay Support
 
 
@@ -141,7 +140,18 @@ The Braintree documentation refers to setting up a PayPal Business account, but 
 
 You will gain access to the [dashboard](https://developer.paypal.com/dashboard)
 
-The Braintree setup will need the Default Application client and secret found [here](https://developer.paypal.com/dashboard/applications/sandbox)
+The Braintree setup will need you to create a Rest Application client and secret for Braintree to access PayPal [here](https://developer.paypal.com/dashboard/applications/sandbox)
+
+We have found the default Application doesnt appear to work, so create a new Rest App.
+![](images/PayPal-rest-apps.png)
+![](images/PayPal-add-braintee-rest-app.png)
+
 
 #### Braintree Instructions
-You will need add PayPal to you Braintree Sandbox as per [this guide](https://developer.paypal.com/braintree/articles/guides/payment-methods/paypal/setup-guide)
+[This guide](https://developer.paypal.com/braintree/articles/guides/payment-methods/paypal/setup-guide) describes the full setup process, but an abridged version for testing is as follows:
+
+- Settings -> Processing -> Enable PayPal as a Payment Option
+![](images/Braintree-paypal-enable.png)
+- Enter the email you registered your paypal developer account and the the Paypal Rest Application client and secret
+![](images/Braintree-paypal-setup.png)
+
