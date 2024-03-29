@@ -70,8 +70,18 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
    
    e.) Execute the API call.
 
+8. Validate the configuration in Open Payment Framework Workbench.
 
+   a.) Go to **Payment Integrations**-> **Merchant account** and click **Configure**.
 
+      **Note**
+      If you are testing the integration, you must select the Test payment account.
+
+    b.) The General configuration  Variables values must be populated.
+
+    c.) In Settlement method, make sure the right option is selected depending on your integration.
+   
+    d.) In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
 
 
 
