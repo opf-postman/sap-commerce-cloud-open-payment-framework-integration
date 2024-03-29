@@ -33,7 +33,7 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 
    c.) In the **Notification** tab, note down the URL for notification.
    
-6. Edit the Postman Collection in the Postman app.
+5. Edit the Postman Collection in the Postman app.
 
    a.) Import the two files at the same time to Postman.
 
@@ -56,8 +56,20 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 | apiKey                                                                               | The apiKey noted down in step 2.|                  
 | host                                                                                 | The base URL of your tenant account in OPF payment mock service.|                  
               
-8. Save and run the Postman Collection.
-9. Set notification URL in the Payment Mock Swagger UI.
+6. Save and run the Postman Collection.
+7. Set notification URL in the Payment Mock Swagger UI.
+   
+   a.) Locate the create notification configuration API.
+   
+   b.) Fill the request parameters merchantId and apiKey use the value retrieved in step 2.
+   
+   c.) Set the url in the request body noted down in step 4.
+   
+   d.) Set the basicAuth.username and basicAuth.password to the authentication_inbound_basic_auth_username and authentication_inbound_basic_auth_password in step 5.
+   
+   e.) Execute the API call.
+
+
 
 
 
