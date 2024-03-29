@@ -53,7 +53,7 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
-| apiKey                                                                               | The apiKey noted down in step 2.|                  
+| apiKey                                                                               | The ``apiKey`` noted down in step 2.|                  
 | host                                                                                 | The base URL of your tenant account in OPF payment mock service.|                  
               
 6. Save and run the Postman Collection.
