@@ -77,7 +77,7 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
       **Note**
       If you are testing the integration, you must select the Test payment account.
 
-    b.) The General configuration  Variables values must be populated.
+    b.) The **General configuration** -> **Variables** values must be populated.
 
     c.) In Settlement method, make sure the right option is selected depending on your integration.
    
