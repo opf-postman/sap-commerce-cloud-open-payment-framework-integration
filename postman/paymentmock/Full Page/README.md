@@ -2,7 +2,7 @@
 Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collection.
 
 ## Procedure
-1.	Download the postman collection of mock provider from [Open Payment Framework GitHub Repo](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/paymentmock/Full%20Page).
+1.	Download the postman collection of mock gateway from [Open Payment Framework GitHub Repo](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/paymentmock/Full%20Page).
    
 2.	Create a Payment Mock merchant account group in OPF Payment Mock swagger UI. The URL for test environment is: <https://opf-iss-d0.opf.commerce.stage.context.cloud.sap/opf-payment-mock/api/swagger-ui/index.html>. 
    
