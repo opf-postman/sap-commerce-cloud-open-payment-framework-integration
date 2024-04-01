@@ -86,22 +86,21 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 
 ![](images/cybersource-get-group-id.png)
 
-**4. merchantId** 
+**4. merchantCode** 
 
 You can obtain your merchant ID in the Adyen Dashboard.
 
 ![](images/cybersource-get-merchant-id.png)
 
-**5. secretKey** and **accessKey**
+**5. clientkey**
 
-The secretKey can be obtained here in the Adyen dashboard. 
-For detailed instructions, see [Secure Acceptance Hosted Checkout
-Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0). 
+The secretKey can be obtained in the Adyen dashboard. 
 
-![](images/cybersource-get-access-key.png)
+Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 
-**6.profileId**
+
+**6.notificationHmacKey**
 
 In the left navigation panel of Adyen dashboard, choose **Payment Configuration**-> **Secure Acceptance Settings** to create a Hosted Checkout Profile.
 Click the created profile name to view the profile details.
