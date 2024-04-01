@@ -39,7 +39,7 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 
    b.) Make sure to select the environment for Mock Gateway.
 
-   c.) Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Mock Gateway Test Account unique values.
+   c.) Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Payment Mock Gateway Test Account unique values.
    
 | Name                                                                                 | Description                                                  
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
