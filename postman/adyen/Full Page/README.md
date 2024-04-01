@@ -98,27 +98,12 @@ The secretKey can be obtained in the Adyen dashboard.
 
 Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
-
-
-**6.notificationHmacKey**
+**6.skincode**
 
 In the left navigation panel of Adyen dashboard, choose **Payment Configuration**-> **Secure Acceptance Settings** to create a Hosted Checkout Profile.
 Click the created profile name to view the profile details.
 ![](images/cybersource-get-profile-id.png)
 
-**7.apiKeyId** and **apiKeyValue**
-
-In the left navigation panel, choose **Payment Configuration** -> **Key Management**.
-
-a) Click **Generate Key**.
-
-b) Select **REST Shared Secret**.
-
-c) Copy the generated key to your clipboard by clicking the **clipboard** icon, or click **Download key** to download the shared secret.
-
-d) Under the **Key Management** page, select **REST Shared Secret** from the filter to locate the newly created API Key and copy the Key ID and value.
-
-![](images/cybersource-get-apikey.png)
 
 **Summary**
 
