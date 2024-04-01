@@ -40,22 +40,22 @@ You can obtain your merchant ID in the Adyen Dashboard.
 
 ## Set up Your Adyen Test Account to work with OPF
 
-Once you have created you Adyen test account, do the following to set it up to work with OPF:
+   Once you have created you Adyen test account, do the following to set it up to work with OPF:
 
 1. **Determine testing account structure**
-With Adyen, you have a single [company account](https://docs.adyen.com/account/account-structure/#company-account), and one or more sub-accounts called [merchant accounts](https://docs.adyen.com/account/account-structure/#company-account). Determine an initial structure for testing that will best represent what you will do once you are processing live. You will have another opportunity when going live to finalize your account structure.
+   With Adyen, you have a single [company account](https://docs.adyen.com/account/account-structure/#company-account), and one or more sub-accounts called [merchant accounts](https://docs.adyen.com/account/account-structure/#company-account). Determine an initial structure for testing that will best represent what you will do once you are processing live. You will have another opportunity when going live to finalize your account structure.
 
 2. **Create a user for yourself and your team members**
    
-You receive an admin user account for yourself when signing up. [Create additional users](https://docs.adyen.com/account/users/) for your team members as needed.
+   You receive an admin user account for yourself when signing up. [Create additional users](https://docs.adyen.com/account/users/) for your team members as needed.
 
 4. **Get API credentials**
    
-Get your test [API key](https://docs.adyen.com/account/users/) and [client key](https://docs.adyen.com/account/users/), which you'll need when building your integration.
+   Get your test [API key](https://docs.adyen.com/account/users/) and [client key](https://docs.adyen.com/account/users/), which you'll need when building your integration.
 
 6. **Add payment methods**
    
-[Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
+   [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
 
 
 ## Preparing the Postman environment_configuration file
