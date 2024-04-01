@@ -39,11 +39,21 @@ You can obtain your merchant ID in the Adyen Dashboard.
 ![](images/cybersource-get-merchant-id.png)
 
 ## Set up Your Adyen Test Account to work with OPF
-This includes **Configuring Payment Method**, **Configuring Checkout**, **Configuring Merchant Notifications**, **Configuring a Adyen Hosted Response Page**, and **Activating a Profile**. For detailed instructions, see [Secure Acceptance Hosted Checkout
-Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0).
 
-**TIP** The Notification URL to be used for Merchant Notifcation can be obtained in OPF Workbench at the following location:  
-![](images/cybersource-get-notification-url.png)
+Once you have created you Adyen test account, do the following to set it up to work with OPF:
+
+1. **Determine testing account structure**
+With Adyen, you have a single [company account](https://docs.adyen.com/account/account-structure/#company-account), and one or more sub-accounts called [merchant accounts](https://docs.adyen.com/account/account-structure/#company-account). Determine an initial structure for testing that will best represent what you will do once you are processing live. You will have another opportunity when going live to finalize your account structure.
+
+2. **Create a user for yourself and your team members**
+You receive an admin user account for yourself when signing up. Create additional users for your team members as needed.
+
+3. **Get API credentials**
+Get your test API key and client key, which you'll need when building your integration.
+
+4. **Add payment methods**
+Add the payment methods you want to accept with your integration.
+
 
 ## Preparing the Postman environment_configuration file
 
