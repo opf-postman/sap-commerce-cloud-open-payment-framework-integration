@@ -29,7 +29,7 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 
    a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, and can be found in the top left of your merchant configuration.
    
-   b.) In the **General configuration** tab, set the Merchant ID of the Payment account to be the value which retrieved in step 2.
+   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in step 2.
 
    c.) In the **Notification** tab, note down the URL for notification.
    
