@@ -116,8 +116,8 @@ The envirionment file is now ready for importing into Postman together with the 
       **Note**
       If you are testing the integration, you must select the Test payment account.
 
-    2. The **General configuration** -> **Variables** values must be populated.
+   2. The **General configuration** -> **Variables** values must be populated.
 
-    3. In Settlement method, make sure the right option is selected depending on your integration.
+   3. In Settlement method, make sure the right option is selected depending on your integration.
    
-    4. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
+   4. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
