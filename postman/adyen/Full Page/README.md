@@ -100,9 +100,7 @@ Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 **6.skincode**
 
-In the left navigation panel of Adyen dashboard, choose **Payment Configuration**-> **Secure Acceptance Settings** to create a Hosted Checkout Profile.
-Click the created profile name to view the profile details.
-![](images/cybersource-get-profile-id.png)
+In the left navigation panel of Adyen dashboard, choose...
 
 
 **Summary**
