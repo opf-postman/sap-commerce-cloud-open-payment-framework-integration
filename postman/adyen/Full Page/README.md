@@ -109,4 +109,15 @@ Click the created profile name to view the profile details.
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
-## 
+## Validate the configuration in Open Payment Framework Workbench.
+
+   1. Go to **Payment Integrations**-> **Merchant account** and click **Configure**.
+
+      **Note**
+      If you are testing the integration, you must select the Test payment account.
+
+    2. The **General configuration** -> **Variables** values must be populated.
+
+    3. In Settlement method, make sure the right option is selected depending on your integration.
+   
+    4. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
