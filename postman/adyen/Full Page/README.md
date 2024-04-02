@@ -25,13 +25,13 @@ You can sign up for a free Adyen Test Account at <https://ca-test.adyen.com/ca/c
 ## Creating the Merchant Account Group 
 Ceate a new Account Group in the OPF Workbench.
 
-i) In payment integrations.. click **Create**.
+1. In payment integrations.. click **Create**.
 ![](images/cybersource-create-button.png)
 
-ii) Add account name (can be anything) and set payment gateway to Adyen.
+2. Add account name (can be anything) and set payment gateway to Adyen.
 ![](images/cybersource-create-account.png)
 
-iii) Click **configure** on Test column of newly created Account.
+3. Click **configure** on Test column of newly created Account.
 ![](images/opf-account-group-id.png)
 
 **You must set a merchant ID first.**
