@@ -126,15 +126,14 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
 | authentication_inbound_basic_auth_username                                           | ``username``, your web service username in Adyen Dashboad.|                  
-| authentication_inbound_basic_auth_password                                           | ``password``: the password that you can generate for Basic auth under **Configure API credential
-**-> **Server settings** |                  
+| authentication_inbound_basic_auth_password                                           | ``password``: the password that you can generate for Basic auth under **Configure API credential** -> **Server settings** |                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
-| apiKey                                                                               | The ``apiKey`` noted down in step 2.|                  
+| apiKey                                                                               | The ``apiKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
 | host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
-|
+|clientKey                                                                             | The ``clientKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|    
       
    5. Save and run the Postman collection.
 
