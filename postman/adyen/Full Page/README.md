@@ -101,7 +101,6 @@ The secretKey can be obtained in the Adyen dashboard.
 
 Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
-
 **Summary**
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
@@ -119,8 +118,24 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
    2. Make sure to select the environment for Adyen.
 
    3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values.
+
+    | Name                                                                                 | Description                                                  
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
+| rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
+| accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
+| accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
+| authentication_inbound_basic_auth_username                                           | ``username``|                  
+| authentication_inbound_basic_auth_password                                           | ``password``|                  
+| capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
+| supportOverCapture                                                                   | ``true``|                  
+| enableOverCapture                                                                    | ``true``|                  
+| authorizationTimeoutDays                                                             | 7   |                  
+| apiKey                                                                               | The ``apiKey`` noted down in step 2.|                  
+| host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
+|
       
-   4. Save and run the Postman collection.
+   5. Save and run the Postman collection.
 
 
 ## Validate the configuration in Open Payment Framework Workbench
