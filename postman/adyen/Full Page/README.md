@@ -119,7 +119,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 
    3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values.
 
-    | Name                                                                                 | Description                                                  
+| Name                                                                                 | Description                                                  
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
 | token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
