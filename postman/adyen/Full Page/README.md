@@ -131,7 +131,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
-| apiKey                                                                               | The ``apiKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
+| authentication_outbound_api_key_value_export                                         | The ``apiKey`` value saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
 | host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
 |clientKey                                                                             | The ``clientKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|    
       
