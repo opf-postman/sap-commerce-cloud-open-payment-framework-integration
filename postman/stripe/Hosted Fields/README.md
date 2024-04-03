@@ -63,13 +63,18 @@ The base Url would be
 
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. Account and Account Group**
+
+**3. service**
+
+The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be access directly via root URL.
+
+**4. Account and Account Group**
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
 ![](images/opf-account-group-id.png)
 
-**4. Private Key**
+**5. Private Key**
 The Secret (or Private) Key can be obtained here in the Stripe dashboard. In test it starts with **sk_test**.
 
 <https://dashboard.stripe.com/test/apikeys>
@@ -81,7 +86,7 @@ The Secret (or Private) Key can be obtained here in the Stripe dashboard. In tes
 
 There are 2 occurrences of both in the environment file.
 
-**5. Public Key**
+**6. Public Key**
 
 The public (or Publishable) key can be obtained here in the Stripe dashboard. In Test it starts with **pk_test**
 
@@ -91,7 +96,7 @@ The public (or Publishable) key can be obtained here in the Stripe dashboard. In
 
 Replace the ``publickey`` variable value in the environment file with this value starting with **pk_test**.
 
-**6. Webhook Secret**
+**7. Webhook Secret**
 
 IN OPF Workbench: For your new Stripe merchant account, navigate to **Notification General** and copy the Notification URL.
 
@@ -125,9 +130,10 @@ In summary, you should have edited the following variables:
 
 - **token** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L6)
 - **rootUrl** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L11)
-- **accountGroupId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L16)
-- **accountId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L21)
-- **2 x authentication_outbound_basic_auth_username_export\*** (e.g https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L26 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L38)
-- **2 x authentication_outbound_basic_auth_password_export\*** (e.g. https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L32 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L44)
-- **publickey** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L86)
-- **webhookSecret** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L98)
+- **service** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L16)
+- **accountGroupId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L21)
+- **accountId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L26)
+- **2 x authentication_outbound_basic_auth_username_export\*** (e.g https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L26 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L43)
+- **2 x authentication_outbound_basic_auth_password_export\*** (e.g. https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L32 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L49)
+- **publickey** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L91)
+- **webhookSecret** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/9817001311023efa2a961118788f4e3ee65bbab5/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L103)
