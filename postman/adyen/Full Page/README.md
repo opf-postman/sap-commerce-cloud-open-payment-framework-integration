@@ -32,11 +32,18 @@ Ceate a new Account Group in the OPF Workbench.
 ![](images/cybersource-create-account.png)
 
 3. Click **configure** on Test column of newly created Account.
+
+   **You must set a merchant ID first.**
+   You can obtain your merchant ID in the Adyen Dashboard.
+
+     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, and can be found in the top left of your merchant configuration.
+   
+   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Adyen.
+
+   c.) In the **Notification** tab, note down the URL for notification.
+   
 ![](images/opf-account-group-id.png)
 
-**You must set a merchant ID first.**
-You can obtain your merchant ID in the Adyen Dashboard.
-![](images/cybersource-get-merchant-id.png)
 
 ## Set up Your Adyen Test Account to work with OPF
 
@@ -103,6 +110,17 @@ Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
+## Add a standard notification for your merchant account by doing the following: 
+
+ 1. Enter the URL for notification just saved.
+    
+ 2. Select the **Active** option.
+    
+ 3. In the Authentication section, create a username and password for basic authentication.
+
+ 4. In the Additional Settings section, generate an HMAC key. 
+![image](https://github.com/opf-postman/commerce-cloud-open-payment-integration/assets/121876994/58ef6eb0-931b-4a06-bc31-277694250246)
+
 ## Edit the Postman Collection in the Postman app.
 
    1. Import the two files at the same time to Postman.
@@ -111,6 +129,8 @@ The envirionment file is now ready for importing into Postman together with the 
 
    3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values.
       
+   4. Save and run the Postman Collection.
+
 
 ## Validate the configuration in Open Payment Framework Workbench.
 
