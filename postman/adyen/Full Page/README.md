@@ -91,13 +91,9 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
-![](images/cybersource-get-group-id.png)
-
 **4. merchantCode** 
 
 You can obtain your merchant ID in the Adyen Dashboard.
-
-![](images/cybersource-get-merchant-id.png)
 
 **5. clientkey**
 
