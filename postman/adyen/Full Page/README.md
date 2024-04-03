@@ -121,7 +121,8 @@ The envirionment file is now ready for importing into Postman together with the 
     
  3. In the Authentication section, create a username and password for basic authentication.
 
- 4. In the Additional Settings section, generate an HMAC key. 
+ 4. In the Additional Settings section, generate an HMAC key.
+    
 ![image](https://github.com/opf-postman/commerce-cloud-open-payment-integration/assets/121876994/58ef6eb0-931b-4a06-bc31-277694250246)
 
 ## Edit the Postman Collection in the Postman app.
