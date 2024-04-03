@@ -59,7 +59,8 @@ Ceate a new Account Group in the OPF Workbench.
 
 4. **Get API credentials**
    
-   Get your test [API key](https://docs.adyen.com/account/users/) and [client key](https://docs.adyen.com/account/users/), which you'll need when building your integration.
+   Get your test API key and client key, which you'll need when building your integration. You can refer to [API credentials
+](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
 
 6. **Add payment methods**
    
