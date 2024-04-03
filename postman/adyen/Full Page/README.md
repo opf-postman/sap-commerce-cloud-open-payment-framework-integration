@@ -120,7 +120,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 
    3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values.
       
-   4. Save and run the Postman Collection.
+   4. Save and run the Postman collection.
 
 
 ## Validate the configuration in Open Payment Framework Workbench
