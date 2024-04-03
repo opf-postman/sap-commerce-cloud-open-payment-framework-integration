@@ -103,6 +103,15 @@ Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
+## Edit the Postman Collection in the Postman app.
+
+   1. Import the two files at the same time to Postman.
+
+   2. Make sure to select the environment for Mock Gateway.
+
+   3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values.
+      
+
 ## Validate the configuration in Open Payment Framework Workbench.
 
    1. Go to **Payment Integrations**-> **Merchant account** and click **Configure**.
