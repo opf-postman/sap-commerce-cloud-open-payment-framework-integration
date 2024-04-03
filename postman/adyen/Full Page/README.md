@@ -82,7 +82,7 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 **3. service**
 
-The ``service`` is the name of your OPF service in specific environment.
+The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be access directly via root URL.
 
 
 **4. Account and Account Group**
