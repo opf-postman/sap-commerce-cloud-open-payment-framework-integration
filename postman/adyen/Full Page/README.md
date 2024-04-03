@@ -8,7 +8,7 @@ The integration supports:
 * Refunds
 * Reauthorization of saved payment
 
-In summary: to import the [Adyen Full Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
+**In summary**: to import the [Adyen Full Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Adyen Test Account.
 
@@ -17,6 +17,9 @@ b) Create a Merchant Account Group in OPF Workbench.
 c) Set up Your Adyen Test Account to work with OPF.
 
 d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values. 
+
+e) Validate the configuration in Open Payment Framework Workbench.
+
 
 ## Create an Adyen Account ##
 You can sign up for a free Adyen Test Account at <https://ca-test.adyen.com/ca/ca/login.shtml>.
@@ -32,11 +35,16 @@ Ceate a new Account Group in the OPF Workbench.
 ![](images/cybersource-create-account.png)
 
 3. Click **configure** on Test column of newly created Account.
-![](images/opf-account-group-id.png)
 
-**You must set a merchant ID first.**
-You can obtain your merchant ID in the Adyen Dashboard.
-![](images/cybersource-get-merchant-id.png)
+   **You must set a merchant ID first.**
+   You can obtain your merchant ID in the Adyen Dashboard.
+
+     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, and can be found in the top left of your merchant configuration.
+   
+   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Adyen.
+
+   c.) In the **Notification** tab, note down the URL for notification.
+
 
 ## Set up Your Adyen Test Account to work with OPF
 
@@ -51,12 +59,11 @@ You can obtain your merchant ID in the Adyen Dashboard.
 
 4. **Get API credentials**
    
-   Get your test [API key](https://docs.adyen.com/account/users/) and [client key](https://docs.adyen.com/account/users/), which you'll need when building your integration.
+   Get your test API key and client key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
 
 6. **Add payment methods**
    
    [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
-
 
 ## Preparing the Postman environment_configuration file
 
@@ -89,13 +96,9 @@ The ``service`` is the name of your OPF service in specific environment. It can 
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
-![](images/cybersource-get-group-id.png)
-
 **5. merchantCode** 
 
 You can obtain your merchant ID in the Adyen Dashboard.
-
-![](images/cybersource-get-merchant-id.png)
 
 **6. clientkey**
 
@@ -103,16 +106,44 @@ The secretKey can be obtained in the Adyen dashboard.
 
 Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
-**6.skincode**
-
-In the left navigation panel of Adyen dashboard, choose...
-
-
 **Summary**
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
-## Validate the configuration in Open Payment Framework Workbench.
+## Add a standard notification for your merchant account
+
+Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see [Set up event notifications in the Customer Area
+](https://docs.adyen.com/point-of-sale/design-your-integration/notifications/event-notifications/#set-up-in-ca).
+    
+
+## Edit the Postman Collection in the Postman app.
+
+   1. Import the two files at the same time to Postman.
+
+   2. Make sure to select the environment for Adyen.
+
+   3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values.
+
+| Name                                                                                 | Description                                                  
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
+| rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
+| accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
+| accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
+| authentication_inbound_basic_auth_username                                           | ``username``|                  
+| authentication_inbound_basic_auth_password                                           | ``password``|                  
+| capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
+| supportOverCapture                                                                   | ``true``|                  
+| enableOverCapture                                                                    | ``true``|                  
+| authorizationTimeoutDays                                                             | 7   |                  
+| apiKey                                                                               | The ``apiKey`` noted down in step 2.|                  
+| host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
+|
+      
+   5. Save and run the Postman collection.
+
+
+## Validate the configuration in Open Payment Framework Workbench
 
    1. Go to **Payment Integrations**-> **Merchant account** and click **Configure**.
 
