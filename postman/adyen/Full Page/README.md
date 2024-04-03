@@ -106,15 +106,10 @@ Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
-## Add a standard notification for your merchant account by doing the following: 
+## Add a standard notification for your merchant account
 
- 1. Enter the URL for notification just saved.
-    
- 2. Select the **Active** option.
-    
- 3. In the **Authentication** section, create a username and password for basic authentication.
-
- 4. In the **Additional Settings** section, generate an HMAC key.
+Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see [Set up event notifications in the Customer Area
+](https://docs.adyen.com/point-of-sale/design-your-integration/notifications/event-notifications/#set-up-in-ca).
     
 
 ## Edit the Postman Collection in the Postman app.
