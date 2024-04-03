@@ -98,10 +98,6 @@ The secretKey can be obtained in the Adyen dashboard.
 
 Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
-**6.skincode**
-
-In the left navigation panel of Adyen dashboard, choose...
-
 
 **Summary**
 
