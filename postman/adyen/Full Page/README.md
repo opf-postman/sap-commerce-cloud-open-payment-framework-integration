@@ -99,7 +99,7 @@ Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
-## Add a standard notification for your merchant account
+## Add a Standard Notification for Your Merchant Account
 
 Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see [Set up event notifications in the Customer Area
 ](https://docs.adyen.com/point-of-sale/design-your-integration/notifications/event-notifications/#set-up-in-ca).
@@ -141,6 +141,6 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 
    2. The **General configuration** -> **Variables** values must be populated.
 
-   3. In Settlement method, make sure the right option is selected depending on your integration.
+   3. In **Settlement method**, make sure the right option is selected depending on your integration.
    
    4. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
