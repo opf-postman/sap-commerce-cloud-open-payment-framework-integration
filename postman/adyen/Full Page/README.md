@@ -107,7 +107,7 @@ The envirionment file is now ready for importing into Postman together with the 
 
    1. Import the two files at the same time to Postman.
 
-   2. Make sure to select the environment for Mock Gateway.
+   2. Make sure to select the environment for Adyen.
 
    3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values.
       
