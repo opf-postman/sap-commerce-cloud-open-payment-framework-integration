@@ -39,7 +39,7 @@ Ceate a new Account Group in the OPF Workbench.
    **You must set a merchant ID first.**
    You can obtain your merchant ID in the Adyen Dashboard.
 
-     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, and can be found in the top left of your merchant configuration.
+     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, which can be found in the top left of your merchant configuration.
    
    b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Adyen.
 
@@ -83,7 +83,7 @@ E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.comme
 
 **3. Account and Account Group**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``accountId`` and ``accountGroupId`` values identify the merchant account group, which can be found in the top left of your merchant configuration.
 
 **4. merchantCode** 
 
