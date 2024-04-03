@@ -44,8 +44,6 @@ Ceate a new Account Group in the OPF Workbench.
    b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Adyen.
 
    c.) In the **Notification** tab, note down the URL for notification.
-   
-![](images/opf-account-group-id.png)
 
 
 ## Set up Your Adyen Test Account to work with OPF
@@ -66,7 +64,6 @@ Ceate a new Account Group in the OPF Workbench.
 6. **Add payment methods**
    
    [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
-
 
 ## Preparing the Postman environment_configuration file
 
