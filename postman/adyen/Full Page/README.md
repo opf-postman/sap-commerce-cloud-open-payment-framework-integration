@@ -39,7 +39,7 @@ Ceate a new Account Group in the OPF Workbench.
    **You must set a merchant ID first.**
    You can obtain your merchant ID in the Adyen Dashboard.
 
-     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, and can be found in the top left of your merchant configuration.
+     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, which can be found in the top left of your merchant configuration.
    
    b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Adyen.
 
@@ -79,13 +79,7 @@ Copy the value of the access_token field (it’s a JWT) and set as the ``token``
 
 The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 
-E.g. if your workbench/OPF cockpit url was this …
-
-<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>.
-
-The base Url would be
-
-https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
+E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 **3. service**
 
@@ -94,7 +88,7 @@ The ``service`` is the name of your OPF service in specific environment. It can 
 
 **4. Account and Account Group**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``accountId`` and ``accountGroupId`` values identify the merchant account group, which can be found in the top left of your merchant configuration.
 
 **5. merchantCode** 
 
@@ -110,7 +104,7 @@ Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
-## Add a standard notification for your merchant account
+## Add a Standard Notification for Your Merchant Account
 
 Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see [Set up event notifications in the Customer Area
 ](https://docs.adyen.com/point-of-sale/design-your-integration/notifications/event-notifications/#set-up-in-ca).
@@ -130,15 +124,15 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
-| authentication_inbound_basic_auth_username                                           | ``username``|                  
-| authentication_inbound_basic_auth_password                                           | ``password``|                  
+| authentication_inbound_basic_auth_username                                           | ``username``, your web service username in Adyen Dashboad.|                  
+| authentication_inbound_basic_auth_password                                           | ``password``: the password that you can generate for Basic auth under **Configure API credential** -> **Server settings** |                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
-| apiKey                                                                               | The ``apiKey`` noted down in step 2.|                  
+| authentication_outbound_api_key_value_export                                         | The ``apiKey`` value saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
 | host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
-|
+|clientKey                                                                             | The ``clientKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|    
       
    5. Save and run the Postman collection.
 
@@ -152,6 +146,6 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 
    2. The **General configuration** -> **Variables** values must be populated.
 
-   3. In Settlement method, make sure the right option is selected depending on your integration.
+   3. In **Settlement method**, make sure the right option is selected depending on your integration.
    
    4. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
