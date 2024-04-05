@@ -57,11 +57,11 @@ Ceate a new Account Group in the OPF Workbench.
    
    You receive an admin user account for yourself when signing up. [Create additional users](https://docs.adyen.com/account/users/) for your team members as needed.
 
-4. **Get API credentials**
+3. **Get API credentials**
    
    Get your test API key and client key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
 
-6. **Add payment methods**
+4. **Add payment methods**
    
    [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
 
@@ -83,7 +83,7 @@ E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.comme
 
 **3. service**
 
-The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be access directly via root URL.
+The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be accessed directly via root URL.
 
 
 **4. Account and Account Group**
@@ -122,6 +122,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
 | token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
+| service                                                                       | The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be accessed directly via root URL.|
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
 | authentication_inbound_basic_auth_username                                           | ``username``, your web service username in Adyen Dashboad.|                  
