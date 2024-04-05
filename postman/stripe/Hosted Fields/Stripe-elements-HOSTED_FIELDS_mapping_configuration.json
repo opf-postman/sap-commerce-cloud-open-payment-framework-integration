@@ -29,12 +29,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -75,12 +75,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -121,12 +121,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -167,12 +167,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -213,12 +213,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/variables",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -266,12 +266,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -317,12 +317,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -377,12 +377,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}/gateway\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "gateway"
                 ,
@@ -428,12 +428,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}/gateway\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "gateway"
                 ,
@@ -479,12 +479,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}/gateway\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "gateway"
                 ,
@@ -537,12 +537,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/googlePay\/configuration",
+              "raw": "{{rootUrl}}/{{service}}/googlePay\/configuration",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "googlePay"
                 ,
@@ -582,12 +582,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/notification",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/notification",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -635,12 +635,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/authorization",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/authorization",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -688,12 +688,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/settlement",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/settlement",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -741,12 +741,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/refund",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/refund",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -794,12 +794,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/recurrent_authorization",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/recurrent_authorization",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -847,12 +847,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/authorization_reversal",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/authorization_reversal",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -900,12 +900,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/google_pay",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/google_pay",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -953,12 +953,12 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/opf\/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/apple_pay",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/accountgroups\/{{accountGroupId}}\/accounts\/{{accountId}}\/apple_pay",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
-                "opf"
+                "{{service}}"
                 ,
                 "merchant"
                 ,
@@ -983,5 +983,20 @@
     }
     
   ],
+  "event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"let url = pm.request.url.toString();",
+					"if(pm.environment.get(\"service\")==null || pm.environment.get(\"service\")===\"\"){",
+					"    let updateUrl = url.replace(\"/{{service}}\",\"\")",
+					"    pm.request.url = updateUrl;",
+					"}"
+				]
+			}
+		}
+	],
   "protocolProfileBehavior": {}
 }
