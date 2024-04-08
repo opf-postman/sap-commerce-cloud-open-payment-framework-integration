@@ -59,7 +59,7 @@ Ceate a new Account Group in the OPF Workbench.
 
 3. **Get API credentials**
    
-   Get your test API key and client key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
+   Get your test API key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
 
 4. **Add payment methods**
    
@@ -94,11 +94,6 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 
 You can obtain your merchant ID in the Adyen Dashboard.
 
-**6. clientkey**
-
-The secretKey can be obtained in the Adyen dashboard. 
-
-Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 **Summary**
 
@@ -133,8 +128,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | authorizationTimeoutDays                                                             | 7   |                  
 | authentication_outbound_api_key_value_export                                         | The ``apiKey`` value saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
 | host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
-|clientKey                                                                             | The ``clientKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|    
-      
+       
    5. Save and run the Postman collection.
 
 
