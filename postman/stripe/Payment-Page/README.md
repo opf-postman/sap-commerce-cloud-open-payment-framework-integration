@@ -125,12 +125,12 @@ The envrionment file is now ready for importing into postman together with the M
 
 In summary you should have edited the following variables:
 
-- **token** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L6
-- **rootUrl** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L11
-- **service** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L16
-- **accountGroupId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L21
-- **accountId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L26
-- **authentication_outbound_basic_auth_username_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L31
-- **authentication_outbound_basic_auth_password_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L37
-- **publickey** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L73
-- **webhookSecret** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/f6da3d38045e98bcd9fc6a54775b90135564ad48/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L85
+- **token** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L6
+- **rootUrl** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L11
+- **service** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L16
+- **accountGroupId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L21
+- **accountId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L26
+- **authentication_outbound_basic_auth_username_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L31
+- **authentication_outbound_basic_auth_password_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L37
+- **publickey** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L73
+- **webhookSecret** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L85
