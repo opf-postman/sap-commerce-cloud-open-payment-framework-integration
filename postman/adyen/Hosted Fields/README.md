@@ -3,12 +3,12 @@ The Postman Collection enables Adyen to be used to take payments through OPF.
 
 The integration supports:
 
-* Authorization of Adyen Payments using the OPF "Full Page" UX Pattern
+* Authorization of Adyen Payments using the OPF "Hosted Fields" UX Pattern
 * Deferred Capture support
 * Refunds
 * Reauthorization of saved payment
 
-**In summary**: to import the [Adyen Full Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
+**In summary**: to import the [Adyen Hosted Fields Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Adyen Test Account.
 
