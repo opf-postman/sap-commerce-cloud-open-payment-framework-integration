@@ -8,7 +8,7 @@ The integration supports:
 * Refunds
 * Reauthorization of saved payment
 
-**In summary**: to import the [Adyen Payment Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
+**In summary**: to import the [Adyen Payment Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted-Payment-Page/Adyen%20-%20HOSTED_Payment_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Adyen Test Account.
 
