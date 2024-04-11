@@ -30,17 +30,21 @@ d) Prepare the [Postman Environment](environment_configuration.json) file so the
 
 ### Create a Airwallex Account
 You can sign up for a free Airwallex Demo Account at https://demo.airwallex.com/signup.
-To activate the account without completeting the company onboarding you will need to contact Airwallex support.
 
+Before you can proceed Aiwallex requires an onboarding pricess to be completed that involves accoutn verification.
+![](images/airwallex-account-verification.png)
 
+To create a test account without completeting the company onboarding you will need to contact Airwallex support.
+
+It will not be possible to proceed otherwise.
 
 
 ### Creating the Merchant Account Group
 Create a new Account Group in the OPF Workbench and set the Merchant ID.
 
-The Merchant ID can be found in the Account -> 
+You can use the Account Nickname value as the Merchant ID from the [Account menu](https://demo.airwallex.com/app/account/details) 
 
-https://demo.airwallex.com/app/account/details
+![](images/airwallex-account-nickname.png)
 
 
 ### Preparing the Postman environment_configuration file
@@ -72,6 +76,13 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 
 
 **4. API Credentials**
+The ``clientId`` and ``apiKey`` values can  be found from the [Api Keys](https://demo.airwallex.com/app/account/apiKeys) menu found under Developer.
+
+![](images/airwallex-add-api-key.png)
+
+You can use the Admin key for demo/sandbox testing, but restricted keys are recommended for production.
+
+**5. Webhook Secret**
 
 
 ### Summary
