@@ -71,17 +71,13 @@ The base Url would be
 
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. service**
 
-The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be accessed directly via root URL.
-
-
-**4. Account and Account Group**
+**3. Account and Account Group**
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
 
-**5. API Credentials**
+**4. API Credentials**
 
 The Public and Private key can be obtained in the Settings -> API -> Keys section of the Braintree Dashboard
 
@@ -90,7 +86,7 @@ The Public and Private key can be obtained in the Settings -> API -> Keys sectio
 * Set the public key **value** for environment variable ``authentication_outbound_basic_auth_username_export_51``
 * Set the private key **value** for environment variable ``authentication_outbound_basic_auth_password_export_51``
 
-**6. Merchant Account ID Prefix**
+**5. Merchant Account ID Prefix**
 Optionally, you can change the merchant account id prefix by setting the variable ``merchantAccountIdPrefix``.
 
 ### Summary
@@ -102,7 +98,6 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``service``
 - ``accountGroupId``
 - ``accountId``
 
