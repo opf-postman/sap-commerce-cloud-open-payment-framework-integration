@@ -11,8 +11,7 @@ The integration supports:
 
 ## Known Issues
 * Auto currency conversion should be disabled under the Account -> Payment -> [Settings](https://demo.airwallex.com/app/acquiring/settings) menu
-![](images/airwallex-autocurrencyconversion.png)
-
+![](images/airwallex-autocurrencyconversion.png) as this currently not supported by OPF. Please contact SAP if this feature is required for production use.
 
 ## Planned Backlog Items
 * Recurrent Authorization
@@ -32,7 +31,7 @@ d) Prepare the [Postman Environment](environment_configuration.json) file so the
 ### Create a Airwallex Account
 You can sign up for a free Airwallex Demo Account at https://demo.airwallex.com/signup.
 
-Before you can proceed Aiwallex requires an onboarding pricess to be completed that involves accoutn verification.
+Before you can proceed Aiwallex requires an onboarding pricess to be completed that involves account verification.
 ![](images/airwallex-account-verification.png)
 
 To create a test account without completeting the company onboarding you will need to contact Airwallex support.
@@ -72,9 +71,7 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 
 **3. Account and Account Group**
-
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
-
 
 **4. API Credentials**
 The ``clientId`` and ``apiKey`` values can  be found from the [Api Keys](https://demo.airwallex.com/app/account/apiKeys) menu found under Developer.
@@ -84,7 +81,6 @@ The ``clientId`` and ``apiKey`` values can  be found from the [Api Keys](https:/
 You can use the Admin key for demo/sandbox testing, but restricted keys are recommended for production.
 
 **5. Webhook Secret**
-
 IN OPF Workbench: For your new Stripe merchant account Navigate to **Notification General** and copy the Notification URL.
 
 ![](images/opf-get-notification-url.png)
@@ -117,9 +113,3 @@ In summary, you should have edited the following variables:
 - ``webhookSecret``
   
 For sandbox testing, all other values can be left as defaults.  
-
-
-
-
-
-
