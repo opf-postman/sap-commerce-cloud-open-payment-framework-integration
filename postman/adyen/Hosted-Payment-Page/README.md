@@ -122,7 +122,12 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
 | authentication_outbound_api_key_value_export                                         | The ``apiKey`` value saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
-| host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
+| host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.|
+|merchantCode                                                                          |You can obtain your merchant ID in the Adyen Dashboard.|
+|checkoutPaymentHost                                                                   |checkout-test.adyen.com|
+|hostedPaymentPageHost                                                                 |test.adyen.com|
+|standardPaymentHost                                                                   |pal-test.adyen.com|
+|skinHmacKey                                                                           |
        
    5. Save and run the Postman collection.
 
