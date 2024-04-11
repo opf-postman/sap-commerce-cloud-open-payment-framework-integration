@@ -8,13 +8,14 @@ The integration supports:
 * Deferred Capture 
 * Refunds
 * Reversal
-* Recurrent Authorization
 
 ## Known Issues
-* Auto currency conversion should be disabled
+* Auto currency conversion should be disabled under the Account -> Payment -> [Settings](https://demo.airwallex.com/app/acquiring/settings) menu
+![](images/airwallex-autocurrencyconversion.png)
 
 
 ## Planned Backlog Items
+* Recurrent Authorization
 
 
 ## Setup Instructions
