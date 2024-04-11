@@ -113,3 +113,6 @@ In summary, you should have edited the following variables:
 - ``webhookSecret``
   
 For sandbox testing, all other values can be left as defaults.  
+
+### Airwallex Setup
+More documentation regarding setup of settlement currencies and payment methods can be found [here](https://www.airwallex.com/docs/payments__get-started-with-payments__set-up-your-merchant-account). Ensure at least one payment method is activated.
