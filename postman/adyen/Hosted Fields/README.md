@@ -81,20 +81,15 @@ The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 
 E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. service**
-
-The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be accessed directly via root URL.
-
-
-**4. Account and Account Group**
+**3. Account and Account Group**
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group, which can be found in the top left of your merchant configuration.
 
-**5. merchantCode** 
+**4. merchantCode** 
 
 You can obtain your merchant ID in the Adyen Dashboard.
 
-**6. clientkey**
+**5. clientkey**
 
 The secretKey can be obtained in the Adyen dashboard. 
 
@@ -122,7 +117,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
 | token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
-| service                                                                       | The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be accessed directly via root URL.|
+| service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually always be ``opf``|
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
 | authentication_inbound_basic_auth_username                                           | ``username``, your web service username in Adyen Dashboad.|                  
