@@ -100,6 +100,7 @@ IN OPF Workbench: For your new Airwallex merchant account Navigate to **Notifica
 In the Airwallex dashboard you need to navigate to Account -> Developer -> [Webhooks](https://demo.airwallex.com/app/developer/webhooks) and add a Webhook endpoint. 
 
 i) Paste in your endpoint URL copied from OPF.
+
 ii) Check **All Payment . Payment Attempt events**.
 ![](images/airwallex-webhooks2.png)
 
