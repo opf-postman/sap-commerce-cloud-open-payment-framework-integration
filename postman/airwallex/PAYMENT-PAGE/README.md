@@ -110,7 +110,6 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``service``
 - ``accountGroupId``
 - ``accountId``
 
