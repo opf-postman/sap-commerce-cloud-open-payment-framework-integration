@@ -67,23 +67,19 @@ The base Url would be
 
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. service**
-
-The ``service`` is the name of your OPF service in specific environment. It can be empty if the service can be accessed directly via root URL.
-
-**4. Account and Account Group**
+**3. Account and Account Group**
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
 ![](images/cybersource-get-group-id.png)
 
-**5. merchantId** 
+**4. merchantId** 
 
 You can obtain your merchant ID in the Cybersource Dashboard.
 
 ![](images/cybersource-get-merchant-id.png)
 
-**6. secretKey** and **accessKey**
+**5. secretKey** and **accessKey**
 
 The secretKey can be obtained here in the Cybersource dashboard. 
 For detailed instructions, see [Secure Acceptance Hosted Checkout
@@ -92,13 +88,13 @@ Integration](https://developer.cybersource.com/library/documentation/dev_guides/
 ![](images/cybersource-get-access-key.png)
 
 
-**7.profileId**
+**6.profileId**
 
 In the left navigation panel of Cybersource dashboard, choose **Payment Configuration**-> **Secure Acceptance Settings** to create a Hosted Checkout Profile.
 Click the created profile name to view the profile details.
 ![](images/cybersource-get-profile-id.png)
 
-**8.apiKeyId** and **apiKeyValue**
+**7.apiKeyId** and **apiKeyValue**
 
 In the left navigation panel, choose **Payment Configuration** -> **Key Management**.
 
@@ -120,7 +116,6 @@ In summary, you should have edited the following variables:
 
 - **token** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json#L6)
 - **rootUrl** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json#L11)
-- **service** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json#L16)
 - **accountGroupId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json#L21)
 - **accountId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json#L26)
 - **merchantId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json#L73)
