@@ -3,9 +3,13 @@
 ## Before Importing
 The meaning of some fields in environment variables:  
 **token**: A Bearer token to access open payment framework core.  
+
 **rootUrl**: The root URL of open payment framework service, e.g. https://opf-iss-d0.api.commerce.stage.context.cloud.sap  
-**service**: The service name of open payment framework service, e.g. opf-stage.
+
+**service**: The service name of open payment framework service, e.g. should always be ``opf`` for production customers.
+
 **accountGroupId**: The ID of merchant account group you created in open payment framework workbench.  
+
 **accountId**: The ID of account you created under the account group.  
 
 ## Description
