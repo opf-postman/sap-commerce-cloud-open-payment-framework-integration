@@ -4,7 +4,7 @@ The Postman Collection enables a [Airwallex Hosted Page](https://developer.paypa
 
 The integration supports:
 
-* Authorization of Card Payments using PCI SAQ-A Airwallex Hosted Page using the OPF "Hosted Patters" UX Pattern
+* Authorization of Card Payments using PCI SAQ-A Airwallex Hosted Page using the OPF "Payment Page" UX Pattern
 * Deferred Capture 
 * Refunds
 * Reversal
