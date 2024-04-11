@@ -98,7 +98,7 @@ i) Paste in your endpoint URL copied from OPF.
 ii) Check **All Payment . Payment Attempt events**.
 ![](images/airwallex-webhooks2.png)
 
-ii) Save and Fetch the secret and set that as the ``webhookSecret`` variable
+ii) Save and View the secret key and set that as the ``webhookSecret`` variable
 ![](images/airwallex-webhooks1.png)
 
 ### Summary
