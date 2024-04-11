@@ -27,11 +27,13 @@ To import the [Aiwallex Hosted Page Postman Collection](mapping_configuration.js
 
 a) Sign up for a Airwallex Demo Account
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Complete onboarding the activate the Airwallex accoubnt
 
-c) Set up Your Airwallex Sandbox Account to work with OPF.
+c) Create a Merchant Account Group in OPF Workbench.
 
-d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Airwallex Sandbox Account unique values. 
+d) Set up Your Airwallex Sandbox Account to work with OPF.
+
+e) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Airwallex Demo Account unique values. 
 
 
 ### Create a Airwallex Account
