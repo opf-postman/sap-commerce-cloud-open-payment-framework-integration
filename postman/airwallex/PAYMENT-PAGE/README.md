@@ -26,8 +26,11 @@ Dynamic pay-in currencies are currently not supported by OPF. Please contact SAP
 To import the [Aiwallex Hosted Page Postman Collection](mapping_configuration.json) this page will take you through the following steps
 
 a) Sign up for a Airwallex Demo Account
+
 b) Create a Merchant Account Group in OPF Workbench.
+
 c) Set up Your Airwallex Sandbox Account to work with OPF.
+
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Airwallex Sandbox Account unique values. 
 
 
