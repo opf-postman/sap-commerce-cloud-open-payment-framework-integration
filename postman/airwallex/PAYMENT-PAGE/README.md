@@ -33,10 +33,14 @@ You can sign up for a free Airwallex Demo Account at https://demo.airwallex.com/
 To activate the account without completeting the company onboarding you will need to contact Airwallex support.
 
 
+
+
 ### Creating the Merchant Account Group
 Create a new Account Group in the OPF Workbench and set the Merchant ID.
 
-The Merchant ID can be found in the Settings -> 
+The Merchant ID can be found in the Account -> 
+
+https://demo.airwallex.com/app/account/details
 
 
 ### Preparing the Postman environment_configuration file
