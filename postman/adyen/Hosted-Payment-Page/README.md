@@ -115,18 +115,19 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually be ``opf`` |
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
-| authentication_inbound_basic_auth_username                                           | ``username``, your web service username created for webhook Basic authentication, see [Configure webhooks in your Balance Platform Customer Area](https://docs.adyen.com/issuing/set-up-webhooks/#configure-customer-area) for detailed instructions.|                  
-| authentication_inbound_basic_auth_password                                           | ``password``: the password that you created for webhook Basic authentication, see [Configure webhooks in your Balance Platform Customer Area](https://docs.adyen.com/issuing/set-up-webhooks/#configure-customer-area) for detailed instructions.|                  
+| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
+| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
-| authentication_outbound_api_key_value_export                                         | The ``apiKey`` value saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
+| authentication_outbound_api_key_value_export                                         | The Webservice User API key. Go to **Developers** -> **API credentials** -> **ws User** -> **Authentication** to get the value.|                  
 |merchantCode                                                                          |You can obtain your merchant ID in the Adyen Dashboard.|
-|checkoutPaymentHost                                                                   |checkout-test.adyen.com|
-|hostedPaymentPageHost                                                                 |test.adyen.com|
-|standardPaymentHost                                                                   |pal-test.adyen.com|
-|skinHmacKey                                                                           |
+|checkoutPaymentHost                                                                   |``checkout-test.adyen.com``|
+|hostedPaymentPageHost                                                                 |``test.adyen.com``|
+|standardPaymentHost                                                                   |``pal-test.adyen.com``|
+|skinHmacKey                                                                           |Go to **Developers** -> **Webhooks** to get the value.|
+|apiVersion                                                                            |v67|
        
    5. Save and run the Postman collection.
 
