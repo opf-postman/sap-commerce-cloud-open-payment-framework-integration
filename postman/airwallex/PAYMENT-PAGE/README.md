@@ -84,6 +84,18 @@ You can use the Admin key for demo/sandbox testing, but restricted keys are reco
 
 **5. Webhook Secret**
 
+IN OPF Workbench: For your new Stripe merchant account Navigate to **Notification General** and copy the Notification URL.
+
+![](images/opf-get-notification-url.png)
+
+In the Airwallex dashboard you need to navigate to Account -> Developer -> [Webhooks](https://demo.airwallex.com/app/developer/webhooks) and add a Webhook endpoint. 
+
+i) Paste in your endpoint URL copied from OPF.
+ii) Check **All Payment . Payment Attempt events**.
+![](images/airwallex-webhooks2.png)
+
+ii) Save and Fetch the secret and set that as the ``webhookSecret`` variable
+![](images/airwallex-webhooks1.png)
 
 ### Summary
 
@@ -99,13 +111,14 @@ In summary, you should have edited the following variables:
 - ``accountId``
 
 #### Airwallex Specific
-API Key Configuration
-
+- ``clientId``
+- ``apiKey``
+- ``webhookSecret``
+  
 For sandbox testing, all other values can be left as defaults.  
 
 
 
-### Airwallex Setup
 
 
 
