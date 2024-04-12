@@ -1,14 +1,147 @@
+## Introduction ##
+The Postman Collection enables Worldpay to be used to take payments through OPF. 
 
-[Draft]
+The integration supports:
 
-We integrate worldpay with WPG(worldwide payment gateway)
-WPG doc: https://developerengine.fisglobal.com/apis/wpg
+* Authorization of Worldpay Payments using the OPF "iFrame" UX Pattern
+* Deferred Capture support
+* Refunds
+* Reauthorization of saved payment
 
-Before you import this to your system, you should create your payment acccount in opf workbench
+**In summary**: to import the [Worldpay Payment Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted-Payment-Page/Adyen%20-%20HOSTED_Payment_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
-important variables in environment configuration:
-authentication_outbound_basic_auth_username_export_10: the username of basic auth to call worldpay api
-authentication_outbound_basic_auth_password_export_10: the password of basic auth to call worldpay api
-installationId: after you login into merchant admin interface, you can get from INTEGRATION->Installations
-merchantCode: ditto
+a) Create Your Worldpay Test Account.
+
+b) Create a Merchant Account Group in OPF Workbench.
+
+c) Set up Your Worldpay Test Account to work with OPF.
+
+d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted-Payment-Page/Adyen%20-%20HOSTED_Payment_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) file so the collection can be imported with all your OPF Tenant and Worldpay Test Account unique values. 
+
+e) Validate the configuration in Open Payment Framework Workbench.
+
+
+## Create an Worldpay Account ##
+You can sign up for a free Worldpay Test Account at <https://ca-test.adyen.com/ca/ca/login.shtml>.
+
+
+## Creating the Merchant Account Group 
+Ceate a new Account Group in the OPF Workbench.
+
+1. In payment integrations.. click **Create**.
+![](images/cybersource-create-button.png)
+
+2. Add account name (can be anything) and set payment gateway to Worldpay.
+![](images/cybersource-create-account.png)
+
+3. Click **configure** on Test column of newly created Account.
+
+   **You must set a merchant ID first.**
+   You can obtain your merchant ID in the Worldpay Dashboard.
+
+     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, which can be found in the top left of your merchant configuration.
+   
+   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Worldpay.
+
+   c.) In the **Notification** tab, note down the URL for notification.
+
+
+## Set up Your Worldpay Test Account to work with OPF
+
+   Once you have created you Worldpay test account, do the following to set it up to work with OPF:
+
+1. **Determine testing account structure**
+   With Worldpay, you have a single [company account](https://docs.Worldpay.com/account/account-structure/#company-account), and one or more sub-accounts called [merchant accounts](https://docs.adyen.com/account/account-structure/#company-account). Determine an initial structure for testing that will best represent what you will do once you are processing live. You will have another opportunity when going live to finalize your account structure.
+
+2. **Create a user for yourself and your team members**
+   
+   You receive an admin user account for yourself when signing up. [Create additional users](https://docs.adyen.com/account/users/) for your team members as needed.
+
+3. **Get API credentials**
+   
+   Get your test API key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
+
+4. **Add payment methods**
+   
+   [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
+
+## Preparing the Postman environment_configuration file
+
+**1. Token**
+
+Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit.
+
+Copy the value of the access_token field (it’s a JWT) and set as the ``token`` value in the environment file.
+
+**IMPORTANT**: Ensure the value is prefixed with **Bearer**. e.g. ``Bearer {{token}}``.
+
+**2. Root url**
+
+The ``rootUrl`` is the **BASE URL** of your OPF tenant.
+
+E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
+
+**3. Account and Account Group**
+
+The ``accountId`` and ``accountGroupId`` values identify the merchant account group, which can be found in the top left of your merchant configuration.
+
+**4. merchantCode** 
+
+You can obtain your merchant ID in the Worldpay Dashboard.
+
+
+**Summary**
+
+The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
+
+## Add a Standard Notification for Your Merchant Account
+
+Go to the Worldpay Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see [Set up event notifications in the Customer Area
+](https://docs.adyen.com/point-of-sale/design-your-integration/notifications/event-notifications/#set-up-in-ca).
+    
+
+## Edit the Postman Collection in the Postman app.
+
+   1. Import the two files at the same time to Postman.
+
+   2. Make sure to select the environment for Worldpay.
+
+   3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Worldpay Test Account unique values.
+
+| Name                                                                                 | Description                                                  
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
+| rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
+| service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually be ``opf`` |
+| accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
+| accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
+| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
+| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
+| capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
+| supportOverCapture                                                                   | ``true``|                  
+| enableOverCapture                                                                    | ``true``|                  
+| authorizationTimeoutDays                                                             | 7   |                  
+| authentication_outbound_api_key_value_export                                         | The Webservice User API key. Go to **Developers** -> **API credentials** -> **ws User** -> **Authentication** to get the value.|                  
+|merchantCode                                                                          |You can obtain your merchant ID in the Worldpay Dashboard.|
+|checkoutPaymentHost                                                                   |``checkout-test.adyen.com``|
+|hostedPaymentPageHost                                                                 |``test.adyen.com``|
+|standardPaymentHost                                                                   |``pal-test.adyen.com``|
+|skinHmacKey                                                                           |Go to **Developers** -> **Webhooks** to get the value.|
+|apiVersion                                                                            |v67|
+       
+   5. Save and run the Postman collection.
+
+
+## Validate the configuration in Open Payment Framework Workbench
+
+   1. Go to **Payment Integrations**-> **Merchant account** and click **Configure**.
+
+      **Note**
+      If you are testing the integration, you must select the Test payment account.
+
+   2. The **General configuration** -> **Variables** values must be populated.
+
+   3. In **Settlement method**, make sure the right option is selected depending on your integration.
+   
+   4. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
 
