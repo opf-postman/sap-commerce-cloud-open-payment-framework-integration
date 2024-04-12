@@ -8,7 +8,7 @@ The integration supports:
 * Refunds
 * Reauthorization of saved payment
 
-**In summary**: to import the [Worldpay Payment Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted-Payment-Page/Adyen%20-%20HOSTED_Payment_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
+**In summary**: to import the [Worldpay iFrame Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/worldpay/iFrame/Worldpay%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Worldpay Test Account.
 
@@ -16,13 +16,13 @@ b) Create a Merchant Account Group in OPF Workbench.
 
 c) Set up Your Worldpay Test Account to work with OPF.
 
-d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted-Payment-Page/Adyen%20-%20HOSTED_Payment_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) file so the collection can be imported with all your OPF Tenant and Worldpay Test Account unique values. 
+d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/worldpay/iFrame/Worldpay%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Provider_Configuration.json) file so the collection can be imported with all your OPF Tenant and Worldpay Test Account unique values. 
 
 e) Validate the configuration in Open Payment Framework Workbench.
 
 
 ## Create an Worldpay Account ##
-You can sign up for a free Worldpay Test Account at <https://ca-test.adyen.com/ca/ca/login.shtml>.
+You can sign up for a free Worldpay Test Account at <https://secure.worldpay.com/sso/public/auth/login.html>.
 
 
 ## Creating the Merchant Account Group 
@@ -50,20 +50,27 @@ Ceate a new Account Group in the OPF Workbench.
 
    Once you have created you Worldpay test account, do the following to set it up to work with OPF:
 
-1. **Determine testing account structure**
-   With Worldpay, you have a single [company account](https://docs.Worldpay.com/account/account-structure/#company-account), and one or more sub-accounts called [merchant accounts](https://docs.adyen.com/account/account-structure/#company-account). Determine an initial structure for testing that will best represent what you will do once you are processing live. You will have another opportunity when going live to finalize your account structure.
+1. In the left navigation panel, choose **Integration** -> **Merchant Channel** to configure the messages and content settings at corresponding sections for Test and Production purposes.
+   a) Enable XML message for HTTP notifications.
+   b) Enter the notification URL previously saved in the Address field.
+   c) Select the events that you want to receive.
+   d) Save the settings.
 
-2. **Create a user for yourself and your team members**
+2. In the left navigation panel, choose **Integration** -> **Apple Pay** to generate Apple Pay Certificate Sign Secret (CSR) if you want to enable Apple Pay payments via web or app.
    
-   You receive an admin user account for yourself when signing up. [Create additional users](https://docs.adyen.com/account/users/) for your team members as needed.
+    For detailed instructions to configure a direct Apple Pay integration to WorldPay, see <https://developer.worldpay.com/docs/wpg/mobilewallets/applepay>.
+   
 
-3. **Get API credentials**
-   
-   Get your test API key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
+4. In the left navigation panel, choose **Integration** -> **Google Pay** to generate a unique merchant ID if you want to enable Google Pay payments via web or app.
 
-4. **Add payment methods**
+   For detailed instructions to configure a direct Google Pay integration to WorldPay, see <https://developer.worldpay.com/docs/wpg/mobilewallets/googlepay>.
    
-   [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
+
+6. In the left navigation panel, choose **Integration** -> **Configuration Details** to deactivate the **Capture Delay** option.
+
+7. In the left navigation panel, choose **Integration**-> **Installations** to copy the installation ID.
+
+
 
 ## Preparing the Postman environment_configuration file
 
