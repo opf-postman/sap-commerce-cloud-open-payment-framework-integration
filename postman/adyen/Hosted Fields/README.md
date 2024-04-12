@@ -127,8 +127,16 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
 | authentication_outbound_api_key_value_export                                         | The ``apiKey`` value saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
-| host                                                                                 | The base URL of your tenant account in Open Payment Framework Workbench.| 
-|clientKey                                                                             | The ``clientKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|    
+| googlePayGateway                                                                     | ``Adyen``| 
+|checkoutPaymentHost                                                                   | ``checkout-test.adyen.com``|
+|merchantCode                                                                          |            |
+|serviceVersion                                                                        | v67|
+|clientKey                                                                             | The ``clientKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|  
+|checkoutShopperHost                                                                   | ``checkoutshopper-test.adyen.com``|
+| mode                                                                                 | ``test``|
+| standardPaymentHost                                                                  | ``pal-test.adyen.com``|
+| allow3DS2                                                                            | ``true``|
+| notificationHmacKey                                                                  | |
       
    5. Save and run the Postman collection.
 
