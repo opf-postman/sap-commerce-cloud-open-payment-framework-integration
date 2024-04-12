@@ -126,7 +126,6 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 |checkoutPaymentHost                                                                   |``checkout-test.adyen.com``|
 |hostedPaymentPageHost                                                                 |``test.adyen.com``|
 |standardPaymentHost                                                                   |``pal-test.adyen.com``|
-|skinHmacKey                                                                           |Go to **Developers** -> **Webhooks** to get the value.|
 |apiVersion                                                                            |v67|
        
    5. Save and run the Postman collection.
