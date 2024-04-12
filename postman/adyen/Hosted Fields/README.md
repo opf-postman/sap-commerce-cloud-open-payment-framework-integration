@@ -120,23 +120,23 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually always be ``opf``|
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
-| authentication_inbound_basic_auth_username                                           | ``username``, your web service username in Adyen Dashboad.|                  
-| authentication_inbound_basic_auth_password                                           | ``password``: the password that you can generate for Basic auth under **Configure API credential** -> **Server settings** |                  
+| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
+| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value. |                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
 | authorizationTimeoutDays                                                             | 7   |                  
-| authentication_outbound_api_key_value_export                                         | The ``apiKey`` value saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|                  
+| authentication_outbound_api_key_value_export                                         | The Webservice User API key. Go to **Developers** -> **API credentials** -> **ws User** -> **Authentication** to get the value.|                  
 | googlePayGateway                                                                     | ``Adyen``| 
 |checkoutPaymentHost                                                                   | ``checkout-test.adyen.com``|
-|merchantCode                                                                          |            |
+|merchantCode                                                                          |  You can obtain your merchant ID in the Adyen Dashboard.|          |
 |serviceVersion                                                                        | v67|
-|clientKey                                                                             | The ``clientKey`` saved from [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential).|  
+|clientKey                                                                             | Go to **Developers** -> **API credentials** -> **ws User** to copy Client Key.|  
 |checkoutShopperHost                                                                   | ``checkoutshopper-test.adyen.com``|
 | mode                                                                                 | ``test``|
 | standardPaymentHost                                                                  | ``pal-test.adyen.com``|
 | allow3DS2                                                                            | ``true``|
-| notificationHmacKey                                                                  | |
+| notificationHmacKey                                                                  |The Notification HMAC, which is used for Hosted Field notification signature. Go to **Developers** ->  **Webhooks** to get the value.|
       
    5. Save and run the Postman collection.
 
