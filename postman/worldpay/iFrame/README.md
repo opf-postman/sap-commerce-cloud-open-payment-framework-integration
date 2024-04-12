@@ -51,9 +51,13 @@ Ceate a new Account Group in the OPF Workbench.
    Once you have created you Worldpay test account, do the following to set it up to work with OPF:
 
 1. In the left navigation panel, choose **Integration** -> **Merchant Channel** to configure the messages and content settings at corresponding sections for Test and Production purposes.
+   
    a) Enable XML message for HTTP notifications.
-   b) Enter the notification URL previously saved in the Address field.
+   
+   b) Enter the notification URL previously saved in the **Address** field.
+   
    c) Select the events that you want to receive.
+   
    d) Save the settings.
 
 2. In the left navigation panel, choose **Integration** -> **Apple Pay** to generate Apple Pay Certificate Sign Secret (CSR) if you want to enable Apple Pay payments via web or app.
@@ -61,14 +65,14 @@ Ceate a new Account Group in the OPF Workbench.
     For detailed instructions to configure a direct Apple Pay integration to WorldPay, see <https://developer.worldpay.com/docs/wpg/mobilewallets/applepay>.
    
 
-4. In the left navigation panel, choose **Integration** -> **Google Pay** to generate a unique merchant ID if you want to enable Google Pay payments via web or app.
+3. In the left navigation panel, choose **Integration** -> **Google Pay** to generate a unique merchant ID if you want to enable Google Pay payments via web or app.
 
    For detailed instructions to configure a direct Google Pay integration to WorldPay, see <https://developer.worldpay.com/docs/wpg/mobilewallets/googlepay>.
    
 
-6. In the left navigation panel, choose **Integration** -> **Configuration Details** to deactivate the **Capture Delay** option.
+4. In the left navigation panel, choose **Integration** -> **Configuration Details** to deactivate the **Capture Delay** option.
 
-7. In the left navigation panel, choose **Integration**-> **Installations** to copy the installation ID.
+5. In the left navigation panel, choose **Integration**-> **Installations** to copy the installation ID.
 
 
 
@@ -100,11 +104,6 @@ You can obtain your merchant ID in the Worldpay Dashboard.
 **Summary**
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
-
-## Add a Standard Notification for Your Merchant Account
-
-Go to the Worldpay Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see [Set up event notifications in the Customer Area
-](https://docs.adyen.com/point-of-sale/design-your-integration/notifications/event-notifications/#set-up-in-ca).
     
 
 ## Edit the Postman Collection in the Postman app.
@@ -122,19 +121,14 @@ Go to the Worldpay Dashboard to Set up event notifications using the URL for Not
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually be ``opf`` |
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
-| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
-| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
+| authentication_inbound_basic_auth_username                                           | The username for basic authentication. Go to **Account** -> **Profile** to get the value.|                  
+| authentication_inbound_basic_auth_password                                           | The password for basic authentication. Go to **Account** -> **Profile** to get the value.|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
-| authorizationTimeoutDays                                                             | 7   |                  
-| authentication_outbound_api_key_value_export                                         | The Webservice User API key. Go to **Developers** -> **API credentials** -> **ws User** -> **Authentication** to get the value.|                  
-|merchantCode                                                                          |You can obtain your merchant ID in the Worldpay Dashboard.|
-|checkoutPaymentHost                                                                   |``checkout-test.adyen.com``|
-|hostedPaymentPageHost                                                                 |``test.adyen.com``|
-|standardPaymentHost                                                                   |``pal-test.adyen.com``|
-|skinHmacKey                                                                           |Go to **Developers** -> **Webhooks** to get the value.|
-|apiVersion                                                                            |v67|
+| authorizationTimeoutDays                                                             | 7   |                                  
+|merchantCode                                                                          |Your merchant ID. Go to **Account** -> **Profile** to get the value.|
+|installationId                                                                        |Go to **Integration** -> **Installations** to get the value.|
        
    5. Save and run the Postman collection.
 
