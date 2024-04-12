@@ -115,8 +115,8 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually be ``opf`` |
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
-| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
-| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Go to **Developers** -> **Webhooks** to get the value.|                  
+| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Go to **Developers** -> **Webhooks** to set the value.|                  
+| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Go to **Developers** -> **Webhooks** to set the value.|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
