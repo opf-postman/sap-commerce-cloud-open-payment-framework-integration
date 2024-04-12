@@ -96,8 +96,7 @@ The envirionment file is now ready for importing into Postman together with the 
 
 ## Add a Standard Notification for Your Merchant Account
 
-Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see [Set up event notifications in the Customer Area
-](https://docs.adyen.com/point-of-sale/design-your-integration/notifications/event-notifications/#set-up-in-ca).
+Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see <https://docs.adyen.com/issuing/set-up-webhooks/#configure-customer-area>.
     
 
 ## Edit the Postman Collection in the Postman app.
@@ -115,8 +114,8 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually be ``opf`` |
 | accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
 | accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
-| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Go to **Developers** -> **Webhooks** to set the value.|                  
-| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Go to **Developers** -> **Webhooks** to set the value.|                  
+| authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Set the value when configuring webhooks in your Balance Platform Customer Area.|                  
+| authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Set the value when configuring webhooks in your Balance Platform Customer Area.|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
 | supportOverCapture                                                                   | ``true``|                  
 | enableOverCapture                                                                    | ``true``|                  
