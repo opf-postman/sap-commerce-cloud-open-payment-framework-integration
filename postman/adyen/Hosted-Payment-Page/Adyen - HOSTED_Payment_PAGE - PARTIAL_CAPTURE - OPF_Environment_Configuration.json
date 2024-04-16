@@ -41,7 +41,7 @@
     ,
     {
       "key": "authentication_outbound_api_key_value_export_2",
-      "value": "(Webservice User)Adyen Hosted Field_export_export_export",
+      "value": "(Webservice User)Adyen Hosted payment_export_export_export",
       "enabled": true
     }
     ,
