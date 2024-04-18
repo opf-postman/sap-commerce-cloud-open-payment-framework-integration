@@ -17,6 +17,7 @@ The integration supports:
 Dynamic pay-in currencies are currently not supported by OPF. Please contact SAP if this feature is required for production use.
 
 ## Planned Backlog Items
+* Notification Authentication
 * Recurrent Authorization
 
 
