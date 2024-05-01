@@ -87,6 +87,7 @@ IN OPF Workbench: For your new Komoju merchant account Navigate to **Notificatio
 In the Komoku dashboard you need to navigate to Manage -> [Webhooks](https://komoju.com/merchant/webhooks) and Click New Webhook. 
 
 i) Paste in your endpoint URL copied from OPF.
+
 ii) Set a Cryptographically secure Secret Key
 
 ![](images/komoju-new-webhook.png)
