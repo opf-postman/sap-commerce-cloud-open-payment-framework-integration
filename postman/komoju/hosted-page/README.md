@@ -112,7 +112,7 @@ In summary, you should have edited the following variables:
 - ``accountGroupId``
 - ``accountId``
 
-#### Airwallex Specific
+#### Komoju Specific
 - ``publiKey``
 - ``secretKey``
 - ``authentication_outbound_basic_auth_username_export_64``
