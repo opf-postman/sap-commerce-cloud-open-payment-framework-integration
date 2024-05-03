@@ -77,8 +77,8 @@ The Secret (or Private) Key can be obtained here in the Stripe dashboard. In tes
 
 ![](images/stripe-elements-get-secret-key.png)
 
-* Set private key as **value** for environment variable keys starting with ``authentication_outbound_basic_auth_username``.
-* Set password as **empty string** ``""`` for environment keys starting with : ``authentication_outbound_basic_auth_password``.
+* Set private key as **value** for environment variable  ``authentication_outbound_basic_auth_username_export_67``.
+* Set password as **empty string** ``""`` for environment variable : ``authentication_outbound_basic_auth_password_export_67``.
 
 There are 2 occurrences of both in the environment file.
 
@@ -118,17 +118,21 @@ iv) Click **Reveal** the get the webhook secret, it starts with **whsec**.
 
 v) In the Environment file set the ``webhookSecret`` value to the key starting with **whsec_**.
 
-**Summary**
+### Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
 In summary, you should have edited the following variables: 
 
-- **token** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L6)
-- **rootUrl** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L11)
-- **accountGroupId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L21)
-- **accountId** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L26)
-- **2 x authentication_outbound_basic_auth_username_export\*** (e.g https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L26 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L43)
-- **2 x authentication_outbound_basic_auth_password_export\*** (e.g. https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L32 https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L49)
-- **publickey** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L91)
-- **webhookSecret** (https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Hosted%20Fields/Stripe-elements-HOSTED_FIELDS_environment_configuration.json#L103)
+#### Common
+- ``token``
+- ``rootUrl``
+- ``accountGroupId``
+- ``accountId``
+
+#### Stripe Specific
+- ``publicKey``
+- ``secretKey``
+- ``authentication_outbound_basic_auth_username_export_67``
+- ``webhookSecret``
+  
