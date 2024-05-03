@@ -1,15 +1,15 @@
 ## Introduction ##
-The Postman Collection enables a [Stripe Card Element](https://docs.stripe.com/js/element/other_element?type=card) to be used to Take Card Payments through OPF. 
+The Postman Collection enables a [Stripe Card Element](https://docs.stripe.com/payments/payment-element?locale=en-GB) to be used to Take Payments through OPF. 
 
 The integration supports:
 
-* Authorization of Card Payments using PCI SAQ-A Stripe Card Element using the OPF "Hosted Fields" UX Pattern
+* Authorization of  Payments using PCI SAQ-A Stripe Payments Element using the OPF "Hosted Fields" UX Pattern
 * Deferred Capture support
 * Refunds
 * Reversals
 * Reauthorization of saved payment
 
-In summary: to import the [Stripe Elements Postman Collection](Stripe-elements-HOSTED_FIELDS_mapping_configuration.json
+In summary: to import the [Postman Collection](mapping_configuration.json
 ) this page will guide you through the following steps: 
 
 a) Create Your Stripe Test Account.
@@ -18,7 +18,7 @@ b) Create a Merchant Account Group in OPF Workbench.
 
 c) Set up Your Stripe Test Account to work with OPF.
 
-d) Prepare the [Postman Environment](Stripe-elements-HOSTED_FIELDS_environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
+d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
 
 ## Create a Stripe Account ##
 You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
