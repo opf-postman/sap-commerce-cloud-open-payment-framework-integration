@@ -12,8 +12,13 @@ The integration supports:
 APMs Tested
 * Klarna
 
-In summary: to import the [Postman Collection](mapping_configuration.json
-) this page will guide you through the following steps: 
+## Known Issues ##
+* Asynchronous refunds (pending) need to be manually acknowledged in OPF
+
+## Setup Instructions ##
+
+### Summary ###
+In summary: to import the [Postman Collection](mapping_configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Stripe Test Account.
 
@@ -23,14 +28,11 @@ c) Set up Your Stripe Test Account to work with OPF.
 
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
 
-## Known Issues ##
-* Asynchronous refunds (pending) need to be manually acknowledged in OPF
-
-## Create a Stripe Account ##
+### Create a Stripe Account ###
 You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
 
 
-## Creating the Merchant Account Group 
+### Creating the Merchant Account Group ###
 Ceate a new Account Group in the OPF Workbench.
 
 i) In payment integrations.. click **Create**.
@@ -47,7 +49,7 @@ You can obtain from your account ID found at the following location in the Strip
 
 ![](images/stripe-elements-get-account.png)
 
-## Preparing the Postman environment_configuration file
+### Preparing the Postman environment_configuration file ###
 
 **1. Token**
 
