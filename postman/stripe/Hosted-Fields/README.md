@@ -9,6 +9,9 @@ The integration supports:
 * Reversals
 * Reauthorization of saved payment
 
+APMs Tested
+* Klarna
+
 In summary: to import the [Postman Collection](mapping_configuration.json
 ) this page will guide you through the following steps: 
 
@@ -19,6 +22,9 @@ b) Create a Merchant Account Group in OPF Workbench.
 c) Set up Your Stripe Test Account to work with OPF.
 
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
+
+## Known Issues ##
+* Asynchronous refunds (pending) need to be manually acknowledged in OPF
 
 ## Create a Stripe Account ##
 You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
