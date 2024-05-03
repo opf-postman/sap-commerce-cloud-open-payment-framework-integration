@@ -142,5 +142,6 @@ In summary, you should have edited the following variables:
 - ``publicKey``
 - ``secretKey``
 - ``authentication_outbound_basic_auth_username_export_67``
+- ``authentication_outbound_basic_auth_password_export_67``
 - ``webhookSecret``
   
