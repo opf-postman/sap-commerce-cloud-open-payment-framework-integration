@@ -1,5 +1,5 @@
 ## Introduction ##
-The Postman Collection enables a [Stripe Card Element](https://docs.stripe.com/payments/payment-element?locale=en-GB) to be used to Take Payments through OPF. 
+The Postman Collection enables a [Stripe Payment Elements Form](https://docs.stripe.com/payments/payment-element?locale=en-GB) to be used to Take Payments through OPF. 
 
 The integration supports:
 
