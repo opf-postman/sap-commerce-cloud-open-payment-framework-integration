@@ -114,7 +114,7 @@ In summary, you should have edited the following variables:
 - ``accountId``
 
 #### Komoju Specific
-- ``publiKey``
+- ``publicKey``
 - ``secretKey``
 - ``authentication_outbound_basic_auth_username_export_64``
 - ``webhookSecret``
