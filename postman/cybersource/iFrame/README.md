@@ -42,7 +42,7 @@ You can obtain your merchant ID in the Cybersource Dashboard.
 This includes **Configuring Payment Method**, **Configuring Checkout**, **Configuring Merchant Notifications**, **Configuring a Cybersource Hosted Response Page**, and **Activating a Profile**. For detailed instructions, see [Secure Acceptance Hosted Checkout
 Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0).
 
-**TIP** The Notification URL to be used for Merchant Notifcation can be obtained in OPF Workbench at the following location:  
+**TIP** The Notification URL to be used for Merchant Notifcation can be obtained in OPF Workbench under **Integration Details** -> **General Information** -> **Notification URL**.  
 ![](images/cybersource-get-notification-url.png)
 
 ## Preparing the Postman environment_configuration file
