@@ -10,7 +10,7 @@ The integration supports:
 * Reversal
 
 ## Known Issues
-* The integration has only been tested by the public available sandbox credentials found on the [COPYandPAY Playground](https://docs.aciworldwide.com/integrations/widget)
+* The integration has only been tested by the public available playground credentials found on the [COPYandPAY Playground](https://docs.aciworldwide.com/integrations/widget)
 
 ## Planned Backlog Items
 * Webhook Notifications
@@ -31,6 +31,8 @@ Create a new Account Group in the OPF Workbench and set the Merchant ID.
 
 You can use the Entity ID value as the Merchant ID from the [Code examples](https://docs.aciworldwide.com/integrations/widget) 
 The Api token is also present on the sandbox.
+
+![](/images/aci-playground-creds.png)
 
 
 ### Preparing the Postman environment_configuration file
