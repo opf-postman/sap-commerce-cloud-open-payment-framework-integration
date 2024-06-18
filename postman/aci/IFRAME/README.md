@@ -32,7 +32,7 @@ Create a new Account Group in the OPF Workbench and set the Merchant ID.
 You can use the Entity ID value as the Merchant ID from the [Code examples](https://docs.aciworldwide.com/integrations/widget) 
 The Api token is also present on the sandbox.
 
-![](/images/aci-playground-creds.png)
+![](images/aci-playground-creds.png)
 
 
 ### Preparing the Postman environment_configuration file
