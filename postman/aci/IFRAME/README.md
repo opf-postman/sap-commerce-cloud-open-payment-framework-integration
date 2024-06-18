@@ -67,6 +67,7 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 Use the Bearer value from the Play ground as the ``apiToken`` 
 
 **5. API Domain**
+
 The ``apiDomain`` can be either ``eu-test.oppwa.com`` for EUR transactions or ``test.oppwa.com`` for USD.
 
 ### Summary
