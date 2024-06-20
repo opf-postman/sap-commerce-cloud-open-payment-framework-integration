@@ -12,7 +12,7 @@ In summary: to import the [Cybersource iFrame Postman Collection](https://github
 
 a) Create Your Cybersource Test Account.
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Create an Cybersource payment integration in OPF Workbench.
 
 c) Set up Your Cybersource Test Account to work with OPF.
 
@@ -22,9 +22,9 @@ d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-clo
 You can sign up for a free Cybersource Test Account at https://ebctest.cybersource.com/ebc2.
 
 
-## Creating the Merchant Account Group 
-Ceate a new Account Group in the OPF Workbench.
-
+## Creating a Cybersource Payment Integration 
+Ceate a Cybersource payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 i) In payment integrations.. click **Create**.
 ![](images/cybersource-create-button.png)
 
@@ -67,9 +67,9 @@ The base Url would be
 
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. Account and Account Group**
+**3. Integration ID and Configuration ID**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
 
 ![](images/cybersource-get-group-id.png)
 
