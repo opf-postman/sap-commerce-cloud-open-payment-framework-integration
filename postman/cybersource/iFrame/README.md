@@ -25,18 +25,6 @@ You can sign up for a free Cybersource Test Account at https://ebctest.cybersour
 ## Creating a Cybersource Payment Integration 
 Ceate a Cybersource payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
-i) In payment integrations.. click **Create**.
-![](images/cybersource-create-button.png)
-
-ii) Add account name (can be anything) and set payment gateway to Cybersource.
-![](images/cybersource-create-account.png)
-
-iii) Click **configure** on Test column of newly created Account.
-![](images/opf-account-group-id.png)
-
-**You must set a merchant ID first.**
-You can obtain your merchant ID in the Cybersource Dashboard.
-![](images/cybersource-get-merchant-id.png)
 
 ## Set up Your Cybersource Test Account to work with OPF
 This includes **Configuring Payment Method**, **Configuring Checkout**, **Configuring Merchant Notifications**, **Configuring a Cybersource Hosted Response Page**, and **Activating a Profile**. For detailed instructions, see [Secure Acceptance Hosted Checkout
