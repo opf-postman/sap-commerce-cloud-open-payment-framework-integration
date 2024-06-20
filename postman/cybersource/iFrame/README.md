@@ -57,8 +57,6 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
 
-![](images/cybersource-get-group-id.png)
-
 **4. merchantId** 
 
 You can obtain your merchant ID in the Cybersource Dashboard.
