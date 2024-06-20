@@ -8,15 +8,15 @@ The integration supports:
 * Refunds
 * Reauthorization of saved payment
 
-**In summary**: to import the [Adyen Payment Page Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted-Payment-Page/Adyen%20-%20HOSTED_Payment_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
+**In summary**: to import the [Adyen Hosted Fields Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted%20Fields/Adyen%20-%20HOSTED_FIELDS%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
 a) Create Your Adyen Test Account.
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Create an Adyen payment integration in OPF Workbench.
 
 c) Set up Your Adyen Test Account to work with OPF.
 
-d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted-Payment-Page/Adyen%20-%20HOSTED_Payment_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Provider_Configuration.json) file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values. 
+d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values. 
 
 e) Validate the configuration in Open Payment Framework Workbench.
 
@@ -25,25 +25,9 @@ e) Validate the configuration in Open Payment Framework Workbench.
 You can sign up for a free Adyen Test Account at <https://ca-test.adyen.com/ca/ca/login.shtml>.
 
 
-## Creating the Merchant Account Group 
-Ceate a new Account Group in the OPF Workbench.
-
-1. In payment integrations.. click **Create**.
-![](images/cybersource-create-button.png)
-
-2. Add account name (can be anything) and set payment gateway to Adyen.
-![](images/cybersource-create-account.png)
-
-3. Click **configure** on Test column of newly created Account.
-
-   **You must set a merchant ID first.**
-   You can obtain your merchant ID in the Adyen Dashboard.
-
-     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, which can be found in the top left of your merchant configuration.
-   
-   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Adyen.
-
-   c.) In the **Notification** tab, note down the URL for notification.
+## Creating an Adyen Payment Integration 
+Ceate an Adyen payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 
 ## Set up Your Adyen Test Account to work with OPF
@@ -59,7 +43,7 @@ Ceate a new Account Group in the OPF Workbench.
 
 3. **Get API credentials**
    
-   Get your test API key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
+   Get your test API key and client key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
 
 4. **Add payment methods**
    
