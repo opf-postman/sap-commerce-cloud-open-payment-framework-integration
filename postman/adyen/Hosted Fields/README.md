@@ -12,7 +12,7 @@ The integration supports:
 
 a) Create Your Adyen Test Account.
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Create an Adyen payment integration in OPF Workbench.
 
 c) Set up Your Adyen Test Account to work with OPF.
 
@@ -25,25 +25,9 @@ e) Validate the configuration in Open Payment Framework Workbench.
 You can sign up for a free Adyen Test Account at <https://ca-test.adyen.com/ca/ca/login.shtml>.
 
 
-## Creating the Merchant Account Group 
-Ceate a new Account Group in the OPF Workbench.
-
-1. In payment integrations.. click **Create**.
-![](images/cybersource-create-button.png)
-
-2. Add account name (can be anything) and set payment gateway to Adyen.
-![](images/cybersource-create-account.png)
-
-3. Click **configure** on Test column of newly created Account.
-
-   **You must set a merchant ID first.**
-   You can obtain your merchant ID in the Adyen Dashboard.
-
-     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, which can be found in the top left of your merchant configuration.
-   
-   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Adyen.
-
-   c.) In the **Notification** tab, note down the URL for notification.
+## Creating an Adyen Payment Integration 
+Ceate an Adyen payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT)
 
 
 ## Set up Your Adyen Test Account to work with OPF
