@@ -65,7 +65,7 @@ The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 
 E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. Integration and Configuration**
+**3. Integration ID and Configuration ID**
 
 The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
 
