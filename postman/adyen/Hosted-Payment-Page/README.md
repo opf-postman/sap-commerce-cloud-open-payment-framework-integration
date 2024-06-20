@@ -65,9 +65,9 @@ The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 
 E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. Account and Account Group**
+**3. Integration and Configuration**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group, which can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
 
 **4. merchantCode** 
 
@@ -96,8 +96,8 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
 | token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually be ``opf`` |
-| accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
-| accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
+| integrationId                                                                       | The ``integrationId`` and ``configurationId`` values that identify the payment integraiton can be found in the top left of your configuration details page.|                  
+| configurationId                                                                     | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                                                                          
 | authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. Set the value when configuring webhooks in your Balance Platform Customer Area.|                  
 | authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. Set the value when configuring webhooks in your Balance Platform Customer Area.|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
