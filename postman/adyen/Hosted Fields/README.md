@@ -88,7 +88,7 @@ The envirionment file is now ready for importing into Postman together with the 
 Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see <https://docs.adyen.com/issuing/set-up-webhooks/#configure-customer-area>.
     
 
-## Edit the Postman Collection in the Postman app.
+## Edit the Postman Collection in the Postman app
 
    1. Import the two files at the same time to Postman.
 
