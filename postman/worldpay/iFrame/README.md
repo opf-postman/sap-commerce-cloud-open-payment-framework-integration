@@ -91,7 +91,7 @@ You can obtain your merchant ID in the Worldpay Dashboard.
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
     
 
-## Editing the Postman Collection in the Postman app.
+## Editing the Postman Collection in the Postman App
 
    1. Import the two files at the same time to Postman.
 
@@ -118,7 +118,7 @@ The envirionment file is now ready for importing into Postman together with the 
    5. Save and run the Postman collection.
 
 
-## Validating the configuration in Open Payment Framework Workbench
+## Validating the Configuration in Open Payment Framework Workbench
 
    1. Log in to the open payment framework workbench.
    2. Click **Payment Integrations** in the left navigation bar.
