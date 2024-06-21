@@ -61,9 +61,9 @@ To ensure you receive timely updates on transactions and other important events,
 | apiKey                                                                               | The ``apiKey`` noted down in step 2.|                  
 | host                                                                                 | The base URL of your tenant account in OPF payment mock service.|                  
               
-6. Save and run the Postman Collection.
+10. Save and run the Postman Collection.
    
-7. Set notification URL in the Payment Mock Swagger UI.
+11. Set notification URL in the Payment Mock Swagger UI.
    
    a.) Locate the **Create Notification Configuration** API.
    
@@ -75,7 +75,7 @@ To ensure you receive timely updates on transactions and other important events,
    
    e.) Execute the API call.
 
-8. ## Validate the configuration in Open Payment Framework Workbench
+12. Validate the configuration in Open Payment Framework Workbench
 
    a.) Log in to the open payment framework workbench.
    
