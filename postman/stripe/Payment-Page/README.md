@@ -95,7 +95,7 @@ iv) Click **Reveal** to get the webhook secret, it starts with **whsec**.
 
 ![](images/stripe-elements-reveal-whsecret.png)
 
-v) In the environment file set the ``webhookSecret`` value to the key starting with **whsec_**.
+v) In the environment file, set the ``webhookSecret`` value to the key starting with **whsec_**.
 
 **Summary**
 
