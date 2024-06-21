@@ -81,7 +81,7 @@ To ensure you receive timely updates on transactions and other important events,
    
      b.) Click **Payment Integrations** in the left navigation bar.
    
-     c.) Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
+     c.) Navigate to **Payment Integrations** -> **(your Payment Mock integration)** -> **Integration Details**.
    
      d.) In the **Configuration section**, click **Show Details** to go to the configuration details page.
    
