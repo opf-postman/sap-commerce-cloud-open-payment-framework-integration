@@ -23,7 +23,7 @@ You can sign up for a free Cybersource Test Account at https://ebctest.cybersour
 
 
 ## Creating a Cybersource Payment Integration 
-Ceate a Cybersource payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+Ceate a Cybersource payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 ## Set up Your Cybersource Test Account to work with OPF
