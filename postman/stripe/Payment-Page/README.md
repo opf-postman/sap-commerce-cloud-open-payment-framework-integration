@@ -1,5 +1,5 @@
-## Introduction ##
-The Postman Collection enables a [Stripe Hosted Checkout](https://docs.stripe.com/checkout/quickstart) Payment Page to be used to Take Payments through OPF. 
+## Introduction ## 
+The Postman Collection enables a [Stripe Hosted Checkout](https://docs.stripe.com/checkout/quickstart) integration for payment processing through open payment framework(OPF).
 
 The integration supports:
 
@@ -13,7 +13,7 @@ In summary: to import the [Stripe Hosted Page Postman Collection](Stripe-Hosted_
 
 a) Create Your Stripe Test Account.
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Create a Stripe payment integration in OPF workbench.
 
 c) Set up Your Stripe Test Account to work with OPF.
 
@@ -23,23 +23,9 @@ d) Prepare the [Postman Environment](Stripe-Hosted_Page_environment_configuratio
 You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
 
 
-## Creating the Merchant Account Group 
-Ceate a new Account Group in the OPF Workbench.
-
-i) In payment integrations.. click **Create**.
-![](images/opf-payment-integrations.png)
-
-ii) Add account name (can be anything) and set payment gateway to **Stripe**.
-![](images/stripe-checkout-set-gateway.png)
-
-iii) Click **configure** on Test column of newly created account.
-
-![](images/opf-account-group-id.png)
-
-**You must set a merchant ID first.**
-You can obtain from your account ID found at the following location in the Stripe dashboard <https://dashboard.stripe.com/settings/account>.
-
-![](images/stripe-elements-get-account.png)
+### Creating the Stripe Payment Integration ###
+Ceate a Stripe payment integration in the OPF workbench. For detailed instructions, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 ## Preparing the Postman environment_configuration file
 
@@ -63,11 +49,9 @@ The base Url would be
 
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap
 
-**3. Account and Account Group**
+**3. Integration ID and Configuration ID**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
-
-![](images/opf-account-group-id.png)
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page in the OPF workbench.
 
 **4. Private Key**
 The Secret (or Private) Key can be obtained here in the Stripe dashboard. In test it starts with **sk_test**.
@@ -91,7 +75,7 @@ Replace the ``publickey`` variable value in the environment file with this value
 
 **6. Webhook Secret**
 
-IN OPF Workbench: For your new Stripe merchant account Navigate to **Notification General** and copy the Notification URL.
+IN OPF Workbench: For your new Stripe payment integration, navigate to the **General Information** section of the **Integration details** tab to copy the Notification URL.
 
 ![](images/opf-get-notification-url.png)
 
@@ -123,8 +107,8 @@ In summary you should have edited the following variables:
 
 - **token** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L6
 - **rootUrl** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L11
-- **accountGroupId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L21
-- **accountId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L26
+- **integrationId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L21
+- **configurationId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L26
 - **authentication_outbound_basic_auth_username_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L31
 - **authentication_outbound_basic_auth_password_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L37
 - **publickey** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L73
