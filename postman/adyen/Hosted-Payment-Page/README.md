@@ -1,5 +1,5 @@
 ## Introduction ##
-The Postman Collection enables Adyen to be used to take payments through OPF. 
+The Postman Collection enables the integration of Adyen for payment processing through open payment framework(OPF). 
 
 The integration supports:
 
