@@ -14,7 +14,7 @@ In summary: to import the [Stripe Elements Postman Collection](Stripe-elements-H
 
 a) Create Your Stripe Test Account.
 
-b) Create an Stripe payment integration in OPF Workbench.
+b) Create a Stripe payment integration in OPF Workbench.
 
 c) Set up Your Stripe Test Account to work with OPF.
 
