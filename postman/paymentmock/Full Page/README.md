@@ -1,8 +1,8 @@
 # Introduction
-Learn how to integrate a Payment Mock Gateway to open payment framework using Postman Collection.
+Learn how to integrate a Payment Mock Gateway to open payment framework using Postman collection.
 
 ## Procedure
-1.	Download the postman collection of Payment Mock Gateway from [Open Payment Framework GitHub Repo](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/paymentmock/Full%20Page).
+1.	Download the Postman collection of Payment Mock Gateway from [Open Payment Framework GitHub Repo](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/paymentmock/Full%20Page).
    
 2.	Create a Payment Mock integration in OPF Payment Mock swagger UI. The URL for test environment is: <https://opf-iss-d0.opf.commerce.stage.context.cloud.sap/opf-payment-mock/api/swagger-ui/index.html>. 
    
