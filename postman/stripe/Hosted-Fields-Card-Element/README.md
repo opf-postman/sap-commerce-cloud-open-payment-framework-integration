@@ -12,20 +12,20 @@ The integration supports:
 In summary: to import the [Stripe Elements Postman Collection](Stripe-elements-HOSTED_FIELDS_mapping_configuration.json
 ) this page will guide you through the following steps: 
 
-a) Create Your Stripe Test Account.
+a) Create your Stripe test account.
 
 b) Create a Stripe payment integration in OPF Workbench.
 
-c) Set up Your Stripe Test Account to work with OPF.
+c) Set up your Stripe test account to work with OPF.
 
 d) Prepare the [Postman Environment](Stripe-elements-HOSTED_FIELDS_environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
 
-## Create a Stripe Account ##
+## Creating a Stripe Account ##
 You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
 
 
 ## Creating the Stripe Payment Integration
-Ceate a Stripe payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
+Create a Stripe payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 
