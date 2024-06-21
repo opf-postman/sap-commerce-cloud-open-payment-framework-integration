@@ -24,7 +24,7 @@ A licensed SAP Commerce Cloud, open payment framework Tenant.
 One or more test/live merchant accounts for the Payment Gateway/Method you are importing the collection of.
 
 ## Download and Installation
-Replace the payment account specific secrets and variables in the Environment file.
+Replace the payment account specific secrets and variables in the environment file.
 
 Import the postman collection with the updated Environment settings into your open payment framework tenant as described on [SAP Help Portal](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/562879e4d6fd4826b5d82219e5f19412.html?state=DRAFT).
 
