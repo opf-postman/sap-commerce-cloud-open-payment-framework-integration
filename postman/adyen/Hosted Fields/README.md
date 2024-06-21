@@ -10,7 +10,7 @@ The integration supports:
 
 **In summary**: to import the [Adyen Hosted Fields Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted%20Fields/Adyen%20-%20HOSTED_FIELDS%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
-a) Create your Adyen test account.
+a) Creating your Adyen test account.
 
 b) Create an Adyen payment integration in OPF workbench.
 
