@@ -92,6 +92,23 @@ d) Under the **Key Management** page, select **REST Shared Secret** from the fil
 
 ![](images/cybersource-get-apikey.png)
 
-**Summary**
+## Edit and Run the Postman Collection in the Postman App
 
-The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
+   1. Import the two files at the same time to Postman.
+
+   2. Make sure to select the environment for Cybersource.
+
+   3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Cybersouce Test Account unique values.
+      
+   4. Save and run the Postman collection.
+
+      
+## Validate the configuration in Open Payment Framework Workbench
+
+   1. Log in to the open payment framework workbench.
+   2. Click **Payment Integrations** in the left navigation bar.
+   3. Navigate to **Payment Integrations** -> **(your Cybersource integration)** -> **Integration Details**.
+   4. In the **Configuration section**, click **Show Details** to go to the configuration details page.
+   5. In the **Settlement Method** section, make sure the right option is populated depending on your integration.
+   6. In the **Authorization** section, click **Edit** to go to the authorization details page.
+   7. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form is the one corresponding to your integration.
