@@ -11,23 +11,23 @@ The integration supports:
 
 **In summary**: to import the [Worldpay iFrame Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/worldpay/iFrame/Worldpay%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
-a) Create Your Worldpay Test Account.
+a) Create your Worldpay test account.
 
-b) Create a Worldpay payment integration in OPF Workbench.
+b) Create a Worldpay payment integration in OPF workbench.
 
-c) Set up Your Worldpay Test Account to work with OPF.
+c) Set up your Worldpay test account to work with OPF.
 
-d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/worldpay/iFrame/Worldpay%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Provider_Configuration.json) file so the collection can be imported with all your OPF Tenant and Worldpay Test Account unique values. 
+d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/worldpay/iFrame/Worldpay%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Provider_Configuration.json) file so the collection can be imported with all your OPF tenant and Worldpay test account unique values. 
 
-e) Validate the configuration in Open Payment Framework Workbench.
+e) Validate the configuration in OPF workbench.
 
 
 ## Creating a Worldpay Account ##
-You can sign up for a free Worldpay Test Account at <https://secure.worldpay.com/sso/public/auth/login.html>.
+You can sign up for a free Worldpay test account at <https://secure.worldpay.com/sso/public/auth/login.html>.
 
 
 ## Creating a Worldpay Payment Integration 
-Ceate a Worldpay payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
+Create a Worldpay payment integration in the OPF workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 
