@@ -44,7 +44,7 @@ Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/to
 
 Copy the value of the access_token field (it’s a JWT) and set as the ``token`` value in the environment file.
 
-IMPORTANT: Ensure the value is prefixed with **Bearer**. e.g. ``Bearer {{token}}``.
+**IMPORTANT**: Ensure the value is prefixed with **Bearer**. e.g. ``Bearer {{token}}``.
 
 **2. Root url**
 
