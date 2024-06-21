@@ -77,8 +77,6 @@ Replace the ``publickey`` variable value in the environment file with this value
 
 IN OPF Workbench: For your new Stripe payment integration, navigate to the **General Information** section of the **Integration details** tab to copy the Notification URL.
 
-![](images/opf-get-notification-url.png)
-
 In Stripe Dashboard: Navigate to <https://dashboard.stripe.com/test/webhooks> and click **Add an Endpoint**.
 
 i) Paste in your endpoint URL copied from OPF.
