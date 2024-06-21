@@ -1,10 +1,10 @@
 # Introduction
-Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collection.
+Learn how to integrate a Payment Mock Gateway to open payment framework using Postman Collection.
 
 ## Procedure
 1.	Download the postman collection of Payment Mock Gateway from [Open Payment Framework GitHub Repo](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/paymentmock/Full%20Page).
    
-2.	Create a Payment Mock merchant account group in OPF Payment Mock swagger UI. The URL for test environment is: <https://opf-iss-d0.opf.commerce.stage.context.cloud.sap/opf-payment-mock/api/swagger-ui/index.html>. 
+2.	Create a Payment Mock integration in OPF Payment Mock swagger UI. The URL for test environment is: <https://opf-iss-d0.opf.commerce.stage.context.cloud.sap/opf-payment-mock/api/swagger-ui/index.html>. 
    
     a.) Locate the Create Merchant Account Group API.
    
@@ -25,11 +25,11 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
     d.) Note down the ``merchantId`` and ``apiKey``. They cannot be retrieved again.
 
 3. Create a Merchant Account Group in the open payment framework workbench. Refer to [Create Merchant Account](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html)  for detailed instructions.
-4. Click **Configure** of the Test Payment account in the Merchant Account Group created in step 3.
+4. Click **Configure** of the Test Payment account in the payment integration created in step 3.
 
-   a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, and can be found in the top left of your merchant configuration.
+   a.) Note down the ``integrationId`` and the ``configurationId``. These two values identify the payment integration, and can be found in the top left of your configuration details page.
    
-   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in step 2.
+   b.) In the **General configuration** tab, set the Merchant ID of the payment account using the value retrieved in step 2.
 
    c.) In the **Notification** tab, note down the URL for notification.
    
@@ -46,8 +46,8 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
 | token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.| 
 | service                                                                              | The ``service`` is the name of your OPF service in specific environment. This will usually just be ``opf``. |                 
-| accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
-| accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
+| integrationId                                                                       | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                  
+| configurationId                                                                            | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                                                                          
 | authentication_inbound_basic_auth_username                                           | ``username``|                  
 | authentication_inbound_basic_auth_password                                           | ``password``|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
@@ -71,21 +71,15 @@ Learn how to integrate a Mock Gateway to SAP Commerce Cloud using Postman Collec
    
    e.) Execute the API call.
 
-8. Validate the configuration in Open Payment Framework Workbench.
+8. ## Validate the configuration in Open Payment Framework Workbench
 
-   a.) Go to **Payment Integrations**-> **Merchant account** and click **Configure**.
-
-      **Note**
-      If you are testing the integration, you must select the Test payment account.
-
-    b.) The **General configuration** -> **Variables** values must be populated.
-
-    c.) In Settlement method, make sure the right option is selected depending on your integration.
-   
-    d.) In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
-
-
-
+   a.) Log in to the open payment framework workbench.
+   b.) Click **Payment Integrations** in the left navigation bar.
+   c.) Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
+   d.) In the **Configuration section**, click **Show Details** to go to the configuration details page.
+   e.) In the **Settlement Method** section, make sure the right option is populated depending on your integration.
+   f.) In the **Authorization** section, click **Edit** to go to the authorization details page.
+   g.) In **Authorization** -> **Front-end component configuration**, make sure the Payment Form is the one corresponding to your integration.
 
 
       
