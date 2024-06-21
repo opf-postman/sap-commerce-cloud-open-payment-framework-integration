@@ -1,5 +1,6 @@
 ## Introduction ##
-The Postman Collection enables Worldpay to be used to take payments through OPF. 
+The Postman Collection enables the integration of Worldpay for payment processing through open payment framework(OPF).
+
 
 The integration supports:
 
@@ -12,7 +13,7 @@ The integration supports:
 
 a) Create Your Worldpay Test Account.
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Create a Worldpay payment integration in OPF Workbench.
 
 c) Set up Your Worldpay Test Account to work with OPF.
 
@@ -25,25 +26,9 @@ e) Validate the configuration in Open Payment Framework Workbench.
 You can sign up for a free Worldpay Test Account at <https://secure.worldpay.com/sso/public/auth/login.html>.
 
 
-## Creating the Merchant Account Group 
-Ceate a new Account Group in the OPF Workbench.
-
-1. In payment integrations.. click **Create**.
-![](images/cybersource-create-button.png)
-
-2. Add account name (can be anything) and set payment gateway to Worldpay.
-![](images/cybersource-create-account.png)
-
-3. Click **configure** on Test column of newly created Account.
-
-   **You must set a merchant ID first.**
-   You can obtain your merchant ID in the Worldpay Dashboard.
-
-     a.) Note down the ``accountId`` and the ``accountGroupId``. These two values identify the merchant account group, which can be found in the top left of your merchant configuration.
-   
-   b.) In the **General configuration** tab, set the Merchant ID of the Payment account using the value retrieved in Worldpay.
-
-   c.) In the **Notification** tab, note down the URL for notification.
+## Creating a Worldpay Payment Integration 
+Ceate an Adyen payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 
 ## Set up Your Worldpay Test Account to work with OPF
