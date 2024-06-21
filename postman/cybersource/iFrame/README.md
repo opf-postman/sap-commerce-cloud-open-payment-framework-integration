@@ -10,7 +10,7 @@ The integration supports:
 
 In summary: to import the [Cybersource iFrame Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
 
-a) Create your cybersource test account.
+a) Create your Cybersource test account.
 
 b) Create an Cybersource payment integration in OPF workbench.
 
