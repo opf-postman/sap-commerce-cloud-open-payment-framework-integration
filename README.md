@@ -14,9 +14,9 @@ The meaning of some fields in environment variables:
 **configurationId**: The ID of configuration you created under the payment integration.  
 
 ## Description
-This repository offers sample pre-built integrations to payment gateways and methods in the form of Postman Collections that can be imported into your SAP Commerce Cloud, open payment framework tenant.
+This repository provides sample pre-built integrations to payment gateways and methods in the form of Postman Collections, which can be imported into your SAP Commerce Cloud, open payment framework tenant.
 
-The repository is a means to share working examples and is provided as-is coming with no official SAP/Payment Provider support. You are strongly advised to test out the integration on your open payment framework tenant before promoting to live customers.
+The repository serves as a platform to share working examples and is provided as-is, without official SAP/Payment Provider support. Therefore, it is highly recommended that you thoroughly test the integration on your open payment framework tenant before deploying it to live customers.
 
 ## Requirements
 A licensed SAP Commerce Cloud, open payment framework Tenant.
