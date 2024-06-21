@@ -80,7 +80,7 @@ The envirionment file is now ready for importing into Postman together with the 
 
 ## Adding a Standard Notification for Your Merchant Account
 
-Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see <https://docs.adyen.com/issuing/set-up-webhooks/#configure-customer-area>.
+Go to the Adyen Dashboard to set up event notifications using the URL for Notification previsouly saved. For instructions, see <https://docs.adyen.com/issuing/set-up-webhooks/#configure-customer-area>.
     
 
 ## Editing the Postman Collection in the Postman App
