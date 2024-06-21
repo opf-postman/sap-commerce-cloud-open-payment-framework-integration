@@ -24,16 +24,19 @@ Learn how to integrate a Payment Mock Gateway to open payment framework using Po
   	
     d.) Note down the ``merchantId`` and ``apiKey``. They cannot be retrieved again.
 
-3. Create a Merchant Account Group in the open payment framework workbench. Refer to [Create Merchant Account](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html)  for detailed instructions.
-4. Click **Configure** of the Test Payment account in the payment integration created in step 3.
+3. Create a payment integration for Payment Mock in the open payment framework workbench. For detailed instructions, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
-   a.) Note down the ``integrationId`` and the ``configurationId``. These two values identify the payment integration, and can be found in the top left of your configuration details page.
-   
-   b.) In the **General configuration** tab, set the Merchant ID of the payment account using the value retrieved in step 2.
+4. Under the **General Information** section of the **Integration details** tab, copy the Notification URL for later use.
+**Remember**
+To ensure you receive timely updates on transactions and other important events, this URL is essential for configuring event notifications from Payment Mock.
 
-   c.) In the **Notification** tab, note down the URL for notification.
-   
-5. Edit the Postman Collection in the Postman app.
+5. Click **Configure** under the **Configuration** section.
+
+6. Set the Merchant ID of the payment account using the value retrieved in step 2, and select a settlement method for your payment integration.
+7. Click **Save**.
+8. Note down the ``integrationId`` and the ``configurationId``. These two values identify the payment integration, and can be found in the top left of your configuration details page.
+9. Edit the Postman Collection variables in the Postman app.
 
    a.) Import the two files at the same time to Postman.
 
@@ -74,11 +77,17 @@ Learn how to integrate a Payment Mock Gateway to open payment framework using Po
 8. ## Validate the configuration in Open Payment Framework Workbench
 
    a.) Log in to the open payment framework workbench.
+   
    b.) Click **Payment Integrations** in the left navigation bar.
+   
    c.) Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
+   
    d.) In the **Configuration section**, click **Show Details** to go to the configuration details page.
+   
    e.) In the **Settlement Method** section, make sure the right option is populated depending on your integration.
+   
    f.) In the **Authorization** section, click **Edit** to go to the authorization details page.
+   
    g.) In **Authorization** -> **Front-end component configuration**, make sure the Payment Form is the one corresponding to your integration.
 
 
