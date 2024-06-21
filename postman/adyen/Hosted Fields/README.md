@@ -10,15 +10,15 @@ The integration supports:
 
 **In summary**: to import the [Adyen Hosted Fields Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Hosted%20Fields/Adyen%20-%20HOSTED_FIELDS%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) this page will guide you through the following steps: 
 
-a) Create Your Adyen Test Account.
+a) Create your Adyen test account.
 
-b) Create an Adyen payment integration in OPF Workbench.
+b) Create an Adyen payment integration in OPF workbench.
 
-c) Set up Your Adyen Test Account to work with OPF.
+c) Set up your Adyen test account to work with OPF.
 
-d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values. 
+d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF tenant and Adyen test account unique values. 
 
-e) Validate the configuration in Open Payment Framework Workbench.
+e) Validate the configuration in OPF workbench.
 
 
 ## Create an Adyen Account ##
@@ -26,11 +26,11 @@ You can sign up for a free Adyen Test Account at <https://ca-test.adyen.com/ca/c
 
 
 ## Creating an Adyen Payment Integration 
-Ceate an Adyen payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+Create an Adyen payment integration in the OPF workbench. For detailed instructions, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 
-## Set up Your Adyen Test Account to work with OPF
+## Setting up Your Adyen Test Account to Work with OPF
 
    Once you have created you Adyen test account, do the following to set it up to work with OPF:
 
@@ -83,12 +83,12 @@ Go to **Developers -> API credentials -> ws User** to copy the ``Client Key``.
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
-## Add a Standard Notification for Your Merchant Account
+## Adding a Standard Notification for Your Merchant Account
 
 Go to the Adyen Dashboard to Set up event notifications using the URL for Notification previsouly saved. For instructions, see <https://docs.adyen.com/issuing/set-up-webhooks/#configure-customer-area>.
     
 
-## Edit the Postman Collection in the Postman App
+## Editing the Postman Collection in the Postman App
 
    1. Import the two files at the same time to Postman.
 
@@ -124,7 +124,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
    5. Save and run the Postman collection.
 
 
-## Validate the configuration in Open Payment Framework Workbench
+## Validating the Configuration in Open Payment Framework Workbench
 
    1. Log in to the open payment framework workbench.
    2. Click **Payment Integrations** in the left navigation bar.
