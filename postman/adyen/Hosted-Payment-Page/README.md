@@ -120,7 +120,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
    2. Click **Payment Integrations** in the left navigation bar.
    3. Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
    4. In the **Configuration section**, click **Show Details** to go to the configuration details page.
-   5. In the **Settlement Method** section, make sure the right option is selected depending on your integration.
+   5. In the **Settlement Method** section, make sure the right option is populated depending on your integration.
    6. In the **Authorization** section, click **Edit** to go to the authorization details page.
    7. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form is the one corresponding to your integration.
 
