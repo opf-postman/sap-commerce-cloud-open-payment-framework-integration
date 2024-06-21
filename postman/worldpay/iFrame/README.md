@@ -28,7 +28,7 @@ You can sign up for a free Worldpay Test Account at <https://secure.worldpay.com
 
 ## Creating a Worldpay Payment Integration 
 Ceate an Adyen payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
-](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 
 ## Set up Your Worldpay Test Account to work with OPF
@@ -77,9 +77,9 @@ The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 
 E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
-**3. Account and Account Group**
+**3. Integration ID and Configuration ID**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group, which can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page in the OPF workbench.
 
 **4. merchantCode** 
 
@@ -104,8 +104,8 @@ The envirionment file is now ready for importing into Postman together with the 
 | token                                                                                | Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit. **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually be ``opf`` |
-| accountGroupId                                                                       | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                  
-| accountId                                                                            | The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.|                                                                          
+| integrationId                                                                       | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                  
+| configurationId                                                                       The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                                                                          
 | authentication_inbound_basic_auth_username                                           | The username for basic authentication. Go to **Account** -> **Profile** to get the value.|                  
 | authentication_inbound_basic_auth_password                                           | The password for basic authentication. Go to **Account** -> **Profile** to get the value.|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
@@ -120,14 +120,11 @@ The envirionment file is now ready for importing into Postman together with the 
 
 ## Validate the configuration in Open Payment Framework Workbench
 
-   1. Go to **Payment Integrations**-> **Merchant account** and click **Configure**.
-
-      **Note**
-      If you are testing the integration, you must select the Test payment account.
-
-   2. The **General configuration** -> **Variables** values must be populated.
-
-   3. In **Settlement method**, make sure the right option is selected depending on your integration.
-   
-   4. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form Display is the one corresponding to your integration.
+   1. Log in to the open payment framework workbench.
+   2. Click **Payment Integrations** in the left navigation bar.
+   3. Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
+   4. In the **Configuration section**, click **Show Details** to go to the configuration details page.
+   5. In the **Settlement Method** section, make sure the right option is selected depending on your integration.
+   6. In the **Authorization** section, click **Edit** to go to the authorization details page.
+   7. In **Authorization** -> **Front-end component configuration**, make sure the Payment Form is the one corresponding to your integration.
 
