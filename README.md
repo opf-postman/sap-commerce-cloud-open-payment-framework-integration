@@ -26,19 +26,20 @@ One or more test/live merchant accounts for the Payment Gateway/Method you are i
 ## Download and Installation
 Replace the payment account specific secrets and variables in the Environment file.
 
-Import the postman collection with the updated Environment settings into your open payment framework tenant as described on [SAP Help Portal](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/562879e4d6fd4826b5d82219e5f19412.html).
+Import the postman collection with the updated Environment settings into your open payment framework tenant as described on [SAP Help Portal](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/562879e4d6fd4826b5d82219e5f19412.html?state=DRAFT).
+
 
 ## Known Issues
 No known issues.
 
 ## How to obtain support
-Read the open payment framework [documentation](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/f3d565da0d524b8081c861b4f5dea359.html) on SAP Help Portal.
+Read the open payment framework [documentation](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/f3d565da0d524b8081c861b4f5dea359.html?state=DRAFT) on SAP Help Portal.
  
 For additional support, request you can request access to open payment framework slack channel via your assigned integration manager.
 
 ## Troubleshooting
 
-Please refer to the [Open Payment Framework Logging](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/beab05c2985242d396b6f454dc1b8bea.html) feature.
+Please refer to the [Open Payment Framework Logging](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/beab05c2985242d396b6f454dc1b8bea.html?state=DRAFT) feature.
 
 ## Contributing
 You are welcome to add collections for other gateways to this repo. 
