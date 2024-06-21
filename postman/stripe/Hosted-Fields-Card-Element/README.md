@@ -1,5 +1,5 @@
 ## Introduction ##
-The Postman Collection enables a [Stripe Card Element](https://docs.stripe.com/js/element/other_element?type=card) to be used to Take Card Payments through OPF. 
+The Postman Collection enables a [Stripe Card Element](https://docs.stripe.com/js/element/other_element?type=card) integration for payment processing through open payment framework(OPF). 
 
 The integration supports:
 
@@ -14,7 +14,7 @@ In summary: to import the [Stripe Elements Postman Collection](Stripe-elements-H
 
 a) Create Your Stripe Test Account.
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Create an Stripe payment integration in OPF Workbench.
 
 c) Set up Your Stripe Test Account to work with OPF.
 
@@ -24,22 +24,10 @@ d) Prepare the [Postman Environment](Stripe-elements-HOSTED_FIELDS_environment_c
 You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
 
 
-## Creating the Merchant Account Group 
-Ceate a new Account Group in the OPF Workbench.
+## Creating the Stripe Payment Integration
+Ceate a Stripe payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
-i) In payment integrations.. click **Create**.
-![](images/opf-payment-integrations.png)
-
-ii) Add account name (can be anything) and set payment gateway to Stripe.
-![](images/stripe-elements-set-gateway.png)
-
-iii) Click **configure** on Test column of newly created Account.
-![](images/opf-account-group-id.png)
-
-**You must set a merchant ID first.**
-You can obtain from your account ID found at the following location in the Stripe dashboard <https://dashboard.stripe.com/settings/account>.
-
-![](images/stripe-elements-get-account.png)
 
 ## Preparing the Postman environment_configuration file
 
@@ -64,11 +52,10 @@ The base Url would be
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 
-**3. Account and Account Group**
+**3. Integration ID and Configuration ID**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
 
-![](images/opf-account-group-id.png)
 
 **4. Private Key**
 The Secret (or Private) Key can be obtained here in the Stripe dashboard. In test it starts with **sk_test**.
@@ -94,9 +81,7 @@ Replace the ``publickey`` variable value in the environment file with this value
 
 **6. Webhook Secret**
 
-IN OPF Workbench: For your new Stripe merchant account, navigate to **Notification General** and copy the Notification URL.
-
-![](images/opf-get-notification-url.png)
+IN OPF Workbench: For your new Stripe payment integration, navigate to the **General Information** section of the **Integration details** tab to copy the Notification URL.
 
 In Stripe Dashboard: Navigate to <https://dashboard.stripe.com/test/webhooks> and click **Add an Endpoint**.
 
@@ -127,8 +112,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``accountGroupId``
-- ``accountId``
+- ``integrationId``
+- ``configurationId``
 
 #### Stripe Specific
 - ``publicKey``
