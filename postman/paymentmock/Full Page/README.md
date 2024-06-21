@@ -28,6 +28,7 @@ Learn how to integrate a Payment Mock Gateway to open payment framework using Po
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 4. Under the **General Information** section of the **Integration details** tab, copy the Notification URL for later use.
+
 **Remember**
 To ensure you receive timely updates on transactions and other important events, this URL is essential for configuring event notifications from Payment Mock.
 
