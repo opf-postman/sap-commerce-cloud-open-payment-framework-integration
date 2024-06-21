@@ -67,7 +67,7 @@ E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.comme
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page in the OPF workbench.
 
 **4. merchantCode** 
 
