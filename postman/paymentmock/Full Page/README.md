@@ -65,31 +65,31 @@ To ensure you receive timely updates on transactions and other important events,
    
 11. Set notification URL in the Payment Mock Swagger UI.
    
-   a.) Locate the **Create Notification Configuration** API.
+     a.) Locate the **Create Notification Configuration** API.
    
-   b.) Fill the request parameters ``merchantId`` and ``apiKey`` use the value retrieved in step 2.
+     b.) Fill the request parameters ``merchantId`` and ``apiKey`` use the value retrieved in step 2.
    
-   c.) Set the url in the request body noted down in step 4.
+     c.) Set the url in the request body noted down in step 4.
    
-   d.) Set the ``basicAuth.username`` and ``basicAuth.password`` to the ``authentication_inbound_basic_auth_username`` and ``authentication_inbound_basic_auth_password`` in step 5.
+     d.) Set the ``basicAuth.username`` and ``basicAuth.password`` to the ``authentication_inbound_basic_auth_username`` and ``authentication_inbound_basic_auth_password`` in step 5.
    
    e.) Execute the API call.
 
 12. Validate the configuration in Open Payment Framework Workbench
 
-   a.) Log in to the open payment framework workbench.
+     a.) Log in to the open payment framework workbench.
    
-   b.) Click **Payment Integrations** in the left navigation bar.
+     b.) Click **Payment Integrations** in the left navigation bar.
    
-   c.) Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
+     c.) Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
    
-   d.) In the **Configuration section**, click **Show Details** to go to the configuration details page.
+     d.) In the **Configuration section**, click **Show Details** to go to the configuration details page.
    
-   e.) In the **Settlement Method** section, make sure the right option is populated depending on your integration.
+     e.) In the **Settlement Method** section, make sure the right option is populated depending on your integration.
    
-   f.) In the **Authorization** section, click **Edit** to go to the authorization details page.
+     f.) In the **Authorization** section, click **Edit** to go to the authorization details page.
    
-   g.) In **Authorization** -> **Front-end component configuration**, make sure the Payment Form is the one corresponding to your integration.
+     g.) In **Authorization** -> **Front-end component configuration**, make sure the Payment Form is the one corresponding to your integration.
 
 
       
