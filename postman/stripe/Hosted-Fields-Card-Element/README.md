@@ -25,8 +25,8 @@ You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/r
 
 
 ## Creating the Stripe Payment Integration
-Ceate a Stripe payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
-](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
+Ceate a Stripe payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 
 ## Preparing the Postman environment_configuration file
