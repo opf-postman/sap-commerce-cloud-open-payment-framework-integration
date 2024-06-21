@@ -16,7 +16,7 @@ b) Create an Cybersource payment integration in OPF workbench.
 
 c) Set up your Cybersource test account to work with OPF.
 
-d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Cybersource Test Account unique values. 
+d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF tenant and Cybersource test account unique values. 
 
 ## Creating a Cybersource Account ##
 You can sign up for a free Cybersource test account at https://ebctest.cybersource.com/ebc2.
