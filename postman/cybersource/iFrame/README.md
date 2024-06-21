@@ -10,23 +10,23 @@ The integration supports:
 
 In summary: to import the [Cybersource iFrame Postman Collection](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Provider_Configuration.json) this page will guide you through the following steps: 
 
-a) Create Your Cybersource Test Account.
+a) Create your cybersource test account.
 
-b) Create an Cybersource payment integration in OPF Workbench.
+b) Create an Cybersource payment integration in OPF workbench.
 
-c) Set up Your Cybersource Test Account to work with OPF.
+c) Set up your Cybersource test account to work with OPF.
 
 d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/cybersource/iFrame/Cybersource%20-%20iFrame%20-%20CAPTURE_PER_SHIPMENT%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Cybersource Test Account unique values. 
 
-## Create a Cybersource Account ##
-You can sign up for a free Cybersource Test Account at https://ebctest.cybersource.com/ebc2.
+## Creating a Cybersource Account ##
+You can sign up for a free Cybersource test account at https://ebctest.cybersource.com/ebc2.
 
 
 ## Creating a Cybersource Payment Integration 
-Ceate a Cybersource payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
+Create a Cybersource payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
-## Set up Your Cybersource Test Account to work with OPF
+## Setting up Your Cybersource Test Account to work with OPF
 This includes **Configuring Payment Method**, **Configuring Checkout**, **Configuring Merchant Notifications**, **Configuring a Cybersource Hosted Response Page**, and **Activating a Profile**. For detailed instructions, see [Secure Acceptance Hosted Checkout
 Integration](https://developer.cybersource.com/library/documentation/dev_guides/Secure_Acceptance_Hosted_Checkout/html/index.html#t=Topics%2FSecurity_Keys.htm%23TOC_Creating_Security_Keysbc-1&rhtocid=_4_2_0).
 
@@ -92,7 +92,7 @@ d) Under the **Key Management** page, select **REST Shared Secret** from the fil
 
 ![](images/cybersource-get-apikey.png)
 
-## Edit and Run the Postman Collection in the Postman App
+## Editing and Running the Postman Collection in the Postman App
 
    1. Import the two files at the same time to Postman.
 
@@ -103,7 +103,7 @@ d) Under the **Key Management** page, select **REST Shared Secret** from the fil
    4. Save and run the Postman collection.
 
       
-## Validate the configuration in Open Payment Framework Workbench
+## Validating the configuration in Open Payment Framework Workbench
 
    1. Log in to the open payment framework workbench.
    2. Click **Payment Integrations** in the left navigation bar.
