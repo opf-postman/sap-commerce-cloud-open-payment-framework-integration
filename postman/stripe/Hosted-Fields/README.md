@@ -22,7 +22,7 @@ In summary: to import the [Postman Collection](mapping_configuration.json) this 
 
 a) Create Your Stripe Test Account.
 
-b) Create a Stripe payment integration in OPF Workbench.
+b) Create a Stripe payment integration in OPF workbench.
 
 c) Set up Your Stripe Test Account to work with OPF.
 
