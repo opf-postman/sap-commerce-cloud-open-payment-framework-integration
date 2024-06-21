@@ -27,7 +27,7 @@ You can sign up for a free Worldpay Test Account at <https://secure.worldpay.com
 
 
 ## Creating a Worldpay Payment Integration 
-Ceate an Adyen payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
+Ceate a Worldpay payment integration in the OPF Workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 
