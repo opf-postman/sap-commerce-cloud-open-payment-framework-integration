@@ -11,16 +11,16 @@ The integration supports:
 
 In summary: to import the [Stripe Hosted Page Postman Collection](Stripe-Hosted_Page_mapping_configuration.json) this page will guide you through the following steps: 
 
-a) Create Your Stripe Test Account.
+a) Create Your Stripe test account.
 
 b) Create a Stripe payment integration in OPF workbench.
 
-c) Set up Your Stripe Test Account to work with OPF.
+c) Set up your Stripe test account to work with OPF.
 
 d) Prepare the [Postman Environment](Stripe-Hosted_Page_environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
 
 ## Create a Stripe Account ##
-You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
+You can sign up for a free Stripe test account at https://dashboard.stripe.com/register.
 
 
 ### Creating the Stripe Payment Integration ###
@@ -97,7 +97,7 @@ iv) Click **Reveal** to get the webhook secret, it starts with **whsec**.
 
 ![](images/stripe-elements-reveal-whsecret.png)
 
-v) In the Environment file set the ``webhookSecret`` value to the key starting with **whsec_**.
+v) In the environment file set the ``webhookSecret`` value to the key starting with **whsec_**.
 
 **Summary**
 
