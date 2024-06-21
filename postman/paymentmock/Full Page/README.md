@@ -24,7 +24,7 @@ Learn how to integrate a Payment Mock Gateway to open payment framework using Po
   	
     d.) Note down the ``merchantId`` and ``apiKey``. They cannot be retrieved again.
 
-3. Create a payment integration for Payment Mock in the open payment framework workbench. For detailed instructions, see [Creating Payment Integration
+3. Create a payment integration for Payment Mock in the open payment framework workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 4. Under the **General Information** section of the **Integration details** tab, copy the Notification URL for later use.
