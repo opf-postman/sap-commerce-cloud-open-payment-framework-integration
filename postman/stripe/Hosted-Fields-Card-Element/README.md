@@ -54,7 +54,7 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page in the OPF workbench.
 
 
 **4. Private Key**
