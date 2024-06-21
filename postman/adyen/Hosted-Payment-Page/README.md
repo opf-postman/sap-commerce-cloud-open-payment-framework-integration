@@ -114,7 +114,7 @@ Go to the Adyen Dashboard to Set up event notifications using the URL for Notifi
    5. Save and run the Postman collection.
 
 
-## Validating the configuration in Open Payment Framework Workbench
+## Validating the Configuration in Open Payment Framework Workbench
 
    1. Log in to the open payment framework workbench.
    2. Click **Payment Integrations** in the left navigation bar.
