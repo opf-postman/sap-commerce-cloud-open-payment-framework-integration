@@ -22,7 +22,7 @@ d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-clo
 e) Validate the configuration in Open Payment Framework Workbench.
 
 
-## Create an Worldpay Account ##
+## Creating a Worldpay Account ##
 You can sign up for a free Worldpay Test Account at <https://secure.worldpay.com/sso/public/auth/login.html>.
 
 
@@ -31,7 +31,7 @@ Ceate an Adyen payment integration in the OPF Workbench. For reference, see [Cre
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 
-## Set up Your Worldpay Test Account to work with OPF
+## Setting up Your Worldpay Test Account to Work with OPF
 
    Once you have created you Worldpay test account, do the following to set it up to work with OPF:
 
@@ -91,7 +91,7 @@ You can obtain your merchant ID in the Worldpay Dashboard.
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
     
 
-## Edit the Postman Collection in the Postman app.
+## Editing the Postman Collection in the Postman app.
 
    1. Import the two files at the same time to Postman.
 
@@ -118,7 +118,7 @@ The envirionment file is now ready for importing into Postman together with the 
    5. Save and run the Postman collection.
 
 
-## Validate the configuration in Open Payment Framework Workbench
+## Validating the configuration in Open Payment Framework Workbench
 
    1. Log in to the open payment framework workbench.
    2. Click **Payment Integrations** in the left navigation bar.
