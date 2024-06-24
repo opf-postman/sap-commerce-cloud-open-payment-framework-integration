@@ -21,7 +21,7 @@ d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-clo
 e) Validate the configuration in OPF workbench.
 
 
-## Create an Adyen Account ##
+## Creating an Adyen Account ##
 You can sign up for a free Adyen Test Account at <https://ca-test.adyen.com/ca/ca/login.shtml>.
 
 
