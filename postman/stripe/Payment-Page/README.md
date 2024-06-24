@@ -11,7 +11,7 @@ The integration supports:
 
 In summary: to import the [Stripe Hosted Page Postman Collection](Stripe-Hosted_Page_mapping_configuration.json) this page will guide you through the following steps: 
 
-a) Create Your Stripe test account.
+a) Create your Stripe test account.
 
 b) Create a Stripe payment integration in OPF workbench.
 
