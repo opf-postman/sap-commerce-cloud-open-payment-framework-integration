@@ -4,7 +4,7 @@ The Postman Collection enables the integration of Worldpay for payment processin
 
 The integration supports:
 
-* Authorization of Worldpay Payments using the OPF "iFrame" UX Pattern
+* Authorization of Worldpay payments using the OPF "iFrame" UX Pattern
 * Deferred Capture support
 * Refunds
 * Reauthorization of saved payment
