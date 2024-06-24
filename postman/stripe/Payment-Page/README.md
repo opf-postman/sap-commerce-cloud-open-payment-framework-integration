@@ -17,7 +17,7 @@ b) Create a Stripe payment integration in OPF workbench.
 
 c) Set up your Stripe test account to work with OPF.
 
-d) Prepare the [Postman Environment](Stripe-Hosted_Page_environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
+d) Prepare the [Postman Environment](Stripe-Hosted_Page_environment_configuration.json) file so the collection can be imported with all your OPF tenant and Stripe test account unique values. 
 
 ## Creating a Stripe Account ##
 You can sign up for a free Stripe test account at https://dashboard.stripe.com/register.
