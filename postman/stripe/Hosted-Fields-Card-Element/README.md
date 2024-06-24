@@ -21,7 +21,7 @@ c) Set up your Stripe test account to work with OPF.
 d) Prepare the [Postman Environment](Stripe-elements-HOSTED_FIELDS_environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Stripe Test Account unique values. 
 
 ## Creating a Stripe Account ##
-You can sign up for a free Stripe Test Account at https://dashboard.stripe.com/register.
+You can sign up for a free Stripe test account at https://dashboard.stripe.com/register.
 
 
 ## Creating a Stripe Payment Integration
@@ -101,7 +101,7 @@ iv) Click **Reveal** the get the webhook secret, it starts with **whsec**.
 
 ![](images/stripe-elements-reveal-whsecret.png)
 
-v) In the Environment file set the ``webhookSecret`` value to the key starting with **whsec_**.
+v) In the environment file, set the ``webhookSecret`` value to the key starting with **whsec_**.
 
 ### Summary
 
