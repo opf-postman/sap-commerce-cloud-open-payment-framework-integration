@@ -29,7 +29,7 @@ Learn how to integrate a Payment Mock Gateway to open payment framework using Po
 
 4. Under the **General Information** section of the **Integration details** tab, copy the Notification URL for later use.
 
-**Remember**
+**REMEMBER**
 To ensure you receive timely updates on transactions and other important events, this URL is essential for configuring event notifications from Payment Mock.
 
 5. Click **Configure** under the **Configuration** section.
@@ -37,7 +37,7 @@ To ensure you receive timely updates on transactions and other important events,
 6. Set the Merchant ID of the payment account using the value retrieved in step 2, and select a settlement method for your payment integration.
 7. Click **Save**.
 8. Note down the ``integrationId`` and the ``configurationId``. These two values identify the payment integration, and can be found in the top left of your configuration details page.
-9. Edit the Postman Collection variables in the Postman app.
+9. Edit the Postman Collection variables in the Postman App.
 
    a.) Import the two files at the same time to Postman.
 
@@ -75,9 +75,9 @@ To ensure you receive timely updates on transactions and other important events,
    
    e.) Execute the API call.
 
-12. Validate the configuration in Open Payment Framework Workbench
+12. Validate the configuration in OPF workbench
 
-     a.) Log in to the open payment framework workbench.
+     a.) Log in to the OPF workbench.
    
      b.) Click **Payment Integrations** in the left navigation bar.
    
