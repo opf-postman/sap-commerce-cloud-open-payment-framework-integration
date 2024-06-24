@@ -18,7 +18,7 @@ c) Set up your Adyen test account to work with OPF.
 
 d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values. 
 
-e) Validate the configuration in Open Payment Framework Workbench.
+e) Validate the configuration in OPF Workbench.
 
 
 ## Creating an Adyen Account ##
