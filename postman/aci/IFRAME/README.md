@@ -26,8 +26,8 @@ a) Get the Credentials needed to integrate with the Sandbox
 b) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Sandbox values. 
 
 
-### Creating the Merchant Account Group
-Create a new Account Group in the OPF Workbench and set the Merchant ID.
+### Creating the Payment Integration
+Create a new payment integration in the OPF Workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT) 
 
 You can use the Entity ID value as the Merchant ID from the [Code examples](https://docs.aciworldwide.com/integrations/widget) 
 The Api token is also present on the sandbox.
@@ -58,9 +58,9 @@ The base Url would be
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 
-**3. Account and Account Group**
+**3. Integration and Configuration**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the payment integration can be found in the top left of your merchant configuration.
 
 **4. API Credentials**
 
@@ -71,7 +71,8 @@ Use the Bearer value from the Play ground as the ``apiToken``
 The ``apiDomain`` can be either ``eu-test.oppwa.com`` for EUR transactions or ``test.oppwa.com`` for USD.
 
 ### Allowlist
-Depending on your environment, add the following domains to the domain allowlist in OPF workbench
+Depending on your environment, add the following domains to the domain allowlist in OPF workbench. For instructions, see [Adding Tenant-specific Domain to Allowlist
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/a6836485b4494cfaad4033b4ee7a9c64.html?state=DRAFT).
 
 ``eu-test.oppwa.com``
 ``test.oppwa.com``
@@ -86,8 +87,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``accountGroupId``
-- ``accountId``
+- ``integrationId``
+- ``configurationId``
 
 #### ACI Specific
 - ``apiToken``
