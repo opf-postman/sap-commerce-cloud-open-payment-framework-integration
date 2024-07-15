@@ -50,7 +50,7 @@ Sandbox credentials are only available after your retailer/merchant has register
 ### Creating the Merchant Account Group
 Create a new Integration in the OPF Workbench and set the Merchant ID.
 
-You can ude the Merchant ID supplied by your account manager. 
+You can use the Merchant ID supplied by your account manager. 
 
 
 ### Preparing the Postman environment_configuration file
@@ -78,7 +78,7 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 **3. Integration and Configuration**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
 **4. API Credentials**
 
