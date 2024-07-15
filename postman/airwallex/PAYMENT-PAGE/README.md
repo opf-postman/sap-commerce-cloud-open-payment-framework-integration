@@ -110,6 +110,11 @@ ii) Save and View the secret key and set that as the ``webhookSecret`` variable
 
 ![](images/airwallex-webhooks1.png)
 
+### Allowlist
+Add the following domains to the domain allowlist in OPF workbench
+
+``airwallex.com``
+
 ### Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
