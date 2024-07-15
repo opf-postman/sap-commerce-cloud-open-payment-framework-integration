@@ -85,6 +85,11 @@ The ``accountId`` and ``accountGroupId`` values identify the merchant account gr
 The ``authentication_outbound_basic_auth_username_export_93`` is the merchant id.
 The ``authentication_outbound_basic_auth_password_export_93`` is the sandbox secret key supplied by your account manager
 
+### Allowlist
+Add the following domains to the domain allowlist in OPF workbench
+
+``global-api-sandbox.afterpay.com`` 
+``global-api.afterpay.com``
 
 ### Summary
 
