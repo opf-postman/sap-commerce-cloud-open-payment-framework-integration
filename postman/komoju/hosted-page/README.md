@@ -101,6 +101,11 @@ iv) Save the Webhook
 
 Store the new webhook secret in the ``webhookSecret`` field in the environment file.
 
+### Allowlist
+Add the following domains to the domain allowlist in OPF workbench
+
+``komoju.com``
+
 ### Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
