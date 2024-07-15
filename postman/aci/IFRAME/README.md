@@ -10,7 +10,7 @@ The integration supports:
 * Reversal
 
 ## Known Issues
-* The integration has only been tested by the public available playground credentials found on the [COPYandPAY Playground](https://docs.aciworldwide.com/integrations/widget)
+* The integration has only been tested by the public available playground credentials found on the [COPYandPAY Playground](https://docs.aciworldwide.com/integrations/widget).
 
 ## Planned Backlog Items
 * Webhook Notifications
@@ -27,9 +27,9 @@ b) Prepare the [Postman Environment](environment_configuration.json) file so the
 
 
 ### Creating the Payment Integration
-Create a new payment integration in the OPF Workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT) 
+Create a new payment integration in the OPF Workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
-You can use the Entity ID value as the Merchant ID from the [Code examples](https://docs.aciworldwide.com/integrations/widget) 
+You can use the Entity ID value as the Merchant ID from the [Code examples](https://docs.aciworldwide.com/integrations/widget).
 The Api token is also present on the sandbox.
 
 ![](images/aci-playground-creds.png)
