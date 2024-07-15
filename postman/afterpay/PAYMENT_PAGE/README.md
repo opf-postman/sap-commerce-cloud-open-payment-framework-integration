@@ -4,8 +4,8 @@ The Postman Collection enables a [Afterpay / Clearpay Redirect Payment Page](htt
 
 The integration supports:
 
-* Authorization of loan by redirect
-* Delayed Capture Only
+* Authorization of loan by redirecting to Clearpay/Afterpay payment pages
+* Deferred Capture
 * Refunds
 * Voids
 
