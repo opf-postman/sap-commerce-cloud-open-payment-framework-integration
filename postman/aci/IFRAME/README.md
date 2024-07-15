@@ -70,6 +70,13 @@ Use the Bearer value from the Play ground as the ``apiToken``
 
 The ``apiDomain`` can be either ``eu-test.oppwa.com`` for EUR transactions or ``test.oppwa.com`` for USD.
 
+### Allowlist
+Depending on your environment, add the following domains to the domain allowlist in OPF workbench
+
+``eu-test.oppwa.com``
+``test.oppwa.com``
+``oppwa.com``
+
 ### Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
