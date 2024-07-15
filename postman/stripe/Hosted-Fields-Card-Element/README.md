@@ -103,6 +103,11 @@ iv) Click **Reveal** the get the webhook secret, it starts with **whsec**.
 
 v) In the environment file, set the ``webhookSecret`` value to the key starting with **whsec_**.
 
+### Allowlist
+Add the following domains to the domain allowlist in OPF workbench
+
+``api.stripe.com``
+
 ### Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
