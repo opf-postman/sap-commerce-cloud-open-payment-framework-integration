@@ -89,6 +89,11 @@ The Public and Private key can be obtained in the Settings -> API -> Keys sectio
 **5. Merchant Account ID Prefix**
 Optionally, you can change the merchant account id prefix by setting the variable ``merchantAccountIdPrefix``.
 
+### Allowlist
+Add the following domains to the domain allowlist in OPF workbench
+
+``braintree-api.com``
+
 ### Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
