@@ -86,7 +86,7 @@ The ``integrationId`` and ``configurationId`` values identify the payment integr
 You can obtain your merchant ID in the Worldpay Dashboard.
 
 
-**Summary**
+## Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
 
