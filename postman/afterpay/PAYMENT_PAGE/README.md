@@ -101,8 +101,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``accountGroupId``
-- ``accountId``
+- ``integrationId``
+- ``configurationId``
 
 #### Afterpay/Clearpay Specific
 - ``authentication_outbound_basic_auth_username_export_93``
