@@ -102,6 +102,36 @@ Add the following domains to the domain allowlist in OPF workbench. For instruct
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/a6836485b4494cfaad4033b4ee7a9c64.html?state=DRAFT).
 
 ``api.stripe.com``
+``a.stripecdn.com``
+``api.stripe.com``
+``atlas.stripe.com``
+``auth.stripe.com``
+``b.stripecdn.com``
+``billing.stripe.com``
+``buy.stripe.com``
+``c.stripecdn.com``
+``checkout.stripe.com``
+``climate.stripe.com``
+``connect.stripe.com``
+``dashboard.stripe.com``
+``express.stripe.com``
+``files.stripe.com``
+``hooks.stripe.com``
+``invoice.stripe.com``
+``invoicedata.stripe.com``
+``js.stripe.com``
+``m.stripe.com``
+``m.stripe.network``
+``manage.stripe.com``
+``pay.stripe.com``
+``payments.stripe.com``
+``q.stripe.com``
+``qr.stripe.com``
+``r.stripe.com``
+``verify.stripe.com``
+``stripe.com``
+``terminal.stripe.com``
+``uploads.stripe.com``
 
 **Summary**
 
