@@ -86,7 +86,8 @@ The ``authentication_outbound_basic_auth_username_export_93`` is the merchant id
 The ``authentication_outbound_basic_auth_password_export_93`` is the sandbox secret key supplied by your account manager
 
 ### Allowlist
-Add the following domains to the domain allowlist in OPF workbench
+Add the following domains to the domain allowlist in OPF workbench. For instructions, see [Adding Tenant-specific Domain to Allowlist
+](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/a6836485b4494cfaad4033b4ee7a9c64.html?state=DRAFT).
 
 ``global-api-sandbox.afterpay.com`` 
 ``global-api.afterpay.com``
