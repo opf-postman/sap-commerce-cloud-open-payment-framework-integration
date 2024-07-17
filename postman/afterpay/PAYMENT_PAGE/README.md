@@ -1,6 +1,6 @@
 ## Introduction
 
-The Postman Collection enables a [Afterpay / Clearpay Redirect Payment Page](https://developers.clearpay.co.uk/clearpay-online/reference/standard-checkout#redirect-method) to be used to Setup a loan agreement using a [Deferred Payment Flow](https://developers.clearpay.co.uk/clearpay-online/reference/deferred-payment-flow). 
+The Postman Collection enables a [Afterpay / Clearpay Redirect Payment Page](https://developers.clearpay.co.uk/clearpay-online/reference/standard-checkout#redirect-method) to be used to set up a loan agreement using a [Deferred Payment Flow](https://developers.clearpay.co.uk/clearpay-online/reference/deferred-payment-flow). 
 
 The integration supports:
 
