@@ -35,7 +35,7 @@ The API token is also present in the sandbox.
 ![](images/aci-playground-creds.png)
 
 
-### Preparing the Postman environment_configuration file
+### Preparing the Postman environment configuration file
 
 **1. Token**
 
