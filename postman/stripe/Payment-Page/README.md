@@ -3,7 +3,7 @@ The Postman Collection enables a [Stripe Hosted Checkout](https://docs.stripe.co
 
 The integration supports:
 
-* Authorization of Card Payments using PCI SAQ-A Stripe Checkout using the OPF "Payment Page" UX Pattern
+* Authorization of Card Payments using PCI SAQ-A Stripe Checkout using the OPF "Payment Page" UX pattern
 * Deferred Capture support
 * Refunds
 * Reversals
@@ -51,7 +51,7 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page in the OPF workbench.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
 **4. Private Key**
 The Secret (or Private) Key can be obtained here in the Stripe dashboard. In test it starts with **sk_test**.
