@@ -1,10 +1,10 @@
 ## Introduction
 
-The Postman Collection enables a [ACI COPYandPAY](https://docs.aciworldwide.com/integrations/widget) Payment Form to be used to Take Card Payments through OPF. 
+The Postman Collection enables a [ACI COPYandPAY](https://docs.aciworldwide.com/integrations/widget) Payment Form to be used to take card payments through OPF. 
 
 The integration supports:
 
-* Authorization of Card Payments using ACI COPYandPay using the OPF "iFrame" UX Pattern
+* Authorization of card payments using ACI COPYandPay using the OPF "iFrame" UX pattern
 * Deferred Capture 
 * Refunds
 * Reversal
@@ -20,17 +20,17 @@ The integration supports:
 ## Setup Instructions
 
 ### Overview
-To import the [ACI Hosted Page Postman Collection](mapping_configuration.json) this page will take you through the following steps
+To import the [ACI Hosted Page Postman Collection](mapping_configuration.json), this page will take you through the following steps:
 
-a) Get the Credentials needed to integrate with the Sandbox
-b) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Sandbox values. 
+a) Get the credentials needed to integrate with the Sandbox
+b) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF tenant and sandbox values. 
 
 
 ### Creating the Payment Integration
 Create a new payment integration in the OPF Workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 You can use the Entity ID value as the Merchant ID from the [Code examples](https://docs.aciworldwide.com/integrations/widget).
-The Api token is also present on the sandbox.
+The API token is also present in the sandbox.
 
 ![](images/aci-playground-creds.png)
 
