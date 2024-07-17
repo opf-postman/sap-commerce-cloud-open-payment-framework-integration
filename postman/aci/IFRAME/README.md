@@ -26,7 +26,7 @@ a) Get the credentials needed to integrate with the Sandbox
 b) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF tenant and sandbox values. 
 
 
-### Creating the Payment Integration
+### Creating Payment Integration
 Create a new payment integration in the OPF Workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 You can use the Entity ID value as the Merchant ID from the [Code examples](https://docs.aciworldwide.com/integrations/widget).
