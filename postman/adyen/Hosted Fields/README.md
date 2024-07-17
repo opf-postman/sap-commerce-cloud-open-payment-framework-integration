@@ -22,27 +22,34 @@ e) Validate the configuration in OPF workbench.
 
 
 ## Creating an Adyen Account ##
+
 You can sign up for a free Adyen Test Account at <https://ca-test.adyen.com/ca/ca/login.shtml>.
 
 
 ## Creating an Adyen Payment Integration 
+
 Create an Adyen payment integration in the OPF workbench. For detailed instructions, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 
 ## Setting up Your Adyen Test Account to Work with OPF
+
    Once you have created you Adyen test account, do the following to set it up to work with OPF:
 
 1. **Determine testing account structure**
+
    With Adyen, you have a single [company account](https://docs.adyen.com/account/account-structure/#company-account), and one or more sub-accounts called [merchant accounts](https://docs.adyen.com/account/account-structure/#company-account). Determine an initial structure for testing that will best represent what you will do once you are processing live. You will have another opportunity when going live to finalize your account structure.
 
-2. **Create a user for yourself and your team members**
+3. **Create a user for yourself and your team members**
+
    You receive an admin user account for yourself when signing up. [Create additional users](https://docs.adyen.com/account/users/) for your team members as needed.
 
-3. **Get API credentials** 
+5. **Get API credentials** 
+
    Get your test API key and client key, which you'll need when building your integration. You can refer to [Create an API credential](https://docs.adyen.com/development-resources/api-credentials/#new-credential) for detailed instructions.
 
-4. **Add payment methods**
+7. **Add payment methods**
+
    [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
 
 ## Preparing the Postman environment_configuration file
