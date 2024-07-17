@@ -3,7 +3,7 @@ The Postman Collection enables Cybersource to be used to take payments through O
 
 The integration supports:
 
-* Authorization of Cybersource payments using the OPF "iFrame" UX Pattern
+* Authorization of Cybersource payments using the OPF "iFrame" UX pattern
 * Deferred Capture support
 * Refunds
 * Reauthorization of saved payment
@@ -12,7 +12,7 @@ In summary: to import the [Cybersource iFrame Postman Collection](https://github
 
 a) Create your Cybersource test account.
 
-b) Create an Cybersource payment integration in OPF workbench.
+b) Create a Cybersource payment integration in OPF workbench.
 
 c) Set up your Cybersource test account to work with OPF.
 
