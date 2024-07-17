@@ -15,7 +15,7 @@ The integration supports:
 * Support for checkout widget
 
 ## Known Issues
-* Refunds are automated but currently require manual confirmation in OPF Workbench
+* Refunds are automated but currently require manual confirmation in OPF workbench
 * The integration has not undergone [Certification testing as per](https://developers.clearpay.co.uk/clearpay-online/docs/testing-your-clearpay-integration)
 
 ## Setup Instructions
@@ -27,7 +27,7 @@ a) Sign up for a Afterpay/Clearpay Account
 
 b) Get your afterpay/clearpay credentials.
 
-c) Create a Merchant Integration in OPF Workbench.
+c) Create a Merchant Integration in OPF workbench.
 
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Afterpay/Clearpay unique values. 
 
