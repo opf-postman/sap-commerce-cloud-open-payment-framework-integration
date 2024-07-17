@@ -31,7 +31,7 @@ d) Prepare the [Postman Environment](environment_configuration.json) file so the
 
 
 ### Create a Braintree Account
-You can sign up for a free Braintree Sandbox Account at https://www.braintreepayments.com/sandbox
+You can sign up for a free Braintree Sandbox Account at https://www.braintreepayments.com/sandbox.
 
 ### Creating Payment Integration
 Create a new payment integration in the OPF workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
