@@ -3,7 +3,7 @@ The Postman Collection enables the integration of Adyen for payment processing t
 
 The integration supports:
 
-* Authorization of Adyen payments using the OPF "Payment Page" UX Pattern
+* Authorization of Adyen payments using the OPF "Payment Page" UX pattern
 * Deferred Capture support
 * Refunds
 * Reauthorization of saved payment
@@ -12,11 +12,11 @@ The integration supports:
 
 a) Create your Adyen test account.
 
-b) Create an Adyen payment integration in OPF Workbench.
+b) Create an Adyen payment integration in OPF workbench.
 
 c) Set up your Adyen test account to work with OPF.
 
-d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF Tenant and Adyen Test Account unique values. 
+d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF tenant and Adyen test account unique values. 
 
 e) Validate the configuration in OPF workbench.
 
@@ -26,7 +26,7 @@ You can sign up for a free Adyen test account at <https://ca-test.adyen.com/ca/c
 
 
 ## Creating an Adyen Payment Integration 
-Create an Adyen payment integration in the OPF Workbench. For detailed instructions, see [Creating Payment Integration
+Create an Adyen payment integration in the OPF workbench. For detailed instructions, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
 
@@ -67,7 +67,7 @@ E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.comme
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
 **4. merchantCode** 
 
@@ -120,9 +120,9 @@ Go to the Adyen Dashboard to set up event notifications using the URL for Notifi
    5. Save and run the Postman collection.
 
 
-## Validating the Configuration in Open Payment Framework Workbench
+## Validating the Configuration in OPF Workbench
 
-   1. Log in to the open payment framework workbench.
+   1. Log in to the OPF workbench.
    2. Click **Payment Integrations** in the left navigation bar.
    3. Navigate to **Payment Integrations** -> **(your Adyen integration)** -> **Integration Details**.
    4. In the **Configuration section**, click **Show Details** to go to the configuration details page.
