@@ -52,7 +52,7 @@ Create an Adyen payment integration in the OPF workbench. For detailed instructi
 
    [Add the payment methods](https://docs.adyen.com/payment-methods/add-payment-methods/) you want to accept with your integration.
 
-## Preparing the Postman environment_configuration file
+## Preparing the Postman environment configuration file
 
 **1. Token**
 
