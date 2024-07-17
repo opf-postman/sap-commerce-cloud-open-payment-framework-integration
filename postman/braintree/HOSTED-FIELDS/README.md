@@ -13,7 +13,7 @@ The integration supports:
 
 ## Known Issues
 * Card Refunds currently fail if initiated before they are sent to Settlement.
-** Workaround manual process of refunding in Braintree based on failed transactions in OPF, then manual update of stuck OPF transaction.
+* Workaround manual process of refunding in Braintree based on failed transactions in OPF, then manual update of stuck OPF transaction.
 
 ## Planned Backlog Items
 * Applepay / Googlepay Support
