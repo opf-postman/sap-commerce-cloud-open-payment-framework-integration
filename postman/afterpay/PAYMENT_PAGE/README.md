@@ -47,8 +47,8 @@ You can test the integration with [test payment details](https://developers.clea
 Sandbox credentials are only available after your retailer/merchant has registered and can be obtained from your Clearpay account manager as per: https://developers.clearpay.co.uk/clearpay-online/docs/sandbox-testing
 
 
-### Creating payment integration
-Create a new Integration in the OPF Workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
+### Creating Payment Integration
+Create a new integration in the OPF workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 You can use the Merchant ID supplied by your account manager. 
 
