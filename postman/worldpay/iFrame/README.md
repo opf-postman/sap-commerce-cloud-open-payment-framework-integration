@@ -4,7 +4,7 @@ The Postman Collection enables the integration of Worldpay for payment processin
 
 The integration supports:
 
-* Authorization of Worldpay payments using the OPF "iFrame" UX Pattern
+* Authorization of Worldpay payments using the OPF "iFrame" UX pattern
 * Deferred Capture support
 * Refunds
 * Reauthorization of saved payment
@@ -79,7 +79,7 @@ E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.comme
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page in the OPF workbench.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
 **4. merchantCode** 
 
@@ -125,9 +125,9 @@ Depending on your environment, add the following domains to the domain allowlist
    5. Save and run the Postman collection.
 
 
-## Validating the Configuration in Open Payment Framework Workbench
+## Validating the Configuration in OPF Workbench
 
-   1. Log in to the open payment framework workbench.
+   1. Log in to the OPF workbench.
    2. Click **Payment Integrations** in the left navigation bar.
    3. Navigate to **Payment Integrations** -> **(your Worldpay integration)** -> **Integration Details**.
    4. In the **Configuration section**, click **Show Details** to go to the configuration details page.
