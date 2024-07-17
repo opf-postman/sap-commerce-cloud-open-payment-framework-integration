@@ -1,6 +1,6 @@
 ## Introduction
 
-The Postman Collection enables a [Airwallex Hosted Page](https://developer.paypal.com/braintree/docs/start/hosted-fields) Payment Form to be used to Take Payments through OPF. 
+The Postman Collection enables a [Airwallex Hosted Page](https://developer.paypal.com/braintree/docs/start/hosted-fields) Payment Form to be used to take payments through OPF. 
 
 The integration supports:
 
@@ -24,15 +24,15 @@ Dynamic pay-in currencies are currently not supported by OPF. Please contact SAP
 ## Setup Instructions
 
 ### Overview
-To import the [Aiwallex Hosted Page Postman Collection](mapping_configuration.json) this page will take you through the following steps
+To import the [Aiwallex Hosted Page Postman Collection](mapping_configuration.json) this page will take you through the following steps:
 
 a) Sign up for a Airwallex Demo Account
 
-b) Complete onboarding the activate the Airwallex accoubnt
+b) Complete onboarding the activate the Airwallex account
 
-c) Create a Merchant Account Group in OPF Workbench.
+c) Create a payment integration in OPF workbench.
 
-d) Set up Your Airwallex Sandbox Account to work with OPF.
+d) Set up your Airwallex Sandbox account to work with OPF.
 
 e) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Airwallex Demo Account unique values. 
 
@@ -49,8 +49,8 @@ To create a test account without completeting the company onboarding you will ne
 It will not be possible to proceed otherwise.
 
 
-### Creating the Merchant Account Group
-Create a new Account Group in the OPF Workbench and set the Merchant ID.
+### Creating Payment Integration
+Create a new integration in the OPF workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 You can use the Account Nickname value as the Merchant ID from the [Account menu](https://demo.airwallex.com/app/account/details) 
 
@@ -125,8 +125,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``accountGroupId``
-- ``accountId``
+- ``integrationId``
+- ``configurationId``
 
 #### Airwallex Specific
 - ``clientId``
