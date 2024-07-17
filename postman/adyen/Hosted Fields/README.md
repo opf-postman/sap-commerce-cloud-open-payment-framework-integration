@@ -3,7 +3,7 @@ The Postman Collection enables the integration of Adyen for payment processing t
 
 The integration supports:
 
-* Authorization of Adyen payments using the OPF "Hosted Fields" UX Pattern
+* Authorization of Adyen payments using the OPF "Hosted Fields" UX pattern
 * Deferred Capture support
 * Refunds
 * Reauthorization of saved payment
@@ -31,7 +31,6 @@ Create an Adyen payment integration in the OPF workbench. For detailed instructi
 
 
 ## Setting up Your Adyen Test Account to Work with OPF
-
    Once you have created you Adyen test account, do the following to set it up to work with OPF:
 
 1. **Determine testing account structure**
