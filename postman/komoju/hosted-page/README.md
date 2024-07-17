@@ -1,10 +1,10 @@
 ## Introduction
 
-The Postman Collection enables a [Komoju Hosted Page](https://doc.komoju.com/docs/hosted-page-overview) to be used to Take Payments for Cards and Alternative payment methods through OPF. 
+The Postman Collection enables a [Komoju Hosted Page](https://doc.komoju.com/docs/hosted-page-overview) to be used to take payments for cards and alternative payment methods through OPF. 
 
 The integration supports:
 
-* Authorization of Card and APM Payments using PCI SAQ-A Komoju Hosted Page using the OPF "Payment Page" UX Pattern
+* Authorization of Card and APM Payments using PCI SAQ-A Komoju Hosted Page using the OPF "Payment Page" UX pattern
 * Auto Capture Only
 * Refunds
 * Card/Alipay and Web Money integrations tested
@@ -17,25 +17,25 @@ The integration supports:
 ## Setup Instructions
 
 ### Overview
-To import the [Komoju Hosted Page Postman Collection](mapping_configuration.json) this page will take you through the following steps
+To import the [Komoju Hosted Page Postman Collection](mapping_configuration.json) this page will take you through the following steps:
 
-a) Sign up for a Komoju Account
+a) Sign up for a Komoju Account.
 
-b) Create a Merchant Account Group in OPF Workbench.
+b) Create a payment integration in OPF Workbench.
 
-c) Set up Your Komoju Account to work with OPF.
+c) Set up your Komoju account to work with OPF.
 
-d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Komoju Account unique values. 
+d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF tenant and Komoju account unique values. 
 
 
 ### Create a Komoju Account
-You can sign up for a free Komoju Account at https://komoju.com/en/sign_up/.
+You can sign up for a free Komoju account at https://komoju.com/en/sign_up/.
 
-To test the integration with [test payment data](https://doc.komoju.com/docs/test-cards) you do not need to Activate Payments.
+To test the integration with [test payment data](https://doc.komoju.com/docs/test-cards) you do not need to activate payments.
 
 
-### Creating the Merchant Account Group
-Create a new Account Group in the OPF Workbench and set the Merchant ID.
+### Creating Payment Integration
+Create a new payment integration in the OPF Workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
 You can use the Account ID value as the Merchant ID. This is present in the address bar of the [Komoju Merchant Backoffice tool](https://komoju.com/merchant) 
 
@@ -65,9 +65,9 @@ The base Url would be
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 
-**3. Account and Account Group**
+**3. Integration ID and Configuration ID**
 
-The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the merchant account group can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
 **4. API Credentials**
 
@@ -116,8 +116,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``accountGroupId``
-- ``accountId``
+- ``integrationId``
+- ``configurationId``
 
 #### Komoju Specific
 - ``publicKey``
