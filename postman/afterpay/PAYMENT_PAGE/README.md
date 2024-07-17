@@ -32,7 +32,7 @@ c) Create a Merchant Integration in OPF workbench.
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Afterpay/Clearpay unique values. 
 
 
-### Create a Afterpay Account
+### Creating an Afterpay Account
 Decide if you need an Afterpay (ROW) or Clearpay account (UK), the solution is branded differently in the UK.
 
 You can sign up for a Afterpay Account at https://get.afterpay.com/app/.
@@ -43,7 +43,7 @@ Signup is for the official account, so its expected the merchant will need to do
 You can test the integration with [test payment details](https://developers.clearpay.co.uk/clearpay-online/docs/sandbox-testing#test-payment-details).
 
 
-### Get the Sandbox Credentials
+### Getting the Sandbox Credentials
 Sandbox credentials are only available after your retailer/merchant has registered and can be obtained from your Clearpay account manager as per: https://developers.clearpay.co.uk/clearpay-online/docs/sandbox-testing
 
 
@@ -76,9 +76,9 @@ The base Url would be
 https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 
-**3. Integration and Configuration**
+**3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the merchant account group can be found in the top left of your merchant configuration.
+The ``integrationId`` and ``configurationId`` values identify the payment integration can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
 **4. API Credentials**
 
