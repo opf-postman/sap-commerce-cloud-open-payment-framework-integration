@@ -36,7 +36,7 @@ You can sign up for a free Braintree Sandbox Account at https://www.braintreepay
 ### Creating Payment Integration
 Create a new payment integration in the OPF workbench and set the Merchant ID. For reference, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
-The Merchant ID can be found in the Settings -> Business Area of the Braintree Admin UI
+The Merchant ID can be found in the Settings -> Business Area of the Braintree Admin UI.
 ![](images/Braintree-settings-business.png) ![](images/Braintree-merchantId.png)
 
 ### Setting up Sub-Merchants for each Currency
