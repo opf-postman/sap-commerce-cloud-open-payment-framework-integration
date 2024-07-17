@@ -12,7 +12,7 @@ The integration supports:
 * Paypal support
 
 ## Known Issues
-* Card Refunds currently fail if initiated before they are sent to Settlement.
+* Card refunds will fail if initiated before they are sent to Settlement.
 * Workaround manual process of refunding in Braintree based on failed transactions in OPF, then manual update of stuck OPF transaction.
 
 ## Planned Backlog Items
@@ -164,7 +164,7 @@ We have found the default Application doesnt appear to work, so create a new Res
 A PayPal payment option should be visible now in the Checkout Form.
 ![](images/Braintree-paypal-payment-option.png)
 
-You can use [Sandbox Accounts](https://developer.paypal.com/dashboard/accounts) for testing
+You can use [Sandbox Accounts](https://developer.paypal.com/dashboard/accounts) for testing.
 
 
 
