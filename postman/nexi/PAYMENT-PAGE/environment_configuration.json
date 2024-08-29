@@ -1,0 +1,88 @@
+{
+  "id": "48c20c9a-2a1e-4208-b703-e781055a17a4",
+  "name": "opf-iss-d0",
+  "values": [
+    {
+      "key": "token",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "key": "rootUrl",
+      "value": "https:\/\/opf-iss-d0.api.commerce.stage.context.cloud.sap",
+      "enabled": true
+    },
+    {
+      "key": "service",
+      "value": "opf",
+      "enabled": true
+    },
+    {
+      "key": "accountGroupId",
+      "value": "179",
+      "enabled": true
+    },
+    {
+      "key": "accountId",
+      "value": "115",
+      "enabled": true
+    },
+    {
+      "key": "capturePattern",
+      "value": "AUTO_CAPTURE",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "supportOverCapture",
+      "value": "false",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "enableOverCapture",
+      "value": "false",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authorizationTimeoutDays",
+      "value": "7",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "apiEnv",
+      "value": "int-ecommerce.nexi.it",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "alias",
+      "value": "ALIAS_WEB_00084178",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "gruppo",
+      "value": "GRP_171248",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "TCONTAB",
+      "value": "C",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "secret",
+      "value": "e********************************07b",
+      "enabled": true
+    }
+    
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "",
+  "_postman_exported_using": "Postman\/7.35.0"
+}
