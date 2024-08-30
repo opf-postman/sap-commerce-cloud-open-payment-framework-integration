@@ -45,12 +45,13 @@ Once you have created you Nexi test account, do the following to set it up to wo
 3. **Get API credentials**
 
    Get your test API data in [Test-area welcome page](https://ecommerce.nexi.it/area-test) after you login successfully.
+
    Example:
    * Alias: ALIAS_WEB_xxxxxxx
    * Key for mac calculation: MQY8KWXXXXXXXXXXXXXNDJK1
    * Group: GRP_xxxxxxx
   
-4. **Add payment methods**
+5. **Add payment methods**
    Not involved yet.
 
 ## Preparing the Postman environment_configuration file ##
