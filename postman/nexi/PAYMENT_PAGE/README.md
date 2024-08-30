@@ -56,6 +56,7 @@ Once you have created you Nexi test account, do the following to set it up to wo
 ## Preparing the Postman environment_configuration file ##
 
 **1. Token**
+
 Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit.
 
 Copy the value of the access_token field (it’s a JWT) and set as the ``token`` value in the environment file.
@@ -63,6 +64,7 @@ Copy the value of the access_token field (it’s a JWT) and set as the ``token``
 **IMPORTANT**: Ensure the value is prefixed with **Bearer**. e.g. ``Bearer {{token}}`` and when do test watch the expiration of token.
 
 **2. Root url**
+
 The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 
 E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be ``https://opf-iss-d0.uis.commerce.stage.context.cloud.sap``.
@@ -77,6 +79,7 @@ The ``integrationId`` and ``configurationId`` values that identify the payment i
 **Note**: In the environment_configuration.json, ``accountGroupId`` matches ``integrationId`` and ``accountId`` matches ``configurationId`` we referred above.
 
 **5. alias, gruppo and secret**
+
 As listed in Step 3.
 
 ## Summary ##
