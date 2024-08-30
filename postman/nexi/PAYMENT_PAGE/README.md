@@ -97,8 +97,8 @@ The envirionment file is now ready for importing into Postman together with the 
 Depending on your environment, add the following domains to the domain allowlist in OPF workbench. For instructions, see [Adding Tenant-specific Domain to Allowlist
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/a6836485b4494cfaad4033b4ee7a9c64.html?state=DRAFT).
 
-``int-ecommerce.nexi.it`` this one is for test
-``ecommerce.nexi.it`` this one is for prod
+``int-ecommerce.nexi.it`` for test
+``ecommerce.nexi.it`` for production
 
 ## Other configurations about Domain ##
 
@@ -110,7 +110,7 @@ If your can not send a refund request successfully and get an error of code 500,
 
    2. Make sure to select the environment for Nexi.
 
-   3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Nexi Test Account unique values.(Other variables please refer to the table below)
+   3. Edit the Postman environment file so the collection can be imported with all your OPF Tenant and Nexi Test Account unique values.(For other variables, please refer to the table below)
       
    4. Save and run the Postman collection.
 
