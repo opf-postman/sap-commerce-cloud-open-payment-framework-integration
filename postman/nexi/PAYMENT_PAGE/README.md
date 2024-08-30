@@ -30,7 +30,8 @@ Create a Nexi-XPay payment integration in the OPF workbench. For detailed instru
 
 **Note**: 
 
-The default configuration supports only **Immediate Capture** as the settlement method. To switch to other methods, technical support from Nexi is required. For more details, search for the **TCONTAB** keyword in the [Nexi Documentation](https://ecommerce.nexi.it/specifiche-tecniche/codicebase/introduzione.html).
+1. When creating the payment integration, be sure to set the **Payment integration** to **Payment Gateway**. 
+2. The default configuration supports only **Immediate Capture** as the settlement method. To switch to other methods, technical support from Nexi is required. For more details, search for the **TCONTAB** keyword in the [Nexi Documentation](https://ecommerce.nexi.it/specifiche-tecniche/codicebase/introduzione.html).
 
 ## Setting up Your Nexi Test Account to work with OPF ##
 
