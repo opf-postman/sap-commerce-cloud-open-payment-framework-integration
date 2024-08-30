@@ -68,6 +68,7 @@ The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be ``https://opf-iss-d0.uis.commerce.stage.context.cloud.sap``.
 
 **3. service**
+
 The ``service`` represents the name of your OPF service within a specific environment, which typically defaults to ``opf``.
 
 **4. Integration ID and Configuration ID**
