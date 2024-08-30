@@ -1,6 +1,6 @@
 ## Introduction ##
 
-This Postman Collection aids in integrating Nexi into the Open Payment Framework (OPF).
+This Postman Collection aids in integrating Nexi payment gateway into the Open Payment Framework (OPF).
 
 Currently, the integration supports:
 
