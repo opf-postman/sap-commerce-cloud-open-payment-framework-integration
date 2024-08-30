@@ -75,9 +75,10 @@ E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.comme
 The ``service`` represents the name of your OPF service within a specific environment, which typically defaults to ``opf``.
 
 **4. Integration ID and Configuration ID**
+
 The ``integrationId`` and ``configurationId`` values that identify the payment integraiton can be found in the top left of your configuration details page.
 
-**Note**: In the environment_configuration.json, ``accountGroupId`` matches ``integrationId`` and ``accountId`` matches ``configurationId`` we referred above.
+**Note**: In the environment_configuration.json, ``accountGroupId`` matches ``integrationId`` and ``accountId`` matches ``configurationId`` mentioned above.
 
 **5. alias, gruppo and secret**
 
