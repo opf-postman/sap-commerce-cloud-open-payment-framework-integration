@@ -8,7 +8,7 @@ Currently, the integration temporarily supports:
 * Refunds
 
 **In summary**:
-To import the [Nexi Payment Page Collection]([https://github.com/opf-postman/sap-commerce-cloud-open-payment-framework-integration/tree/main/postman/nexi/PAYMENT_PAGE]), this page will guide you through the following steps:
+To import the [Nexi Payment Page Collection](https://github.com/opf-postman/sap-commerce-cloud-open-payment-framework-integration/tree/main/postman/nexi/PAYMENT_PAGE), this page will guide you through the following steps:
 
 a) Create your Nexi test account.
 
