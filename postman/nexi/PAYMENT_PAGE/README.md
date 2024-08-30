@@ -128,7 +128,7 @@ If your can not send a refund request successfully and get an error of code 500,
 | apiEnv| ``int-ecommerce.nexi.it`` You can get this from Nexi's Doc, for prod Env the value is ``ecommerce.nexi.it`` |
 | alias                                                                    | You can obtain your alias from the test-area welcome page. |
 |gruppo| ou can obtain your alias from test-area welcome page. |
-|TCONTAB                                                                   |``C``, The field identifies the collection mode that the merchant wants to apply to the individual transaction, check details in [Nexi Documentation](https://ecommerce.nexi.it/specifiche-tecniche/codicebase.html)|
+|TCONTAB                                                                   |``C``, The field identifies the collection mode that the merchant wants to apply to the individual transaction, check details in [Nexi Documentation](https://ecommerce.nexi.it/specifiche-tecniche/codicebase.html).|
 | secret                                                             | You can obtain ``Key for mac calculation`` in test-area welcome page, which is equivalent to secret. |
 
 ## Validating the Configuration in OPF Workbench ##
