@@ -28,7 +28,7 @@ You can sign up for free and access Nexi test-area at <https://ecommerce.nexi.it
 
 Create a Nexi-XPay payment integration in the OPF workbench. For detailed instructions, see [Creating Payment Integration](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/852d7d8437254529828351dbde217118.html?state=DRAFT).
 
-**Note**: The default configuration supports only **Immediate Capture** as the settlement method. To switch to other methods, technical support from Nexi is required. For more details, search for the **TCONTAB** keyword in the [Doc](https://ecommerce.nexi.it/specifiche-tecniche/codicebase/introduzione.html).
+**Note**: The default configuration supports only **Immediate Capture** as the settlement method. To switch to other methods, technical support from Nexi is required. For more details, search for the **TCONTAB** keyword in the [Nexi Documentation](https://ecommerce.nexi.it/specifiche-tecniche/codicebase/introduzione.html).
 
 ## Setting up Your Nexi Test Account to work with OPF ##
 
