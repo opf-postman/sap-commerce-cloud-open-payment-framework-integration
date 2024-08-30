@@ -1,5 +1,3 @@
-# ReadMe #
-
 ## Introduction ##
 
 This Postman Collection is helping with integrating Nexi into open payment framework(OPF).
