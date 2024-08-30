@@ -40,7 +40,7 @@ Once you have created you Nexi test account, do the following to set it up to wo
 
    **admin account** is used to login back office to do detailed management with current merchant.
 
-   **user account** The admin can add users in the <u>User management</u> tag of backoffice to support multiple user working collaboratively.
+   **user account** The admin can add users to the **User Management** section in the back office to facilitate collaborative work among multiple users within the user account.
    
 3. **Get API credentials**
 
