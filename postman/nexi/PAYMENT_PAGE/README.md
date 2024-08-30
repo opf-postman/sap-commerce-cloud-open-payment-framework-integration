@@ -8,7 +8,7 @@ Currently, the integration temporarily supports:
 * Refunds
 
 **In summary**:
-To import the [Nexi Payment Page](https://github.com/opf-postman/commerce-cloud-open-payment-integration/tree/main/postman/adyen/Hosted-Payment-Page), this page will guide you through the following steps:
+To import the [Nexi Payment Page Collection]([https://github.com/opf-postman/sap-commerce-cloud-open-payment-framework-integration/tree/main/postman/nexi/PAYMENT_PAGE]), this page will guide you through the following steps:
 
 a) Create your Nexi test account.
 
@@ -16,7 +16,7 @@ b) Create a Nexi payment integration in OPF workbench.
 
 c) Set up your Nexi test account to work with OPF.
 
-d) Prepare the [Postman Environment](https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/adyen/Full%20Page/Adyen%20-%20FULL_PAGE%20-%20PARTIAL_CAPTURE%20-%20OPF_Environment_Configuration.json) file so the collection can be imported with all your OPF tenant and Nexi test account unique values.
+d) Prepare the [Postman Environment](https://github.com/opf-postman/sap-commerce-cloud-open-payment-framework-integration/blob/main/postman/nexi/PAYMENT_PAGE/environment_configuration.json) file so the collection can be imported with all your OPF tenant and Nexi test account unique values.
 
 e) Validate the configuration in OPF workbench.
 
