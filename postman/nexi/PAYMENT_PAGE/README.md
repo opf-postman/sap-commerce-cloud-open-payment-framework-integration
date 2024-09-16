@@ -59,25 +59,29 @@ Once you have created you Nexi test account, do the following to set it up to wo
 
 ## Preparing the Postman environment_configuration file ##
 
-**1. Token**
+**1. fetch credential from SAP PassVault**
 
-Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained from BTP Cockpit.
+you need 4 keys to generate Token, both "client_id" and "client_secret" keys are fetched from [SAP PassVault](https://password.wdf.sap.corp/passvault/#/pw/0000399982),the "grant_type" key value should be "client_credentials", the last key "resource" value is "urn:sap:identity:application:provider:name:opf-int-mgt".
+
+**2. Token**
+
+Get your access token using the auth endpoint https://{{authendpoint}}/oauth2/token and client ID and secret obtained in step 1.
 
 Copy the value of the access_token field (it’s a JWT) and set as the ``token`` value in the environment file.
 
 **IMPORTANT**: Ensure the value is prefixed with **Bearer**. e.g. ``Bearer {{token}}`` and when do test watch the expiration of token.
 
-**2. Root url**
+**3. Root url**
 
 The ``rootUrl`` is the **BASE URL** of your OPF tenant.
 
 E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench>. The base Url would be ``https://opf-iss-d0.uis.commerce.stage.context.cloud.sap``.
 
-**3. service**
+**4. service**
 
 The ``service`` represents the name of your OPF service within a specific environment, which typically defaults to ``opf``.
 
-**4. Integration ID and Configuration ID**
+**5. Integration ID and Configuration ID**
 
 The ``integrationId`` and ``configurationId`` values that identify the payment integraiton can be found in the top left of your configuration details page.
 
@@ -85,7 +89,7 @@ The ``integrationId`` and ``configurationId`` values that identify the payment i
 
 In the environment_configuration.json, ``accountGroupId`` matches ``integrationId`` and ``accountId`` matches ``configurationId`` mentioned above.
 
-**5. alias, gruppo and secret**
+**6. alias, gruppo and secret**
 
 As listed in Step 3.
 
