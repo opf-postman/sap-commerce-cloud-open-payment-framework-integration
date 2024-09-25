@@ -12,7 +12,7 @@ The integration supports:
 
 
 ### In summary ###
-In summary: to import the [Postman Collection](mapping_configuration.json) this page will guide you through the following steps: 
+In summary, to import the [Postman Collection](mapping_configuration.json), this page will guide you through the following steps:
 
 a) Create your checkout.com test account.
 
