@@ -122,6 +122,7 @@ Add the following domains to the domain allowlist in OPF workbench. For instruct
 
 
 ``api.sandbox.checkout.com`` for test
+
 ``api.checkout.com`` for production
 
 
