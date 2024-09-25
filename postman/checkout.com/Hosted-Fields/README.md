@@ -34,7 +34,8 @@ Create a checkout.com payment integration in the OPF workbench. For reference, s
 ### Setting up Your checkout.com Test Account to work with OPF ###
 Once you have created you checkout.com test account, do the following to set it up to work with OPF:
 1. **Create a public key and a secret key from the [Dashboard](https://dashboard.checkout.com/)**
-   **public key** is used for client-side authentication，here we use it as **merchantID** in OPF.
+
+   **public key** is used for client-side authentication,here we use it as **merchantID** in OPF.
    **secret key** is used for server-to-server authentication and is supported across most of our endpoints.
 
 
@@ -111,7 +112,7 @@ You will see a list of the processing channels with their corresponding IDs when
 **Note**:
    1. when you create webhook via API, remember put the "Authorization" with  Secret key value in the header.
 
-   2. the ulr address  in both ways is fetched from our OPF workbench: Notification URL
+   2. the URL address in both ways is fetched from our OPF workbench: Notification URL
 
 
 
