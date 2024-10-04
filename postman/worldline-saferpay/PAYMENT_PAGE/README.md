@@ -1,5 +1,5 @@
 ## Introduction ##
-This Postman Collection aids in integrating [Worldine Safgerpay][(https://worldline.com/en-ch/home/main-navigation/solutions/merchants/solutions-and-services/e-commerce/saferpay-payment-solution)) into the Open Payment Framework (OPF).
+This Postman Collection aids in integrating [Worldine Saferpay](https://worldline.com/en-ch/home/main-navigation/solutions/merchants/solutions-and-services/e-commerce/saferpay-payment-solution) into the Open Payment Framework (OPF).
 
 The integration supports:
 
