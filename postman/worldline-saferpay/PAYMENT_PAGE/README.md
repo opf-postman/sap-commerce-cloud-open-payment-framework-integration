@@ -33,6 +33,7 @@ Create a Worldline Saferpay payment integration in the OPF workbench. For refere
 
 The Merchant ID is the customer id found in the header of Saferpay Backoffice
 
+![](../images/saferpay-merchant-id.png)
 
 
 ### Setting up Your Worldine Saferpay Test Account to work with OPF ###
