@@ -38,11 +38,11 @@ The Merchant ID is the customer id found in the header of Saferpay Backoffice
 
 ### Setting up Your Worldine Saferpay Test Account to work with OPF ###
 Once you have created you Saferpay test account, do the following to set it up to work with OPF:
-1. Create a **(JSON API Basic Authentication Login)[https://test.saferpay.com/BO/Settings/JsonApiLogin]** noting the user name and set a strong password
+1. Create a [JSON API Basic Authentication Login](https://test.saferpay.com/BO/Settings/JsonApiLogin) noting the user name and set a strong password as directed.
 
    ![](../images/saferpay-json-api.png)
    
-3. Note the (Saferpay Ecommerce terminal ID)[https://test.saferpay.com/BO/Settings/Terminal]
+3. Note the [Saferpay Ecommerce terminal ID](https://test.saferpay.com/BO/Settings/Terminal)
 
    ![](../images/saferpay-terminal.png)
 
@@ -77,12 +77,15 @@ The ``integrationId`` and ``configurationId`` values identify the payment integr
 * ``configurationId`` maps to ``accountId`` in postman
 
 **4. authentication_outbound_basic_auth_username_export_211**
+
 The value of this Variable is the JSON API Username, this usually starts with ``API_`` in Saferpay.
 
 **5. authentication_outbound_basic_auth_password_export_211**
+
 This is the password you set for the corresponding JSon API User.
 
 **6. terminalIdCommerce**
+
 This is the Saferpay Terminal ID noted earlier.
 
 ### Allowlist
