@@ -10,7 +10,7 @@ The integration supports:
 * Reauthorization
 
 ## Known Issues ##
-Saferpay mechanism for [Server to Server notifications](https://docs.saferpay.com/home/integration-guide/licences-and-interfaces/payment-page#handling-notifications) not currently supported by OPF
+The Saferpay mechanism for [Server to Server notifications](https://docs.saferpay.com/home/integration-guide/licences-and-interfaces/payment-page#handling-notifications) is not currently supported by OPF.
 
 ### In summary ###
 In summary, to import the [Postman Collection](mapping_configuration.json), this page will guide you through the following steps:
@@ -31,7 +31,7 @@ You can sign up for a free Worldline Saferpay test account at [Create your World
 Create a Worldline Saferpay payment integration in the OPF workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
-The Merchant ID is the customer id found in the header of Saferpay Backoffice
+The Merchant ID is the customer id found in the header of Saferpay Backoffice.
 
 ![](../images/saferpay-merchant-id.png)
 
