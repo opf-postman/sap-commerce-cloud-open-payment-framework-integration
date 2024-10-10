@@ -38,11 +38,11 @@ The Merchant ID is the Customer ID found in the header of Saferpay Backoffice.
 
 ### Setting up Your Worldine Saferpay Test Account to work with OPF ###
 Once you have created you Saferpay test account, do the following to set it up to work with OPF:
-1. Create a [JSON API Basic Authentication Login](https://test.saferpay.com/BO/Settings/JsonApiLogin) and note down the user name and set a strong password as directed.
+1. Create a **JSON API Basic Authentication Login** and note down the user name and set a strong password as directed.
 
    ![](../images/saferpay-json-api.png)
    
-3. Note down the [Saferpay Ecommerce terminal ID](https://test.saferpay.com/BO/Settings/Terminal).
+3. Note down the **Saferpay Ecommerce terminal ID**.
 
    ![](../images/saferpay-terminal.png)
 
