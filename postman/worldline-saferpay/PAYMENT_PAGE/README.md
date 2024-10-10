@@ -42,7 +42,7 @@ Once you have created you Saferpay test account, do the following to set it up t
 
    ![](../images/saferpay-json-api.png)
    
-3. Note down the [Saferpay Ecommerce terminal ID](https://test.saferpay.com/BO/Settings/Terminal)
+3. Note down the [Saferpay Ecommerce terminal ID](https://test.saferpay.com/BO/Settings/Terminal).
 
    ![](../images/saferpay-terminal.png)
 
