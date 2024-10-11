@@ -159,7 +159,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\"id\":63,\"sensitive\":true,\"value\":\"{{clientKey}}\",\"key\":\"clientKey\"}",
+              "raw": "{\"id\":63,\"sensitive\":false,\"value\":\"{{clientKey}}\",\"key\":\"clientKey\"}",
               "options": {
                 "raw": {
                   "language": "json"
