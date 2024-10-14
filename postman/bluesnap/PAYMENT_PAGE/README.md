@@ -14,9 +14,9 @@ In summary, to import the [Postman Collection](mapping_configuration.json), this
 
 a) [Create your BlueSnap test account](https://sandbox.bluesnap.com/jsp/onboarding/index.jsp).
 
-b) Create a BlueSnap payment integration in OPF
+b) Create a BlueSnap payment integration in OPF.
 
-c) Get the credentials of your BlueSnap integration.
+c) Get the credentials for your BlueSnap integration.
 
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and BlueSnap Test Account unique values. 
 
@@ -28,7 +28,9 @@ You can sign up for a free BlueSnap test account at [Create your BlueSnap test a
 Create a BlueSnap payment integration in the OPF workbench. For reference, see [Creating Payment Integration
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/20a64f954df1425391757759011e7e6b.html?state=DRAFT).
 
-The Merchant ID is the customer id found in the header of BlueSnap Backoffice
+**Note**:
+
+The Merchant ID is the Customer ID found in the header of BlueSnap Backoffice.
 
 ![](../images/blueSnap-merchant-id.png)
 
@@ -72,19 +74,19 @@ The ``integrationId`` and ``configurationId`` values identify the payment integr
 
 **4. authentication_outbound_basic_auth_username_export_214**
 
-The value of this Variable is the JSON API Username, this usually starts with ``API_`` in BlueSnap.
+The value of this variable is the JSON API Username, this usually starts with ``API_`` in BlueSnap.
 
 **5. authentication_outbound_basic_auth_password_export_214**
 
-This is the password you set for the corresponding JSon API User.
+This is the password you set for the corresponding JSON API User.
 
 **6. payApiEnv**
 
-Add the BlueSnap Javascript to your site. BlueSnap provides a Javascript file for both the sandbox and production environments. Below are the script elements for each environment:
+This element aims to point to the location of Javascript file for both the sandbox and production environments. Below are the possible values of this element:
 
 ``pay.bluesnap.com`` for production script element
 
-``sandpay.bluesnap.com`` for test script element
+``sandpay.bluesnap.com`` for sandbox script element
 
 
 ### Allowlist
