@@ -19,7 +19,7 @@ a) [Create your Worldine Saferpay test account](https://test.saferpay.com/BO/Sig
 
 b) Create a Worldine payment integration in OPF.
 
-c) Get the credentials of your Worldine Saferpay integration.
+c) Get the credentials for your Worldine Saferpay integration.
 
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Wordline Saferpay Test Account unique values. 
 
