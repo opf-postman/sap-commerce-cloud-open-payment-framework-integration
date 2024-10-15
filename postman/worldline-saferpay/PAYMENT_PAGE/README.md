@@ -17,7 +17,7 @@ In summary, to import the [Postman Collection](mapping_configuration.json), this
 
 a) [Create your Worldine Saferpay test account](https://test.saferpay.com/BO/SignUp?lang=en).
 
-b) Create a Worldine payment integration in OPF
+b) Create a Worldine payment integration in OPF.
 
 c) Get the credentials of your Worldine Saferpay integration.
 
@@ -73,8 +73,8 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
-* ``integrationId`` maps to ``accountGroupId`` in postman
-* ``configurationId`` maps to ``accountId`` in postman
+* ``integrationId`` maps to ``accountGroupId`` in Postman
+* ``configurationId`` maps to ``accountId`` in Postman
 
 **4. authentication_outbound_basic_auth_username_export_211**
 
