@@ -62,6 +62,9 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
+* ``integrationId`` maps to ``accountGroupId`` in postman
+* ``configurationId`` maps to ``accountId`` in postman
+
 **4. API Credentials**
 
 Use the Bearer value from the Play ground as the ``apiToken``.
@@ -87,8 +90,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``integrationId``
-- ``configurationId``
+- ``accountGroupId``
+- ``accountId``
 
 #### ACI Specific
 - ``apiToken``
