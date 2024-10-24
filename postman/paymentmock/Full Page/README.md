@@ -37,6 +37,7 @@ To ensure you receive timely updates on transactions and other important events,
 6. Set the Merchant ID of the payment account using the value retrieved in step 2, and select a settlement method for your payment integration.
 7. Click **Save**.
 8. Note down the ``integrationId`` and the ``configurationId``. These two values identify the payment integration, and can be found in the top left of your **Configuration Details** page.
+
    **Note**:
    * ``integrationId`` maps to ``accountGroupId`` in Postman
    * ``configurationId`` maps to ``accountId`` in Postman
