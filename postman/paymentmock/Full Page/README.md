@@ -57,8 +57,7 @@ To ensure you receive timely updates on transactions and other important events,
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.| 
 | service                                                                              | The ``service`` is the name of your OPF service in specific environment. This will usually just be ``opf``. |                 
 | accountGroupId                                                                      | Refers to The ``integrationId`` value that identifies the payment integration, which can be found in the top left of your configuration details page.|                  
-| accountId	                                                                    | Refers to the ``configurationId`` value that identifies the payment confguration, which can be found in the top left of your configuration details page.
-|                                                                          
+| accountId	                                                                    | Refers to the ``configurationId`` value that identifies the payment confguration, which can be found in the top left of your configuration details page.|                                                                       
 | authentication_inbound_basic_auth_username                                           | ``username``|                  
 | authentication_inbound_basic_auth_password                                           | ``password``|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
