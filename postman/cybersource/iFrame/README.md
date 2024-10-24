@@ -57,6 +57,9 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your configuration details page.
 
+* ``integrationId`` maps to ``accountGroupId`` in Postman
+* ``configurationId`` maps to ``accountId`` in Postman
+  
 **4. merchantId** 
 
 You can obtain your merchant ID in the Cybersource Dashboard.
