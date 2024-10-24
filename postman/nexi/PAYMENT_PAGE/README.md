@@ -83,8 +83,8 @@ The ``integrationId`` and ``configurationId`` values that identify the payment i
 
 **Note**: 
 
-In the environment_configuration.json, ``accountGroupId`` matches ``integrationId`` and ``accountId`` matches ``configurationId`` mentioned above.
-
+* ``integrationId`` maps to ``accountGroupId`` in Postman
+* ``configurationId`` maps to ``accountId`` in Postman
 **5. alias, gruppo and secret**
 
 As listed in Step 3.
