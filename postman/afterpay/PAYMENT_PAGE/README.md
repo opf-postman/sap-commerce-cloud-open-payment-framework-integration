@@ -78,7 +78,10 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration can be found in the top left of your **Configuration Details** page in the OPF workbench.
+The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
+
+* ``integrationId`` maps to ``accountGroupId`` in postman
+* ``configurationId`` maps to ``accountId`` in postman
 
 **4. API Credentials**
 
@@ -101,8 +104,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``integrationId``
-- ``configurationId``
+- ``accountGroupId``
+- ``accountId``
 
 #### Afterpay/Clearpay Specific
 - ``authentication_outbound_basic_auth_username_export_93``
