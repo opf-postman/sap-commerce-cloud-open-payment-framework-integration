@@ -79,7 +79,7 @@ The ``service`` represents the name of your OPF service within a specific enviro
 
 **4. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values that identify the payment integraiton can be found in the top left of your configuration details page.
+The ``integrationId`` and ``configurationId`` values identify the payment integraiton and payment configuration, which can be found in the top left of your configuration details page.
 
 **Note**: 
 
@@ -121,8 +121,8 @@ If your can not send a refund request successfully and get an error of code 500,
 | token                                                                                | Get your access token by [creating an external app](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/d927d21974fe4b368e063f72733bf0fe.html?state=DRAFT) and [making authorized API calls](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/40c792e66e2942209dc853a43533d78d.html?state=DRAFT). **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.|
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|
 | service                                                                       | The ``service`` represents the name of your OPF service within a specific environment, which typically defaults to ``opf``. |
-| accountGroupId                                                                       | The ``integrationId`` and ``configurationId`` values that identify the payment integraiton can be found in the top left of your configuration details page.|
-| accountId                                                                     | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|
+| accountGroupId                                                                       | Refers to the ``integrationId`` value that identifies the payment integration, which can be found in the top left of your configuration details page.|
+| accountId                                                                     | Refers to the ``configurationId`` value that identifies the payment confguration, which can be found in the top left of your configuration details page.|
 | capturePattern                                           | Defaults to ``AUTO_CAPTURE``. |
 | supportOverCapture                                           | ``false`` |
 | enableOverCapture                                                                       | ``false``|
