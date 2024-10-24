@@ -36,7 +36,7 @@ To ensure you receive timely updates on transactions and other important events,
 
 6. Set the Merchant ID of the payment account using the value retrieved in step 2, and select a settlement method for your payment integration.
 7. Click **Save**.
-8. Note down the ``integrationId`` and the ``configurationId``. These two values identify the payment integration, and can be found in the top left of your **Configuration Details** page.
+8. Note down the ``integrationId`` and the ``configurationId``. These two values identify the payment integration and payment configuration, and can be found in the top left of your **Configuration Details** page.
 
    **Note**:
    * ``integrationId`` maps to ``accountGroupId`` in Postman
@@ -56,8 +56,9 @@ To ensure you receive timely updates on transactions and other important events,
 | token                                                                                | Get your access token by [creating an external app](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/d927d21974fe4b368e063f72733bf0fe.html?state=DRAFT) and [making authorized API calls](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/40c792e66e2942209dc853a43533d78d.html?state=DRAFT). **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.| 
 | service                                                                              | The ``service`` is the name of your OPF service in specific environment. This will usually just be ``opf``. |                 
-| integrationId                                                                       | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                  
-| configurationId                                                                     | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                                                                          
+| accountGroupId                                                                      | Refers to The ``integrationId`` value that identifies the payment integration, which can be found in the top left of your configuration details page.|                  
+| accountId	                                                                    | Refers to the ``configurationId`` value that identifies the payment confguration, which can be found in the top left of your configuration details page.
+|                                                                          
 | authentication_inbound_basic_auth_username                                           | ``username``|                  
 | authentication_inbound_basic_auth_password                                           | ``password``|                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
