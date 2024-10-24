@@ -76,6 +76,8 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``accountId`` and ``accountGroupId`` values identify the merchant account group can be found in the top left of your merchant configuration.
 
+* ``integrationId`` maps to ``accountGroupId`` in Postman
+* ``configurationId`` maps to ``accountId`` in Postman
 
 **4. API Credentials**
 
