@@ -51,7 +51,7 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
+The ``integrationId`` and ``configurationId`` values identify the payment integration and payment configuration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
 * ``integrationId`` maps to ``accountGroupId`` in Postman
 * ``configurationId`` maps to ``accountId`` in Postman
@@ -144,8 +144,8 @@ In summary you should have edited the following variables:
 
 - **token** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L6
 - **rootUrl** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L11
-- **integrationId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L21
-- **configurationId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L26
+- **accountGroupId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L21
+- **accountId** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L26
 - **authentication_outbound_basic_auth_username_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L31
 - **authentication_outbound_basic_auth_password_export** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L37
 - **publickey** https://github.com/opf-postman/commerce-cloud-open-payment-integration/blob/main/postman/stripe/Payment-Page/Stripe-Hosted_Page_environment_configuration.json#L73
