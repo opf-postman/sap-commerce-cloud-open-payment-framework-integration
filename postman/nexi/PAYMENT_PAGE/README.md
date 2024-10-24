@@ -85,6 +85,7 @@ The ``integrationId`` and ``configurationId`` values that identify the payment i
 
 * ``integrationId`` maps to ``accountGroupId`` in Postman
 * ``configurationId`` maps to ``accountId`` in Postman
+
 **5. alias, gruppo and secret**
 
 As listed in Step 3.
