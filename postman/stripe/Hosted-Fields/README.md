@@ -157,8 +157,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``integrationId``
-- ``configurationId``
+- ``accountGroupId``
+- ``accountId``
 
 #### Stripe Specific
 - ``publicKey``
