@@ -1,6 +1,6 @@
 {
-  "id": "68d5307a-0c41-43a9-874e-4b6153a4f8b4",
-  "name": "checkout.com hosted fields",
+  "id": "261f338c-6cdd-4240-8050-0afd8b247619",
+  "name": "opf-iss-d0",
   "values": [
     {
       "key": "token",
@@ -60,6 +60,36 @@
     {
       "key": "authorizationTimeoutDays",
       "value": "7",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayMerchantId",
+      "value": "applePayMerchantId",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayMerchantName",
+      "value": "applePayMerchantName",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayMerchantPassword",
+      "value": "applePayMerchantPassword",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayCountryCode",
+      "value": "applePayCountryCode",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayConfigId",
+      "value": "12",
       "enabled": true
     }
     ,
