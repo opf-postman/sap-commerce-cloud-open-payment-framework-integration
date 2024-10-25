@@ -1,5 +1,5 @@
 {
-  "id": "261f338c-6cdd-4240-8050-0afd8b247619",
+  "id": "85c032cb-c861-48ad-b53a-a656cdbe68bf",
   "name": "opf-iss-d0",
   "values": [
     {
@@ -60,36 +60,6 @@
     {
       "key": "authorizationTimeoutDays",
       "value": "7",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "applePayMerchantId",
-      "value": "applePayMerchantId",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "applePayMerchantName",
-      "value": "applePayMerchantName",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "applePayMerchantPassword",
-      "value": "applePayMerchantPassword",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "applePayCountryCode",
-      "value": "applePayCountryCode",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "applePayConfigId",
-      "value": "12",
       "enabled": true
     }
     ,
