@@ -1,6 +1,6 @@
 {
-  "id": "b89a99c7-d104-4d9a-b435-ac9ce7e7ea67",
-  "name": "Adyen Checkout",
+  "id": "3471f6a3-905b-4cef-9bb2-18ad6b24eec9",
+  "name": "opf-iss-d0",
   "values": [
     {
       "key": "token",
@@ -124,14 +124,14 @@
     }
     ,
     {
-      "key": "apiVersion",
-      "value": "v71",
+      "key": "enableRecurring",
+      "value": "true",
       "enabled": true
     }
     ,
     {
-      "key": "enableRecurring",
-      "value": "true",
+      "key": "apiVersion",
+      "value": "v70",
       "enabled": true
     }
     
