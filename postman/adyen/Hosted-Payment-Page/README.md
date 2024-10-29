@@ -76,6 +76,10 @@ The ``integrationId`` and ``configurationId`` values identify the payment integr
 
 You can obtain your merchant ID in the Adyen Dashboard.
 
+**5.apiVersion**
+The Checkout API version of Adyen you want to call. suggestion value is v70 or above.
+
+
 ## Summary
 
 The envirionment file is now ready for importing into Postman together with the Mapping Configuration Collection file. Ensure you select the correct environment before running the collection.
