@@ -377,14 +377,14 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}\/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}\/merchant\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
                 "{{service}}"
                 ,
-                "gateway"
+                "merchant"
                 ,
                 "authentications"
 
@@ -435,14 +435,14 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}\/gateway\/preprocessing-methods",
+              "raw": "{{rootUrl}}/{{service}}\/merchant\/preprocessing-methods",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
                 "{{service}}"
                 ,
-                "gateway"
+                "merchant"
                 ,
                 "preprocessing-methods"
 

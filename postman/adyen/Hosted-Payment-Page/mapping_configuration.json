@@ -377,7 +377,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}\/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}\/merchant\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -428,7 +428,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}\/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}\/merchant\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -479,7 +479,7 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}\/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}\/merchant\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
@@ -537,16 +537,18 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}\/googlePay\/configuration",
+              "raw": "{{rootUrl}}/{{service}}\/merchant\/googlepay\/configurations",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
                 "{{service}}"
                 ,
-                "googlePay"
+                "merchant"
                 ,
-                "configuration"
+                "googlepay"
+                ,
+                "configurations"
                 
               ]
             }
@@ -595,16 +597,18 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}\/applePay\/configuration",
+              "raw": "{{rootUrl}}/{{service}}\/merchant\/applepay\/configurations",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
                 "{{service}}"
                 ,
-                "applePay"
+                "merchant"
                 ,
-                "configuration"
+                "applepay"
+                ,
+                "configurations"
                 
               ]
             }

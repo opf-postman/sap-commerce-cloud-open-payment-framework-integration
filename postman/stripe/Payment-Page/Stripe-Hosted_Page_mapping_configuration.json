@@ -331,14 +331,14 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
                 "{{service}}"
                 ,
-                "gateway"
+                "merchant"
                 ,
                 "authentications"
                 
@@ -382,14 +382,14 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/gateway\/authentications",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/authentications",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
                 "{{service}}"
                 ,
-                "gateway"
+                "merchant"
                 ,
                 "authentications"
                 
@@ -440,16 +440,18 @@
               }
             },
             "url": {
-              "raw": "{{rootUrl}}/{{service}}/googlePay\/configuration",
+              "raw": "{{rootUrl}}/{{service}}/merchant\/googlepay\/configurations",
               "host": [
                 "{{rootUrl}}"
               ],
               "path": [
                 "{{service}}"
                 ,
-                "googlePay"
+                "merchant"
                 ,
-                "configuration"
+                "googlepay"
+                ,
+                "configurations"
                 
               ]
             }
