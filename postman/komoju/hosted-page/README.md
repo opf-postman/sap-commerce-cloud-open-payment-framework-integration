@@ -69,6 +69,9 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``integrationId`` and ``configurationId`` values identify the merchant account group can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
+* ``integrationId`` maps to ``accountGroupId`` in Postman
+* ``configurationId`` maps to ``accountId`` in Postman
+
 **4. API Credentials**
 
 The ``publiKey``, ``secretKey`` and ``authentication_outbound_basic_auth_username_export_64`` values can be found from the [Merchant Settings](https://komoju.com/merchant/settings) menu in Komoju dashboard.
@@ -116,8 +119,8 @@ In summary, you should have edited the following variables:
 #### Common
 - ``token``
 - ``rootUrl``
-- ``integrationId``
-- ``configurationId``
+- ``accountGroupId``
+- ``accountId``
 
 #### Komoju Specific
 - ``publicKey``

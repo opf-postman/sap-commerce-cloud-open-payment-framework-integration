@@ -70,7 +70,10 @@ E.g. if your workbench/OPF cockpit url was this …<https://opf-iss-d0.uis.comme
 
 **3. Integration ID and Configuration ID**
 
-The ``integrationId`` and ``configurationId`` values identify the payment integration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
+The ``integrationId`` and ``configurationId`` values identify the payment integration and payment configuration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
+
+* ``integrationId`` maps to ``accountGroupId`` in postman
+* ``configurationId`` maps to ``accountId`` in postman
 
 **4. merchantCode** 
 
@@ -111,8 +114,8 @@ Go to the Adyen Dashboard to set up event notifications using the URL for Notifi
 | token                                                                                | Get your access token by [creating an external app](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/d927d21974fe4b368e063f72733bf0fe.html?state=DRAFT) and [making authorized API calls](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/40c792e66e2942209dc853a43533d78d.html?state=DRAFT). **IMPORTANT**: Ensure the value is prefixed with Bearer. e.g. Bearer {{token}}.  |                  
 | rootURL                                                                              | The ``rootUrl`` is the ``BASE URL`` of your OPF tenant.  E.g. if your workbench/OPF cockpit url was this … https://opf-iss-d0.uis.commerce.stage.context.cloud.sap/opf-workbench. The base Url would be: https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.|                  
 | service                                                                       | The ``service`` is the name of your OPF service in specific environment. This will usually always be ``opf``|
-| integrationId                                                                       | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                  
-| configurationId                                                                            | The ``integrationId`` and ``configurationId`` values that identify the payment integration can be found in the top left of your configuration details page.|                                                                          
+| accountGroupId                                                                       | Refers to the ``integrationId`` value that identifies the payment integration, which can be found in the top left of your configuration details page.|                  
+| accountId                                                                            | Refers to the ``configurationId`` value that identifies the payment confguration, which can be found in the top left of your configuration details page.|                                                                        
 | authentication_inbound_basic_auth_username                                           | The username for notification basic authentication. You can self-define the value when **Adding a Standard Notification for Your Merchant Account** in the Adyen Dashboard. Go to **Developers** -> **Webhooks** to get the value.|                  
 | authentication_inbound_basic_auth_password                                           | The password for notification basic authentication. You can self-define the value when **Adding a Standard Notification for Your Merchant Account** in the Adyen Dashboard. Go to **Developers** -> **Webhooks** to get the value. |                  
 | capturePattern                                                                       | ``CAPTURE_PER_SHIPMENT``|                  
