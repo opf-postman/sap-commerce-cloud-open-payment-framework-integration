@@ -1,6 +1,6 @@
 {
-  "id": "0d0518c4-7aab-49eb-abe5-14f4df7b74b4",
-  "name": "ACI Worldwide",
+  "id": "e71ad74b-82e9-444d-a7ed-4865ce52ae64",
+  "name": "opf-iss-d0",
   "values": [
     {
       "key": "token",
@@ -9,7 +9,7 @@
     },
     {
       "key": "rootUrl",
-      "value": "https:\/\/opf-iss-d0.api.commerce.stage.context.cloud.sap",
+      "value": "https:\/\/opf-iss-d0.opf.commerce.stage.context.cloud.sap",
       "enabled": true
     },
     {
@@ -18,13 +18,13 @@
       "enabled": true
     },
     {
-      "key": "integrationId",
-      "value": "114",
+      "key": "accountGroupId",
+      "value": "514",
       "enabled": true
     },
     {
-      "key": "configurationId",
-      "value": "78",
+      "key": "accountId",
+      "value": "204",
       "enabled": true
     },
     {
@@ -52,14 +52,14 @@
     }
     ,
     {
-      "key": "apiToken",
-      "value": "3********************************c42",
+      "key": "apiDomain",
+      "value": "eu-test.oppwa.com",
       "enabled": true
     }
     ,
     {
-      "key": "apiDomain",
-      "value": "eu-test.oppwa.com",
+      "key": "apiToken",
+      "value": "OGE4Mjk0MTc1ZDYwMjM2OTAxNWQ3M2JmMDBlNTE4MGN8IzIlcU0jRzJ0Qm9OOWZXMjIhP0U=",
       "enabled": true
     }
     

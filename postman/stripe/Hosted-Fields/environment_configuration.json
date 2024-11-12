@@ -1,6 +1,6 @@
 {
-  "id": "899584ea-c168-4d46-b29a-c4556e05d782",
-  "name": "Stripe Payment Elements",
+  "id": "e297b9b9-fbf2-4de7-bf30-85ed5187e912",
+  "name": "opf-iss-d0",
   "values": [
     {
       "key": "token",
@@ -9,7 +9,7 @@
     },
     {
       "key": "rootUrl",
-      "value": "https:\/\/opf-iss-d0.api.commerce.stage.context.cloud.sap",
+      "value": "https:\/\/opf-iss-d0.opf.commerce.stage.context.cloud.sap",
       "enabled": true
     },
     {
@@ -18,30 +18,42 @@
       "enabled": true
     },
     {
-      "key": "integrationId",
-      "value": "100",
+      "key": "accountGroupId",
+      "value": "517",
       "enabled": true
     },
     {
-      "key": "configurationId",
-      "value": "63",
+      "key": "accountId",
+      "value": "205",
       "enabled": true
     },
     {
-      "key": "authentication_outbound_basic_auth_username_export_67",
-      "value": "Stripe API Key (SAP OPF)_username",
+      "key": "authentication_outbound_basic_auth_username_export_330",
+      "value": "Stripe Private Key_export_export_export_username",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_outbound_basic_auth_password_export_67",
-      "value": "Stripe API Key (SAP OPF)_password",
+      "key": "authentication_outbound_basic_auth_password_export_330",
+      "value": "Stripe Private Key_export_export_export_password",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_outbound_basic_auth_username_export_331",
+      "value": "Stripe Private Key_export_export_export_export_username",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_outbound_basic_auth_password_export_331",
+      "value": "Stripe Private Key_export_export_export_export_password",
       "enabled": true
     }
     ,
     {
       "key": "capturePattern",
-      "value": "CAPTURE_PER_SHIPMENT",
+      "value": "AUTO_CAPTURE",
       "enabled": true
     }
     ,
@@ -64,20 +76,8 @@
     }
     ,
     {
-      "key": "payButtonLabel",
-      "value": "Submit Payment",
-      "enabled": true
-    }
-    ,
-    {
       "key": "cardColor",
       "value": "#32325d",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "publickey",
-      "value": "",
       "enabled": true
     }
     ,
@@ -88,8 +88,20 @@
     }
     ,
     {
+      "key": "payButtonLabel",
+      "value": "Submit Payment",
+      "enabled": true
+    }
+    ,
+    {
       "key": "webhookSecret",
-      "value": "",
+      "value": "whsec_Nxpsm9szt8eUGTM71p7q9CuJn535BB8g",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "publickey",
+      "value": "pk_test_DtwiHhs63jJLGiNKq45Q2yet00FpCWLASQ",
       "enabled": true
     }
     

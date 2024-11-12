@@ -1,5 +1,5 @@
 {
-  "id": "85c032cb-c861-48ad-b53a-a656cdbe68bf",
+  "id": "f7eb24e5-7d88-4f61-8ef1-7e5eb427c5a4",
   "name": "opf-iss-d0",
   "values": [
     {
@@ -19,23 +19,29 @@
     },
     {
       "key": "accountGroupId",
-      "value": "331",
+      "value": "500",
       "enabled": true
     },
     {
       "key": "accountId",
-      "value": "130",
+      "value": "195",
       "enabled": true
     },
     {
-      "key": "authentication_inbound_hmac_signature_calculation_secret_export_177",
-      "value": "Checkout.com Webhook Authentication",
+      "key": "authentication_inbound_hmac_signature_calculation_secret_export_294",
+      "value": "Checkout.com Webhook Authentication_export",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_outbound_api_key_value_export_172",
-      "value": "Checkout.com Private API Key",
+      "key": "authentication_outbound_api_key_value_export_295",
+      "value": "Checkout.com Private API Key_export",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_outbound_api_key_value_export_298",
+      "value": "Checkout.com Private API Key_export_encoding_test",
       "enabled": true
     }
     ,

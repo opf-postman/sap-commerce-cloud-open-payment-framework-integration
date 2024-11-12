@@ -1,5 +1,5 @@
 {
-  "id": "9630d7da-fbe2-427b-bcc2-35403821e52b",
+  "id": "fbf18d0b-8b81-4c52-af0e-ecb65af41b99",
   "name": "opf-iss-d0",
   "values": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "key": "rootUrl",
-      "value": "https:\/\/opf-iss-d0.api.commerce.stage.context.cloud.sap",
+      "value": "https:\/\/opf-iss-d0.opf.commerce.stage.context.cloud.sap",
       "enabled": true
     },
     {
@@ -18,36 +18,30 @@
       "enabled": true
     },
     {
-      "key": "integrationId",
-      "value": "32",
+      "key": "accountGroupId",
+      "value": "486",
       "enabled": true
     },
     {
-      "key": "configurationId",
-      "value": "11",
+      "key": "accountId",
+      "value": "190",
       "enabled": true
     },
     {
-      "key": "authentication_inbound_basic_auth_username_export_50",
-      "value": "(Notification Basic Auth)Adyen Hosted Field_export_export_username",
+      "key": "authentication_inbound_basic_auth_username_export_296",
+      "value": "(Notification Basic Auth)Adyen Hosted Field_encoding_test_username",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_inbound_basic_auth_password_export_50",
-      "value": "(Notification Basic Auth)Adyen Hosted Field_export_export_password",
+      "key": "authentication_inbound_basic_auth_password_export_296",
+      "value": "(Notification Basic Auth)Adyen Hosted Field_encoding_test_password",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_outbound_api_key_value_export_23",
-      "value": "(Webservice User)Adyen Hosted Field_export_export",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "authentication_outbound_api_key_value_export_49",
-      "value": "(Webservice User)Adyen Hosted Field_export_export",
+      "key": "authentication_outbound_api_key_value_export_289",
+      "value": "(Webservice User)Adyen Hosted Field_export_export_export_export_export",
       "enabled": true
     }
     ,
@@ -59,7 +53,7 @@
     ,
     {
       "key": "supportOverCapture",
-      "value": "false",
+      "value": "true",
       "enabled": true
     }
     ,
@@ -72,12 +66,6 @@
     {
       "key": "authorizationTimeoutDays",
       "value": "7",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "googlePayGateway",
-      "value": "adyen",
       "enabled": true
     }
     ,
@@ -96,12 +84,6 @@
     {
       "key": "serviceVersion",
       "value": "v67",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "clientKey",
-      "value": "",
       "enabled": true
     }
     ,
@@ -131,13 +113,13 @@
     ,
     {
       "key": "allow3DS2",
-      "value": "true",
+      "value": "false",
       "enabled": true
     }
     ,
     {
-      "key": "notificationHmacKey",
-      "value": "",
+      "key": "clientKey",
+      "value": "test_7MSJX6KWXJFUFJYRMAHIFFQ5OEXONJ5W",
       "enabled": true
     }
     
