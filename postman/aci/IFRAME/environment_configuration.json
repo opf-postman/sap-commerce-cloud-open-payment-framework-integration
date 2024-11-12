@@ -1,6 +1,6 @@
 {
   "id": "e71ad74b-82e9-444d-a7ed-4865ce52ae64",
-  "name": "opf-iss-d0",
+  "name": "ACI Worldwide",
   "values": [
     {
       "key": "token",
@@ -59,7 +59,7 @@
     ,
     {
       "key": "apiToken",
-      "value": "OGE4Mjk0MTc1ZDYwMjM2OTAxNWQ3M2JmMDBlNTE4MGN8IzIlcU0jRzJ0Qm9OOWZXMjIhP0U=",
+      "value": "3********************************c42",
       "enabled": true
     }
     

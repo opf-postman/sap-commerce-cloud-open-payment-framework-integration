@@ -1,5 +1,5 @@
 {
-  "id": "fbf18d0b-8b81-4c52-af0e-ecb65af41b99",
+  "id": "a0f28ba7-c24a-4ae1-8cfc-52c6615dece5",
   "name": "opf-iss-d0",
   "values": [
     {
@@ -19,35 +19,41 @@
     },
     {
       "key": "accountGroupId",
-      "value": "486",
+      "value": "453",
       "enabled": true
     },
     {
       "key": "accountId",
-      "value": "190",
+      "value": "174",
       "enabled": true
     },
     {
-      "key": "authentication_inbound_basic_auth_username_export_296",
-      "value": "(Notification Basic Auth)Adyen Hosted Field_encoding_test_username",
+      "key": "authentication_inbound_basic_auth_username_export_238",
+      "value": "(Notification Basic Auth)Adyen Hosted Field_export_export_export_username",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_inbound_basic_auth_password_export_296",
-      "value": "(Notification Basic Auth)Adyen Hosted Field_encoding_test_password",
+      "key": "authentication_inbound_basic_auth_password_export_238",
+      "value": "(Notification Basic Auth)Adyen Hosted Field_export_export_export_password",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_outbound_api_key_value_export_289",
-      "value": "(Webservice User)Adyen Hosted Field_export_export_export_export_export",
+      "key": "authentication_outbound_api_key_value_export_239",
+      "value": "(Webservice User)Adyen Hosted Field_export_export_export",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_outbound_api_key_value_export_240",
+      "value": "(Webservice User)Adyen Hosted Field_export_export_export",
       "enabled": true
     }
     ,
     {
       "key": "capturePattern",
-      "value": "PARTIAL_CAPTURE",
+      "value": "CAPTURE_PER_SHIPMENT",
       "enabled": true
     }
     ,
@@ -59,7 +65,7 @@
     ,
     {
       "key": "enableOverCapture",
-      "value": "false",
+      "value": "true",
       "enabled": true
     }
     ,
@@ -72,12 +78,6 @@
     {
       "key": "checkoutPaymentHost",
       "value": "checkout-test.adyen.com",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "merchantCode",
-      "value": "SAPCOM_STAGE_GATEWAY",
       "enabled": true
     }
     ,
@@ -113,13 +113,25 @@
     ,
     {
       "key": "allow3DS2",
-      "value": "false",
+      "value": "true",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "notificationHmacKey",
+      "value": "d********************************b04",
       "enabled": true
     }
     ,
     {
       "key": "clientKey",
       "value": "test_7MSJX6KWXJFUFJYRMAHIFFQ5OEXONJ5W",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "merchantCode",
+      "value": "SAPCOM_STAGE_GATEWAY",
       "enabled": true
     }
     

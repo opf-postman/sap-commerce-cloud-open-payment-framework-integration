@@ -1,6 +1,6 @@
 {
-  "id": "3471f6a3-905b-4cef-9bb2-18ad6b24eec9",
-  "name": "opf-iss-d0",
+  "id": "7f2a998b-0d61-47a3-84f6-5933e41246f9",
+  "name": "Adyen HostedPage",
   "values": [
     {
       "key": "token",
@@ -40,14 +40,14 @@
     }
     ,
     {
-      "key": "authentication_outbound_api_key_value_export_236",
-      "value": "(Webservice User)API Key_export_export_export_export_export_export",
+      "key": "authentication_outbound_api_key_value_export_235",
+      "value": "(Webservice User)Adyen Hosted Field_export_export_export_export",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_outbound_api_key_value_export_235",
-      "value": "(Webservice User)Adyen Hosted Field_export_export_export_export",
+      "key": "authentication_outbound_api_key_value_export_236",
+      "value": "(Webservice User)API Key_export_export_export_export_export_export",
       "enabled": true
     }
     ,
@@ -132,6 +132,12 @@
     {
       "key": "apiVersion",
       "value": "v70",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "recurringProcessingModel",
+      "value": "UnscheduledCardOnFile",
       "enabled": true
     }
     
