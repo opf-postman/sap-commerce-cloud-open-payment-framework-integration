@@ -7,7 +7,7 @@ The meaning of some fields in environment variables:
 
 **rootUrl**: The root URL of open payment framework service, e.g. https://opf-iss-d0.api.commerce.stage.context.cloud.sap  
 
-**service**: The service name of open payment framework service, e.g. should always be ``opf`` for production customers.
+**service**: The service is the name of your OPF service in specific environment. The value is ``opf`` by default.
 
 **accountGroupId**: The ID of payment integration you created in open payment framework workbench.  
 
