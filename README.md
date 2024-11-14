@@ -9,9 +9,9 @@ The meaning of some fields in environment variables:
 
 **service**: The service name of open payment framework service, e.g. should always be ``opf`` for production customers.
 
-**integrationId**: The ID of payment integration you created in open payment framework workbench.  
+**accountGroupId**: The ID of payment integration you created in open payment framework workbench.  
 
-**configurationId**: The ID of configuration you created under the payment integration.  
+**accountId**: The ID of configuration you created under the payment integration.  
 
 ## Description
 This repository provides sample pre-built integrations to payment gateways and methods in the form of Postman Collections, which can be imported into your SAP Commerce Cloud, open payment framework tenant.
