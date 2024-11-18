@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "de919adb-8cbf-4c07-840b-7f59f8aba917",
-    "name": "Adyen OPF Mapping Config",
+    "name": "Adyen_Payment_Page_OPF_Mapping_Config",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
