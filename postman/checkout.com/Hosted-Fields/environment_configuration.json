@@ -1,5 +1,5 @@
 {
-  "id": "85c032cb-c861-48ad-b53a-a656cdbe68bf",
+  "id": "dd6a8b9f-7de6-48a1-97fe-57b4e38ce48e",
   "name": "checkout.com hosted field",
   "values": [
     {
@@ -40,6 +40,12 @@
     }
     ,
     {
+      "key": "authentication_outbound_api_key_value_export_362",
+      "value": "Checkout.com public_api Key for google apple pay",
+      "enabled": true
+    }
+    ,
+    {
       "key": "capturePattern",
       "value": "PARTIAL_CAPTURE",
       "enabled": true
@@ -60,6 +66,36 @@
     {
       "key": "authorizationTimeoutDays",
       "value": "7",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayMerchantId",
+      "value": "applePayMerchantId",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayMerchantName",
+      "value": "applePayMerchantName",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayMerchantPassword",
+      "value": "applePayMerchantPassword",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayCountryCode",
+      "value": "applePayCountryCode",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "applePayConfigId",
+      "value": "13",
       "enabled": true
     }
     ,
