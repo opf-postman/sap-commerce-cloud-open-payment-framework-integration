@@ -3,11 +3,14 @@ This Postman Collection aids in integrating [Nuvei](https://docs.nuvei.com/docum
 
 The integration supports:
 
-* Authorize card using Hosted Filed
+* Authorize card using Hosted Field
 * Settlement
 * Refund
 * Reversal
 * Reauthorization
+
+Planned backlog:
+* 3ds secure
 
 
 ### In summary ###
@@ -74,7 +77,7 @@ You already gets those IDs from the Nuvei backoffice.(under Settings -> My Integ
 
 **5. secretKey**
 
-Same place that you find the merchantId, you need click the "Reveal" button to get the secret Key.
+The same place that you find the merchantId, you need to click the "Reveal" button to get the secret Key.
 
 **6. apiEnv**
 
