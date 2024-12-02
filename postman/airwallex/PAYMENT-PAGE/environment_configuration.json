@@ -1,5 +1,5 @@
 {
-  "id": "50ce5ba8-5fdd-44cf-8018-a7e3d9087d23",
+  "id": "42abc94b-81a4-4d27-b136-2dc99afacde9",
   "name": "Airwallex",
   "values": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "key": "rootUrl",
-      "value": "https:\/\/opf-iss-d0.api.commerce.stage.context.cloud.sap",
+      "value": "https:\/\/opf-iss-d0.opf.commerce.stage.context.cloud.sap",
       "enabled": true
     },
     {
@@ -18,12 +18,12 @@
       "enabled": true
     },
     {
-      "key": "integrationId",
+      "key": "accountGroupId",
       "value": "31",
       "enabled": true
     },
     {
-      "key": "configurationId",
+      "key": "accountId",
       "value": "24",
       "enabled": true
     },
@@ -77,13 +77,13 @@
     ,
     {
       "key": "apiKey",
-      "value": "",
+      "value": "6********************************bdd",
       "enabled": true
     }
     ,
     {
       "key": "webhookSecret",
-      "value": "",
+      "value": "a********************************07b",
       "enabled": true
     }
     ,

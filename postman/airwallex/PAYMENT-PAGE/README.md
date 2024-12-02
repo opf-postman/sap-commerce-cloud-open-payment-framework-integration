@@ -17,7 +17,6 @@ The integration supports:
 Dynamic pay-in currencies are currently not supported by OPF. Please contact SAP if this feature is required for production use.
 
 ## Planned Backlog Items
-* Notification Authentication
 * Recurrent Authorization
 
 
@@ -118,6 +117,9 @@ Add the following domains to the domain allowlist in OPF workbench. For instruct
 ](https://help.sap.com/docs/SAP_COMMERCE_CLOUD_PUBLIC_CLOUD/0996ba68e5794b8ab51db8d25d4c9f8a/a6836485b4494cfaad4033b4ee7a9c64.html?state=DRAFT).
 
 ``airwallex.com``
+
+### Webhook IP Allowlist
+In addition to the webhook signature, the integration also allows only [published Airwallex IP addresses](https://www.airwallex.com/docs/developer-tools__listen-for-webhook-events#whitelist-ip-addresses) from the Demo and Production environment. The list of allowed IPs was last verified on 02/12/2024.
 
 ### Summary
 
