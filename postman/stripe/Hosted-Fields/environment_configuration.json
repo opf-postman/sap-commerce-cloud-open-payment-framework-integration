@@ -1,5 +1,5 @@
 {
-  "id": "f50f1814-e9ec-4786-ab25-2a8088b80370",
+  "id": "d0fd0ead-40ed-43d8-b17f-574e5ee4d0a6",
   "name": "Stripe Payment Elements",
   "values": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "key": "rootUrl",
-      "value": "https:\/\/opf-iss-d0.opf.commerce.stage.context.cloud.sap",
+      "value": "https:\/\/tmnk3t3hbf-bambooint1-d1.opf.commerce.eu.context.cloud.sap",
       "enabled": true
     },
     {
@@ -19,23 +19,23 @@
     },
     {
       "key": "accountGroupId",
-      "value": "100",
+      "value": "10",
       "enabled": true
     },
     {
       "key": "accountId",
-      "value": "63",
+      "value": "10",
       "enabled": true
     },
     {
-      "key": "authentication_outbound_basic_auth_username_export_67",
-      "value": "Stripe API Key (SAP OPF)_username",
+      "key": "authentication_outbound_basic_auth_username_export_29",
+      "value": "Stripe API Key (SAP OPF)_export_username",
       "enabled": true
     }
     ,
     {
-      "key": "authentication_outbound_basic_auth_password_export_67",
-      "value": "Stripe API Key (SAP OPF)_password",
+      "key": "authentication_outbound_basic_auth_password_export_29",
+      "value": "Stripe API Key (SAP OPF)_export_password",
       "enabled": true
     }
     ,
@@ -95,7 +95,7 @@
     ,
     {
       "key": "webhookSecret",
-      "value": "4********************************25f",
+      "value": "b********************************34d",
       "enabled": true
     }
     ,
