@@ -62,13 +62,14 @@ https://opf-iss-d0.uis.commerce.stage.context.cloud.sap.
 
 The ``integrationId`` and ``configurationId`` values identify the payment integration and payment configuration, which can be found in the top left of your **Configuration Details** page in the OPF workbench.
 
-* ``integrationId`` maps to ``accountGroupId`` in postman
-* ``configurationId`` maps to ``accountId`` in postman
+* ``integrationId`` maps to ``accountGroupId`` in Postman
+* ``configurationId`` maps to ``accountId`` in Postman
 
 **4. apikey**
 
-you already have gotten the API KEY in previous step, Which has the prefix "pk_test_" for test mode and "pk_live_" for live mode,
-follow fields need this api key value :
+The API keys you obtained from the Monei Dashboard, Which has the prefix "pk_test_" for test mode and "pk_live_" for live mode,
+the value is needed for the following fields:
+
 ``authentication_outbound_api_key_value_export_366``
 ``webHookKey``
 
