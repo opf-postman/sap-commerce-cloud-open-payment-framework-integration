@@ -70,8 +70,8 @@ The ``integrationId`` and ``configurationId`` values identify the payment integr
 The API keys you obtained from the Monei Dashboard, Which has the prefix "pk_test_" for test mode and "pk_live_" for live mode,
 the value is needed for the following fields:
 
-``authentication_outbound_api_key_value_export_366``
-``webHookKey``
+*``authentication_outbound_api_key_value_export_366``
+*``webHookKey``
 
 **6. apiEnv**
 
