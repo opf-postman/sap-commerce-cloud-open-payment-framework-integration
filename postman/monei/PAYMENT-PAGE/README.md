@@ -3,7 +3,7 @@ This Postman Collection aids in integrating [Monei](https://docs.monei.com/docs/
 
 The integration supports:
 
-* Authorization
+* Authorization of Monei payments using the OPF "Hosted Payment Page" UX pattern
 * Settlement
 * Refund
 * Reversal
