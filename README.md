@@ -1,4 +1,4 @@
-# SAP Commerce Cloud, open payment framework
+# SAP Commerce Cloud, Open Payment Framework
 
 ## Before Importing
 The meaning of some fields in environment variables: 
