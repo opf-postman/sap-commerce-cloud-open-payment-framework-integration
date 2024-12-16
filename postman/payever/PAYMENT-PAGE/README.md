@@ -84,6 +84,10 @@ This configured whether to target the production or sandbox environment.
 
 ``proxy.staging.devpayever.com`` for sandbox script element
 
+**7. paymentMethod**
+
+Configure the intended payment method, e.g. ``santander_installment``.  The list of options are documented [here](https://docs.payever.org/api/payments/create-payment/create-payments)
+
 
 ### Allowlist
 Add the following domains to the domain allowlist in OPF workbench. For instructions, see [Adding Tenant-specific Domain to Allowlist
@@ -112,4 +116,5 @@ In summary, you should have edited the following variables:
 - ``secret``
 - ``merchantId``
 - ``apiDomain``
+- ``paymentMethod``
   
