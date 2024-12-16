@@ -8,6 +8,10 @@ The integration supports:
 * Refund
 * Reversal
 
+Payment options tested:
+* Stripe
+* Santander Installments
+
 ### Backlog
 * Reauthorization
 * Support for Finance options
@@ -20,7 +24,7 @@ To import the [Postman Collection](mapping_configuration.json), this page will g
 
 a) Create a Payever payment integration in OPF.
 
-b) Get the credentials for your Payecer integration.
+b) Get the credentials for your Payever integration.
 
 d) Prepare the [Postman Environment](environment_configuration.json) file so the collection can be imported with all your OPF Tenant and Payever Sandbox Account unique values. 
 
