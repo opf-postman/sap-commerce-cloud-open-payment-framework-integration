@@ -14,7 +14,7 @@ Payment options tested:
 
 ### Backlog
 * Reauthorization
-* Support for Finance options
+* Testing for further Finance options
 
 
 ### In summary ###
