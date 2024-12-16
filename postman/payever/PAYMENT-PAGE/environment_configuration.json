@@ -1,5 +1,5 @@
 {
-  "id": "61c96c05-07c7-40e4-a4b6-3f885a05417d",
+  "id": "911a0eff-e177-46bf-94bc-b1a4df68b047",
   "name": "payever",
   "values": [
     {
@@ -72,6 +72,12 @@
     {
       "key": "apiVersion",
       "value": "v3",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "paymentMethod",
+      "value": "stripe",
       "enabled": true
     }
     
