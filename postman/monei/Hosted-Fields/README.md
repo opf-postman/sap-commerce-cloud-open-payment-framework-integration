@@ -9,6 +9,10 @@ The integration supports:
 * Reversal
 * Reauthorization
 
+Backlog:
+
+will add billing info, shipping info and sessionDetails which includes browser info in payment request message.
+
 
 ### In summary ###
 In summary, to import the [Postman Collection](mapping_configuration.json), this page will guide you through the following steps:
@@ -71,6 +75,7 @@ The API keys you obtained from the Monei Dashboard, Which has the prefix "pk_tes
 the value is needed for the following fields:
 
 ``authentication_outbound_api_key_value_export_390``
+
 ``webHookKey``
 
 **6. apiEnv**
