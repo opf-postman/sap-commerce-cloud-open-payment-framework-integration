@@ -11,6 +11,7 @@ The integration supports:
 Payment options tested:
 * Stripe
 * Santander Installments
+* Zinia Installments
 
 ### Backlog
 * Reauthorization
