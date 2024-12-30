@@ -1,6 +1,6 @@
 {
-  "id": "3b3e9191-c8c0-4898-a02d-771da3537a8e",
-  "name": "opf-iss-d0",
+  "id": "389f5686-2a11-463e-8953-5fcf9eea2cd4",
+  "name": "Nuvei hosted fields",
   "values": [
     {
       "key": "token",
@@ -27,6 +27,24 @@
       "value": "207",
       "enabled": true
     },
+    {
+      "key": "authentication_outbound_hmac_outbound_signature_calculation_secret_export_341",
+      "value": "Nuvei_simpleConnect_settle_auth",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_outbound_hmac_outbound_signature_calculation_secret_export_222",
+      "value": "Nuvei_simpleConnect_refund_auth",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_outbound_hmac_outbound_signature_calculation_secret_export_347",
+      "value": "Nuvei_simpleConnect_void_auth",
+      "enabled": true
+    }
+    ,
     {
       "key": "capturePattern",
       "value": "PARTIAL_CAPTURE",
@@ -96,6 +114,12 @@
     {
       "key": "maskCvv",
       "value": "false",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "apiVersion",
+      "value": "v1",
       "enabled": true
     }
     

@@ -9,9 +9,6 @@ The integration supports:
 * Reversal
 * Reauthorization
 
-Planned backlog:
-* 3ds secure
-
 
 ### In summary ###
 In summary, to import the [Postman Collection](mapping_configuration.json), this page will guide you through the following steps:
